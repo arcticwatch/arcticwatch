@@ -1,0 +1,11 @@
+Filename Contact Email
+n2o_alt_surface-flask_2_3001-9999_monthly.txt Ed Dlugokencky ed.dlugokencky@noaa.gov
+n2o_alt_surface-flask_2_3004-9999_monthly.txt James W. Elkins James.W.Elkins@noaa.gov
+n2o_alt_surface-flask_2_3004-9999_monthly.txt Bradley D. Hall Bradley.Hall@noaa.gov
+n2o_alt_surface-flask_2_3005-9999_monthly.txt James W. Elkins James.W.Elkins@noaa.gov
+n2o_alt_surface-flask_2_3005-9999_monthly.txt J. David Nance David.Nance@noaa.gov
+n2o_alt_surface-flask_2_3005-9999_monthly.txt Debra J. Mondeel Debra.J.Mondeel@noaa.gov
+n2o_alt_surface-flask_2_3005-9999_monthly.txt Bradley D. Hall Bradley.Hall@noaa.gov
+n2o_alt_surface-flask_16_9999-9999_monthly.txt Ray Langenfelds ray.langenfelds@csiro.au
+n2o_alt_surface-flask_16_9999-9999_monthly.txt Paul Krummel paul.krummel@csiro.au
+n2o_alt_surface-flask_16_9999-9999_monthly.txt Zoë Loh zoe.loh@csiro.au

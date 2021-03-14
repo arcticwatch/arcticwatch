@@ -1,0 +1,331 @@
+# header_lines : 176
+# Data_Set_Name : co_alt_surface-insitu_20_9999-9999_monthly
+# Data_Set_Version : 0020-4001-3001-01-01-9999_2020-10-16-1702
+# Data_Set_Fair_Use : For Scientific purposes, access to these data is unlimited and provided without charge. By their use you accept that an offer of co-authorship will be made through personal contact with the contributors whenever substantial use is made of their data. In all cases, an acknowledgement must be made to the contributors and to the data centre when these data are used within a publication.
+#
+# GLOBAL ATTRIBUTES
+#
+# site_gaw_id : ALT
+# site_gaw_type : GAW Global
+# site_name : Alert
+# site_country/territory : Canada
+# site_wmo_region : REGION IV (North and Central America)
+# site_address1 : 
+# site_address2 : 
+# site_address3 : 
+# site_latitude : 82.4991455078
+# site_longitude : -62.3415260315
+# site_elevation : 185
+# site_elevation_unit : m
+# site_lst2utc : UTC-05:00
+# site_climate_zone : ET
+# site_climate_zone:comment : Tundra climate
+# dataset_creation_date : 2020-10-19
+# dataset_parameter : co
+# dataset_parameter_large_class : Reactive Gas
+# dataset_parameter_small_class : 
+# dataset_parameter_name_1 : CO
+# dataset_parameter_name_2 : carbon monoxide
+# dataset_parameter_name_3 : 
+# dataset_parameter_name_4 : 
+# dataset_parameter_name_5 : 
+# dataset_project : surface-insitu
+# dataset_platform : fixed station
+# dataset_selection : All monthly data
+# dataset_selection_tag : monthly
+# dataset_time_zone : UTC
+# dataset_start_date : 1998-01-01T00:00:00Z
+# dataset_end_date : 2017-11-01T00:00:00Z
+# dataset_statistic_code : 1
+# dataset_statistic : contributor
+# dataset_description : 
+# dataset_aim_of_observation_code : 1
+# dataset_aim_of_observation : Background observation
+# dataset_buffer_code : 9999
+# dataset_buffer : data1
+# dataset_buffer:comment : default
+# dataset_footnote_code : 9999
+# dataset_footnote : default
+# dataset_footnote:comment : default
+# dataset_processing : 
+# dataset_hr_mean_processing : 
+# dataset_da_mean_processing : 
+# dataset_mo_mean_processing : 
+# dataset_transition_flag : 0
+# dataset_transition_comment : Dataset was made from entire historical data provided from contributor from 2018 new WDCGG website open onward
+# dataset_reference_total_listed : 0
+# contributor_organization_code : 20
+# contributor_acronym : ECCC
+# contributor_name : Environment and Climate Change Canada
+# contributor_address1 : Environment and Climate Change Canada
+# contributor_address2 : Climate Research Division
+# contributor_address3 : 4905 Dufferin Street, Toronto, Ontario CANADA M3H 5T4
+# contributor_country/territory : Canada
+# contributor_url : 
+# contact_total_listed : 1
+# contact_1_name : Doug Worthy
+# contact_1_address1 : 
+# contact_1_address2 : 
+# contact_1_address3 : 
+# contact_1_country/territory : Canada
+# contact_1_organization : Environment and Climate Change Canada
+# contact_1_organization_acronym : ECCC
+# contact_1_organization_url : 
+# contact_1_email : doug.worthy@canada.ca
+# contact_1_tel : 
+# contact_1_fax : 
+# collaborator_total_listed : 0
+# ORG_QCflag_description : 2 Flags are used to describe the data.
+# ORG_QCflag_description : 
+# ORG_QCflag_description : 0-invalid
+# ORG_QCflag_description : 1-valid
+# intake_height_total_listed : 1
+# intake_height_1 : 10
+# intake_height_1_units : m
+# intake_height_1_start_date : 1998-01-01T00:00:00Z
+# intake_height_1_end_date : 2017-11-01T00:00:00Z
+# instrument_total_listed : 2
+# instrument_1 : RGA3 CO detector
+# instrument_1_measurement_method_type_code : 3
+# instrument_1_measurement_method_name : Gas chromatography (RGD)
+# instrument_1_start_date : 1998-01-01T00:00:00Z
+# instrument_1_end_date : 2016-06-29T23:59:59Z
+# instrument_2 : Picarro
+# instrument_2_measurement_method_type_code : 18
+# instrument_2_measurement_method_name : CRDS
+# instrument_2_start_date : 2016-06-30T00:00:00Z
+# instrument_2_end_date : 2017-11-01T00:00:00Z
+# scale_total_listed : 1
+# scale_1_code : 8
+# scale_1_name : WMO CO X2014A
+# scale_1_start_date : 1998-01-01T00:00:00Z
+# scale_1_end_date : 2017-11-01T00:00:00Z
+# observation_status_code : 1
+# observation_status : Operational/Reporting
+# measurement_calibration : 
+# sampling_frequency_code : 7
+# sampling_frequency : 1 minute
+#
+# VARIABLE ATTRIBUTES
+#
+# site_gaw_id:long_name : unique_station/mobile_identifiers.
+# site_gaw_id:comment : 3-letter site identification code as defined by GAWSIS for stationary platforms
+# time_components:_FillValue : -999 or -9
+# time_components:long_name : integer_components_of_UTC_date/time
+# time_components:order : year, month, day, hour, minute, second
+# time_components:comment : Air sample collection time (UTC) represented as a 6-element array [year, month, day, hour, minute, second]. Calendar time components as integers.
+# value:_FillValue : -999.999
+# value:units : ppb
+# value:long_name : measured_mole_fraction_of_trace_gas_in_dry_air
+# value:comment : Reported mole fraction, isotope ratio or radioactivity. Units depend on trace gas species.
+# value_unc:_FillValue : -999.999
+# value_unc:units : ppb
+# value_unc:long_name : estimated_uncertainty_in_reported_value
+# value_unc:comment : Standard deviation of the reported mean value when nvalue is greater than 1. Units depend on trace gas species.
+# nvalue:_FillValue : -9
+# nvalue:long_name : number_of_measurements_contributing_to_reported_value
+# nvalue:comment : Number of individual measurements used to compute reported values.
+# latitude:_FillValue : -999.999999999
+# latitude:standard_name : latitude
+# latitude:long_name : sample_latitude_in_decimal_degrees
+# latitude:units : degrees_north
+# latitude:comment : Latitude of sampling location in decimal degrees (north: +; south: -)
+# longitude:_FillValue : -999.999999999
+# longitude:standard_name : longitude
+# longitude:long_name : sample_longitude_in_decimal_degrees
+# longitude:units : degrees_east
+# longitude:comment : Longitude of sampling location in decimal degrees (east: +; west: -)
+# altitude:_FillValue : -999.999
+# altitude:standard_name : altitude
+# altitude:long_name : sample_altitude_in_meters_above_sea_level
+# altitude:units : m
+# altitude:comment : Altitude (elevation + intake height) of air sample collection. Units are meters above sea level (masl).
+# elevation:_FillValue : -999.999
+# elevation:standard_name : elevation
+# elevation:long_name : surface_elevation_in_meters_above_sea_level
+# elevation:units : m
+# elevation:comment : Station height (m) above sea level
+# intake_height:_FillValue : -999.999
+# intake_height:long_name : sample_intake_height_in_meters_above_ground_level
+# intake_height:units : m
+# intake_height:comment : Sampling height (depth) of air (seawater) above ground (below sea level) (height: +; depth: -) (m)
+# flask_no:_FillValue : -999.999
+# flask_no:long_name : sample_flask_no
+# flask_no:comment : Identification code (or number) of flask used for observation
+# ORG_QCflag:_FillValue : -999.999
+# ORG_QCflag:long_name : original_quality_control_flag
+# ORG_QCflag:comment : Details of original data quality control flags should be specified by contributors in metadata.
+# QCflag:_FillValue : -9
+# QCflag:long_name : quality_control_flag
+# QCflag:comment : 1 Valid (background) data considered "background"
+# QCflag:comment : 2 Valid data considered valid other than "background"
+# QCflag:comment : 3 Invalid data considered unfit for use (questionable/erroneous/absent data)
+# QCflag:comment : Details of correspondence between original data quality control flags and WDCGG data flags should be specified by contributors in metadata.
+# instrument:_FillValue : -9
+# instrument:long_name : instrument_ID_to_detect_atmospheric_parameter
+# instrument:comment : A numeric field that identifies the instrument.
+# measurement_method:_FillValue : -9
+# measurement_method:long_name : measurement_method_history
+# measurement_method:comment : A numeric field that identifies the measurement method.
+# scale:_FillValue : -9
+# scale:long_name : calibration_scale_history
+# scale:comment : A numeric field that identifies the calibration scale. Measurements are relative to reported calibration scale.
+#
+# VARIABLE ORDER
+#
+# site_gaw_id year month day hour minute second year month day hour minute second value value_unc nvalue latitude longitude altitude elevation intake_height flask_no ORG_QCflag QCflag instrument measurement_method scale
+ALT 1998 01 01 00 00 00 -999 -9 -9 -9 -9 -9 177.4 10.188 1293 82.451065 -62.506771 210 200 10 -999.999 1 2 1 3 8
+ALT 1998 02 01 00 00 00 -999 -9 -9 -9 -9 -9 182.5 11.029 6476 82.451065 -62.506771 210 200 10 -999.999 1 2 1 3 8
+ALT 1998 03 01 00 00 00 -999 -9 -9 -9 -9 -9 186.9 9.4483 5685 82.451065 -62.506771 210 200 10 -999.999 1 2 1 3 8
+ALT 1998 04 01 00 00 00 -999 -9 -9 -9 -9 -9 171.1 3.5003 5289 82.451065 -62.506771 210 200 10 -999.999 1 2 1 3 8
+ALT 1998 05 01 00 00 00 -999 -9 -9 -9 -9 -9 157.3 8.1320 8522 82.451065 -62.506771 210 200 10 -999.999 1 2 1 3 8
+ALT 1998 06 01 00 00 00 -999 -9 -9 -9 -9 -9 119.2 9.1220 8654 82.451065 -62.506771 210 200 10 -999.999 1 2 1 3 8
+ALT 1998 07 01 00 00 00 -999 -9 -9 -9 -9 -9 93.8 5.8291 9416 82.451065 -62.506771 210 200 10 -999.999 1 2 1 3 8
+ALT 1998 08 01 00 00 00 -999 -9 -9 -9 -9 -9 97.6 9.2813 4922 82.451065 -62.506771 210 200 10 -999.999 1 2 1 3 8
+ALT 1998 09 01 00 00 00 -999 -9 -9 -9 -9 -9 148.8 15.463 7916 82.451065 -62.506771 210 200 10 -999.999 1 2 1 3 8
+ALT 1998 10 01 00 00 00 -999 -9 -9 -9 -9 -9 188.9 10.711 8294 82.451065 -62.506771 210 200 10 -999.999 1 2 1 3 8
+ALT 1998 11 01 00 00 00 -999 -9 -9 -9 -9 -9 177.8 9.0892 9100 82.451065 -62.506771 210 200 10 -999.999 1 2 1 3 8
+ALT 1998 12 01 00 00 00 -999 -9 -9 -9 -9 -9 204.8 22.788 8697 82.451065 -62.506771 210 200 10 -999.999 1 2 1 3 8
+ALT 1999 01 01 00 00 00 -999 -9 -9 -9 -9 -9 188.4 13.328 9202 82.451065 -62.506771 210 200 10 -999.999 1 2 1 3 8
+ALT 1999 02 01 00 00 00 -999 -9 -9 -9 -9 -9 187.3 6.0161 8546 82.451065 -62.506771 210 200 10 -999.999 1 2 1 3 8
+ALT 1999 03 01 00 00 00 -999 -9 -9 -9 -9 -9 180.0 7.1360 9455 82.451065 -62.506771 210 200 10 -999.999 1 2 1 3 8
+ALT 1999 04 01 00 00 00 -999 -9 -9 -9 -9 -9 180.3 2.9113 2516 82.451065 -62.506771 210 200 10 -999.999 1 2 1 3 8
+ALT 1999 06 01 00 00 00 -999 -9 -9 -9 -9 -9 108.7 11.529 9076 82.451065 -62.506771 210 200 10 -999.999 1 2 1 3 8
+ALT 1999 07 01 00 00 00 -999 -9 -9 -9 -9 -9 84.1 5.5466 9264 82.451065 -62.506771 210 200 10 -999.999 1 2 1 3 8
+ALT 1999 08 01 00 00 00 -999 -9 -9 -9 -9 -9 79.4 4.5542 8241 82.451065 -62.506771 210 200 10 -999.999 1 2 1 3 8
+ALT 1999 09 01 00 00 00 -999 -9 -9 -9 -9 -9 85.3 3.6331 9172 82.451065 -62.506771 210 200 10 -999.999 1 2 1 3 8
+ALT 1999 10 01 00 00 00 -999 -9 -9 -9 -9 -9 98.0 2.7340 6901 82.451065 -62.506771 210 200 10 -999.999 1 2 1 3 8
+ALT 1999 11 01 00 00 00 -999 -9 -9 -9 -9 -9 107.2 1.0372 1598 82.451065 -62.506771 210 200 10 -999.999 1 2 1 3 8
+ALT 2000 01 01 00 00 00 -999 -9 -9 -9 -9 -9 145.5 4.7671 2546 82.451065 -62.506771 210 200 10 -999.999 1 2 1 3 8
+ALT 2000 02 01 00 00 00 -999 -9 -9 -9 -9 -9 169.1 8.6557 3789 82.451065 -62.506771 210 200 10 -999.999 1 2 1 3 8
+ALT 2000 03 01 00 00 00 -999 -9 -9 -9 -9 -9 162.2 5.8103 4442 82.451065 -62.506771 210 200 10 -999.999 1 2 1 3 8
+ALT 2000 04 01 00 00 00 -999 -9 -9 -9 -9 -9 155.2 2.4963 2364 82.451065 -62.506771 210 200 10 -999.999 1 2 1 3 8
+ALT 2000 05 01 00 00 00 -999 -9 -9 -9 -9 -9 139.0 10.714 4028 82.451065 -62.506771 210 200 10 -999.999 1 2 1 3 8
+ALT 2000 06 01 00 00 00 -999 -9 -9 -9 -9 -9 97.6 11.723 4377 82.451065 -62.506771 210 200 10 -999.999 1 2 1 3 8
+ALT 2000 07 01 00 00 00 -999 -9 -9 -9 -9 -9 78.6 3.6961 4679 82.451065 -62.506771 210 200 10 -999.999 1 2 1 3 8
+ALT 2000 08 01 00 00 00 -999 -9 -9 -9 -9 -9 76.6 4.5357 3377 82.451065 -62.506771 210 200 10 -999.999 1 2 1 3 8
+ALT 2000 09 01 00 00 00 -999 -9 -9 -9 -9 -9 83.4 2.2595 4908 82.451065 -62.506771 210 200 10 -999.999 1 2 1 3 8
+ALT 2000 10 01 00 00 00 -999 -9 -9 -9 -9 -9 94.8 5.3321 5116 82.451065 -62.506771 210 200 10 -999.999 1 2 1 3 8
+ALT 2000 11 01 00 00 00 -999 -9 -9 -9 -9 -9 107.9 5.0379 1136 82.451065 -62.506771 210 200 10 -999.999 1 2 1 3 8
+ALT 2000 12 01 00 00 00 -999 -9 -9 -9 -9 -9 124.7 3.6789 3176 82.451065 -62.506771 210 200 10 -999.999 1 2 1 3 8
+ALT 2001 01 01 00 00 00 -999 -9 -9 -9 -9 -9 147.4 9.8736 4576 82.451065 -62.506771 210 200 10 -999.999 1 2 1 3 8
+ALT 2001 02 01 00 00 00 -999 -9 -9 -9 -9 -9 150.6 5.7868 4850 82.451065 -62.506771 210 200 10 -999.999 1 2 1 3 8
+ALT 2001 03 01 00 00 00 -999 -9 -9 -9 -9 -9 157.6 2.0565 4958 82.451065 -62.506771 210 200 10 -999.999 1 2 1 3 8
+ALT 2001 04 01 00 00 00 -999 -9 -9 -9 -9 -9 144.7 5.6529 1311 82.451065 -62.506771 210 200 10 -999.999 1 2 1 3 8
+ALT 2001 05 01 00 00 00 -999 -9 -9 -9 -9 -9 135.8 10.197 6587 82.451065 -62.506771 210 200 10 -999.999 1 2 1 3 8
+ALT 2001 06 01 00 00 00 -999 -9 -9 -9 -9 -9 99.2 11.185 6595 82.451065 -62.506771 210 200 10 -999.999 1 2 1 3 8
+ALT 2001 07 01 00 00 00 -999 -9 -9 -9 -9 -9 74.3 4.1283 4667 82.451065 -62.506771 210 200 10 -999.999 1 2 1 3 8
+ALT 2001 08 01 00 00 00 -999 -9 -9 -9 -9 -9 72.2 4.4789 5476 82.451065 -62.506771 210 200 10 -999.999 1 2 1 3 8
+ALT 2001 09 01 00 00 00 -999 -9 -9 -9 -9 -9 82.7 4.6831 5916 82.451065 -62.506771 210 200 10 -999.999 1 2 1 3 8
+ALT 2001 10 01 00 00 00 -999 -9 -9 -9 -9 -9 90.3 3.9763 4273 82.451065 -62.506771 210 200 10 -999.999 1 2 1 3 8
+ALT 2001 12 01 00 00 00 -999 -9 -9 -9 -9 -9 124.8 11.547 3492 82.451065 -62.506771 210 200 10 -999.999 1 2 1 3 8
+ALT 2002 01 01 00 00 00 -999 -9 -9 -9 -9 -9 138.1 3.5306 823 82.451065 -62.506771 210 200 10 -999.999 1 2 1 3 8
+ALT 2002 02 01 00 00 00 -999 -9 -9 -9 -9 -9 157.0 0.9657 260 82.451065 -62.506771 210 200 10 -999.999 1 2 1 3 8
+ALT 2002 03 01 00 00 00 -999 -9 -9 -9 -9 -9 166.1 5.6932 5396 82.451065 -62.506771 210 200 10 -999.999 1 2 1 3 8
+ALT 2002 04 01 00 00 00 -999 -9 -9 -9 -9 -9 160.8 3.6761 6222 82.451065 -62.506771 210 200 10 -999.999 1 2 1 3 8
+ALT 2002 05 01 00 00 00 -999 -9 -9 -9 -9 -9 137.0 11.158 6779 82.451065 -62.506771 210 200 10 -999.999 1 2 1 3 8
+ALT 2002 06 01 00 00 00 -999 -9 -9 -9 -9 -9 99.5 9.6438 6207 82.451065 -62.506771 210 200 10 -999.999 1 2 1 3 8
+ALT 2002 07 01 00 00 00 -999 -9 -9 -9 -9 -9 82.9 5.4717 3288 82.451065 -62.506771 210 200 10 -999.999 1 2 1 3 8
+ALT 2002 10 01 00 00 00 -999 -9 -9 -9 -9 -9 138.0 3.7328 3826 82.451065 -62.506771 210 200 10 -999.999 1 2 1 3 8
+ALT 2002 11 01 00 00 00 -999 -9 -9 -9 -9 -9 143.5 6.1557 4780 82.451065 -62.506771 210 200 10 -999.999 1 2 1 3 8
+ALT 2002 12 01 00 00 00 -999 -9 -9 -9 -9 -9 153.4 6.8546 1890 82.451065 -62.506771 210 200 10 -999.999 1 2 1 3 8
+ALT 2003 01 01 00 00 00 -999 -9 -9 -9 -9 -9 181.2 23.827 7143 82.451065 -62.506771 210 200 10 -999.999 1 2 1 3 8
+ALT 2003 02 01 00 00 00 -999 -9 -9 -9 -9 -9 183.9 9.5221 5856 82.451065 -62.506771 210 200 10 -999.999 1 2 1 3 8
+ALT 2003 03 01 00 00 00 -999 -9 -9 -9 -9 -9 187.8 10.494 6041 82.451065 -62.506771 210 200 10 -999.999 1 2 1 3 8
+ALT 2003 04 01 00 00 00 -999 -9 -9 -9 -9 -9 170.4 4.0238 5343 82.451065 -62.506771 210 200 10 -999.999 1 2 1 3 8
+ALT 2003 05 01 00 00 00 -999 -9 -9 -9 -9 -9 153.1 8.0721 6668 82.451065 -62.506771 210 200 10 -999.999 1 2 1 3 8
+ALT 2003 06 01 00 00 00 -999 -9 -9 -9 -9 -9 124.5 8.8016 5708 82.451065 -62.506771 210 200 10 -999.999 1 2 1 3 8
+ALT 2003 07 01 00 00 00 -999 -9 -9 -9 -9 -9 110.5 4.6473 1629 82.451065 -62.506771 210 200 10 -999.999 1 2 1 3 8
+ALT 2003 09 01 00 00 00 -999 -9 -9 -9 -9 -9 120.6 7.4691 3170 82.451065 -62.506771 210 200 10 -999.999 1 2 1 3 8
+ALT 2003 10 01 00 00 00 -999 -9 -9 -9 -9 -9 130.0 6.2188 5435 82.451065 -62.506771 210 200 10 -999.999 1 2 1 3 8
+ALT 2003 11 01 00 00 00 -999 -9 -9 -9 -9 -9 140.5 4.1231 6603 82.451065 -62.506771 210 200 10 -999.999 1 2 1 3 8
+ALT 2003 12 01 00 00 00 -999 -9 -9 -9 -9 -9 148.8 7.8686 7175 82.451065 -62.506771 210 200 10 -999.999 1 2 1 3 8
+ALT 2004 01 01 00 00 00 -999 -9 -9 -9 -9 -9 159.0 11.083 6701 82.451065 -62.506771 210 200 10 -999.999 1 2 1 3 8
+ALT 2004 02 01 00 00 00 -999 -9 -9 -9 -9 -9 162.3 7.2181 4621 82.451065 -62.506771 210 200 10 -999.999 1 2 1 3 8
+ALT 2004 03 01 00 00 00 -999 -9 -9 -9 -9 -9 168.1 5.0870 3823 82.451065 -62.506771 210 200 10 -999.999 1 2 1 3 8
+ALT 2004 04 01 00 00 00 -999 -9 -9 -9 -9 -9 174.9 6.1982 4489 82.451065 -62.506771 210 200 10 -999.999 1 2 1 3 8
+ALT 2004 05 01 00 00 00 -999 -9 -9 -9 -9 -9 139.9 15.787 6344 82.451065 -62.506771 210 200 10 -999.999 1 2 1 3 8
+ALT 2004 06 01 00 00 00 -999 -9 -9 -9 -9 -9 94.6 9.3235 6272 82.451065 -62.506771 210 200 10 -999.999 1 2 1 3 8
+ALT 2004 07 01 00 00 00 -999 -9 -9 -9 -9 -9 81.9 4.0791 7069 82.451065 -62.506771 210 200 10 -999.999 1 2 1 3 8
+ALT 2004 08 01 00 00 00 -999 -9 -9 -9 -9 -9 86.4 4.0606 1416 82.451065 -62.506771 210 200 10 -999.999 1 2 1 3 8
+ALT 2004 11 01 00 00 00 -999 -9 -9 -9 -9 -9 128.4 2.6392 4646 82.451065 -62.506771 210 200 10 -999.999 1 2 1 3 8
+ALT 2004 12 01 00 00 00 -999 -9 -9 -9 -9 -9 142.5 13.360 6354 82.451065 -62.506771 210 200 10 -999.999 1 2 1 3 8
+ALT 2005 01 01 00 00 00 -999 -9 -9 -9 -9 -9 161.1 11.793 3119 82.451065 -62.506771 210 200 10 -999.999 1 2 1 3 8
+ALT 2005 03 01 00 00 00 -999 -9 -9 -9 -9 -9 161.9 3.2405 999 82.451065 -62.506771 210 200 10 -999.999 1 2 1 3 8
+ALT 2005 04 01 00 00 00 -999 -9 -9 -9 -9 -9 163.9 6.0299 2414 82.451065 -62.506771 210 200 10 -999.999 1 2 1 3 8
+ALT 2005 05 01 00 00 00 -999 -9 -9 -9 -9 -9 133.1 10.162 2938 82.451065 -62.506771 210 200 10 -999.999 1 2 1 3 8
+ALT 2005 06 01 00 00 00 -999 -9 -9 -9 -9 -9 101.5 9.8805 3109 82.451065 -62.506771 210 200 10 -999.999 1 2 1 3 8
+ALT 2005 07 01 00 00 00 -999 -9 -9 -9 -9 -9 81.0 5.3270 3277 82.451065 -62.506771 210 200 10 -999.999 1 2 1 3 8
+ALT 2005 08 01 00 00 00 -999 -9 -9 -9 -9 -9 82.2 3.1219 1778 82.451065 -62.506771 210 200 10 -999.999 1 2 1 3 8
+ALT 2005 09 01 00 00 00 -999 -9 -9 -9 -9 -9 107.3 4.9304 2149 82.451065 -62.506771 210 200 10 -999.999 1 2 1 3 8
+ALT 2005 10 01 00 00 00 -999 -9 -9 -9 -9 -9 106.3 3.7605 3284 82.451065 -62.506771 210 200 10 -999.999 1 2 1 3 8
+ALT 2005 11 01 00 00 00 -999 -9 -9 -9 -9 -9 121.6 8.8822 3201 82.451065 -62.506771 210 200 10 -999.999 1 2 1 3 8
+ALT 2005 12 01 00 00 00 -999 -9 -9 -9 -9 -9 139.1 7.5703 2862 82.451065 -62.506771 210 200 10 -999.999 1 2 1 3 8
+ALT 2006 01 01 00 00 00 -999 -9 -9 -9 -9 -9 144.1 3.6354 2728 82.451065 -62.506771 210 200 10 -999.999 1 2 1 3 8
+ALT 2006 02 01 00 00 00 -999 -9 -9 -9 -9 -9 151.0 4.1988 2768 82.451065 -62.506771 210 200 10 -999.999 1 2 1 3 8
+ALT 2006 03 01 00 00 00 -999 -9 -9 -9 -9 -9 163.4 5.5743 2983 82.451065 -62.506771 210 200 10 -999.999 1 2 1 3 8
+ALT 2006 04 01 00 00 00 -999 -9 -9 -9 -9 -9 159.2 4.0886 2722 82.451065 -62.506771 210 200 10 -999.999 1 2 1 3 8
+ALT 2006 05 01 00 00 00 -999 -9 -9 -9 -9 -9 141.6 8.7983 2793 82.451065 -62.506771 210 200 10 -999.999 1 2 1 3 8
+ALT 2006 06 01 00 00 00 -999 -9 -9 -9 -9 -9 105.4 9.9689 3071 82.451065 -62.506771 210 200 10 -999.999 1 2 1 3 8
+ALT 2006 07 01 00 00 00 -999 -9 -9 -9 -9 -9 84.6 5.3493 2338 82.451065 -62.506771 210 200 10 -999.999 1 2 1 3 8
+ALT 2006 08 01 00 00 00 -999 -9 -9 -9 -9 -9 81.7 5.0712 2593 82.451065 -62.506771 210 200 10 -999.999 1 2 1 3 8
+ALT 2006 09 01 00 00 00 -999 -9 -9 -9 -9 -9 90.1 4.6982 2206 82.451065 -62.506771 210 200 10 -999.999 1 2 1 3 8
+ALT 2006 10 01 00 00 00 -999 -9 -9 -9 -9 -9 103.4 4.5522 2730 82.451065 -62.506771 210 200 10 -999.999 1 2 1 3 8
+ALT 2006 11 01 00 00 00 -999 -9 -9 -9 -9 -9 118.1 8.0889 2216 82.451065 -62.506771 210 200 10 -999.999 1 2 1 3 8
+ALT 2006 12 01 00 00 00 -999 -9 -9 -9 -9 -9 137.4 6.9796 2960 82.451065 -62.506771 210 200 10 -999.999 1 2 1 3 8
+ALT 2007 01 01 00 00 00 -999 -9 -9 -9 -9 -9 147.5 5.6232 3263 82.451065 -62.506771 210 200 10 -999.999 1 2 1 3 8
+ALT 2007 02 01 00 00 00 -999 -9 -9 -9 -9 -9 151.6 5.3550 2832 82.451065 -62.506771 210 200 10 -999.999 1 2 1 3 8
+ALT 2007 03 01 00 00 00 -999 -9 -9 -9 -9 -9 159.8 5.8114 3317 82.451065 -62.506771 210 200 10 -999.999 1 2 1 3 8
+ALT 2007 04 01 00 00 00 -999 -9 -9 -9 -9 -9 161.1 4.7654 1361 82.451065 -62.506771 210 200 10 -999.999 1 2 1 3 8
+ALT 2007 05 01 00 00 00 -999 -9 -9 -9 -9 -9 139.0 10.073 2900 82.451065 -62.506771 210 200 10 -999.999 1 2 1 3 8
+ALT 2007 06 01 00 00 00 -999 -9 -9 -9 -9 -9 109.4 8.4153 3081 82.451065 -62.506771 210 200 10 -999.999 1 2 1 3 8
+ALT 2007 07 01 00 00 00 -999 -9 -9 -9 -9 -9 90.6 4.2402 1961 82.451065 -62.506771 210 200 10 -999.999 1 2 1 3 8
+ALT 2007 08 01 00 00 00 -999 -9 -9 -9 -9 -9 90.4 7.8349 2228 82.451065 -62.506771 210 200 10 -999.999 1 2 1 3 8
+ALT 2007 09 01 00 00 00 -999 -9 -9 -9 -9 -9 100.1 4.3533 2085 82.451065 -62.506771 210 200 10 -999.999 1 2 1 3 8
+ALT 2007 10 01 00 00 00 -999 -9 -9 -9 -9 -9 110.7 5.3455 2923 82.451065 -62.506771 210 200 10 -999.999 1 2 1 3 8
+ALT 2007 11 01 00 00 00 -999 -9 -9 -9 -9 -9 122.6 5.6013 2880 82.451065 -62.506771 210 200 10 -999.999 1 2 1 3 8
+ALT 2007 12 01 00 00 00 -999 -9 -9 -9 -9 -9 140.2 10.590 2958 82.451065 -62.506771 210 200 10 -999.999 1 2 1 3 8
+ALT 2008 01 01 00 00 00 -999 -9 -9 -9 -9 -9 144.4 6.5346 2607 82.451065 -62.506771 210 200 10 -999.999 1 2 1 3 8
+ALT 2008 02 01 00 00 00 -999 -9 -9 -9 -9 -9 160.4 14.703 3008 82.451065 -62.506771 210 200 10 -999.999 1 2 1 3 8
+ALT 2008 03 01 00 00 00 -999 -9 -9 -9 -9 -9 163.3 6.9269 3326 82.451065 -62.506771 210 200 10 -999.999 1 2 1 3 8
+ALT 2008 04 01 00 00 00 -999 -9 -9 -9 -9 -9 159.2 4.0937 2032 82.451065 -62.506771 210 200 10 -999.999 1 2 1 3 8
+ALT 2008 05 01 00 00 00 -999 -9 -9 -9 -9 -9 137.2 11.223 2874 82.451065 -62.506771 210 200 10 -999.999 1 2 1 3 8
+ALT 2008 06 01 00 00 00 -999 -9 -9 -9 -9 -9 98.3 9.4393 2424 82.451065 -62.506771 210 200 10 -999.999 1 2 1 3 8
+ALT 2008 07 01 00 00 00 -999 -9 -9 -9 -9 -9 78.4 5.1057 3371 82.451065 -62.506771 210 200 10 -999.999 1 2 1 3 8
+ALT 2008 08 01 00 00 00 -999 -9 -9 -9 -9 -9 80.2 5.1526 2661 82.451065 -62.506771 210 200 10 -999.999 1 2 1 3 8
+ALT 2008 09 01 00 00 00 -999 -9 -9 -9 -9 -9 81.9 3.5140 1711 82.451065 -62.506771 210 200 10 -999.999 1 2 1 3 8
+ALT 2008 10 01 00 00 00 -999 -9 -9 -9 -9 -9 89.2 5.1322 3128 82.451065 -62.506771 210 200 10 -999.999 1 2 1 3 8
+ALT 2008 11 01 00 00 00 -999 -9 -9 -9 -9 -9 107.3 7.6056 2138 82.451065 -62.506771 210 200 10 -999.999 1 2 1 3 8
+ALT 2008 12 01 00 00 00 -999 -9 -9 -9 -9 -9 117.7 7.3685 2958 82.451065 -62.506771 210 200 10 -999.999 1 2 1 3 8
+ALT 2009 01 01 00 00 00 -999 -9 -9 -9 -9 -9 139.5 8.9628 3073 82.451065 -62.506771 210 200 10 -999.999 1 2 1 3 8
+ALT 2009 02 01 00 00 00 -999 -9 -9 -9 -9 -9 141.8 7.4328 1408 82.451065 -62.506771 210 200 10 -999.999 1 2 1 3 8
+ALT 2009 03 01 00 00 00 -999 -9 -9 -9 -9 -9 149.3 6.7766 1706 82.451065 -62.506771 210 200 10 -999.999 1 2 1 3 8
+ALT 2009 04 01 00 00 00 -999 -9 -9 -9 -9 -9 148.7 5.7987 2942 82.451065 -62.506771 210 200 10 -999.999 1 2 1 3 8
+ALT 2009 05 01 00 00 00 -999 -9 -9 -9 -9 -9 127.9 11.648 2091 82.451065 -62.506771 210 200 10 -999.999 1 2 1 3 8
+ALT 2009 06 01 00 00 00 -999 -9 -9 -9 -9 -9 101.9 6.4607 544 82.451065 -62.506771 210 200 10 -999.999 1 2 1 3 8
+ALT 2009 10 01 00 00 00 -999 -9 -9 -9 -9 -9 92.7 6.4424 1183 82.451065 -62.506771 210 200 10 -999.999 1 2 1 3 8
+ALT 2009 11 01 00 00 00 -999 -9 -9 -9 -9 -9 104.0 8.7269 2380 82.451065 -62.506771 210 200 10 -999.999 1 2 1 3 8
+ALT 2009 12 01 00 00 00 -999 -9 -9 -9 -9 -9 120.0 11.814 3449 82.451065 -62.506771 210 200 10 -999.999 1 2 1 3 8
+ALT 2010 01 01 00 00 00 -999 -9 -9 -9 -9 -9 141.8 9.8688 2835 82.451065 -62.506771 210 200 10 -999.999 1 2 1 3 8
+ALT 2010 02 01 00 00 00 -999 -9 -9 -9 -9 -9 145.9 6.7629 2733 82.451065 -62.506771 210 200 10 -999.999 1 2 1 3 8
+ALT 2010 03 01 00 00 00 -999 -9 -9 -9 -9 -9 152.3 8.8120 3309 82.451065 -62.506771 210 200 10 -999.999 1 2 1 3 8
+ALT 2010 04 01 00 00 00 -999 -9 -9 -9 -9 -9 153.1 4.5956 2248 82.451065 -62.506771 210 200 10 -999.999 1 2 1 3 8
+ALT 2010 05 01 00 00 00 -999 -9 -9 -9 -9 -9 133.9 9.4398 3120 82.451065 -62.506771 210 200 10 -999.999 1 2 1 3 8
+ALT 2010 06 01 00 00 00 -999 -9 -9 -9 -9 -9 105.3 7.8821 2454 82.451065 -62.506771 210 200 10 -999.999 1 2 1 3 8
+ALT 2016 07 01 00 00 00 -999 -9 -9 -9 -9 -9 70.9 4.6180 14317 82.451065 -62.506771 210 200 10 -999.999 1 2 2 18 8
+ALT 2016 08 01 00 00 00 -999 -9 -9 -9 -9 -9 72.6 4.2024 44070 82.451065 -62.506771 210 200 10 -999.999 1 2 2 18 8
+ALT 2016 09 01 00 00 00 -999 -9 -9 -9 -9 -9 81.7 2.9936 43003 82.451065 -62.506771 210 200 10 -999.999 1 2 2 18 8
+ALT 2016 10 01 00 00 00 -999 -9 -9 -9 -9 -9 93.8 4.1289 44396 82.451065 -62.506771 210 200 10 -999.999 1 2 2 18 8
+ALT 2016 11 01 00 00 00 -999 -9 -9 -9 -9 -9 103.6 2.7528 43052 82.451065 -62.506771 210 200 10 -999.999 1 2 2 18 8
+ALT 2016 12 01 00 00 00 -999 -9 -9 -9 -9 -9 118.6 8.7389 44459 82.451065 -62.506771 210 200 10 -999.999 1 2 2 18 8
+ALT 2017 01 01 00 00 00 -999 -9 -9 -9 -9 -9 129.9 9.1051 44502 82.451065 -62.506771 210 200 10 -999.999 1 2 2 18 8
+ALT 2017 02 01 00 00 00 -999 -9 -9 -9 -9 -9 134.6 11.267 40182 82.451065 -62.506771 210 200 10 -999.999 1 2 2 18 8
+ALT 2017 03 01 00 00 00 -999 -9 -9 -9 -9 -9 140.2 4.0916 44501 82.451065 -62.506771 210 200 10 -999.999 1 2 2 18 8
+ALT 2017 04 01 00 00 00 -999 -9 -9 -9 -9 -9 127.1 4.7625 43060 82.451065 -62.506771 210 200 10 -999.999 1 2 2 18 8
+ALT 2017 05 01 00 00 00 -999 -9 -9 -9 -9 -9 107.3 8.4824 42241 82.451065 -62.506771 210 200 10 -999.999 1 2 2 18 8
+ALT 2017 06 01 00 00 00 -999 -9 -9 -9 -9 -9 78.4 7.7224 43033 82.451065 -62.506771 210 200 10 -999.999 1 2 2 18 8
+ALT 2017 07 01 00 00 00 -999 -9 -9 -9 -9 -9 65.0 3.7453 44438 82.451065 -62.506771 210 200 10 -999.999 1 2 2 18 8
+ALT 2017 08 01 00 00 00 -999 -9 -9 -9 -9 -9 70.1 8.8494 44500 82.451065 -62.506771 210 200 10 -999.999 1 2 2 18 8
+ALT 2017 09 01 00 00 00 -999 -9 -9 -9 -9 -9 95.9 7.1756 42929 82.451065 -62.506771 210 200 10 -999.999 1 2 2 18 8
+ALT 2017 10 01 00 00 00 -999 -9 -9 -9 -9 -9 103.5 1.3003 44504 82.451065 -62.506771 210 200 10 -999.999 1 2 2 18 8
+ALT 2017 11 01 00 00 00 -999 -9 -9 -9 -9 -9 110.0 2.9381 40551 82.451065 -62.506771 210 200 10 -999.999 1 2 2 18 8

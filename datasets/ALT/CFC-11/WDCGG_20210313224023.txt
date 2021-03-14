@@ -1,0 +1,7 @@
+Filename Contact Email
+cfc11_alt_surface-flask_2_3004-9999_monthly.txt Bradley D. Hall Bradley.Hall@noaa.gov
+cfc11_alt_surface-flask_2_3004-9999_monthly.txt James W. Elkins James.W.Elkins@noaa.gov
+cfc11_alt_surface-flask_2_3005-9999_monthly.txt James W. Elkins James.W.Elkins@noaa.gov
+cfc11_alt_surface-flask_2_3005-9999_monthly.txt Debra J. Mondeel Debra.J.Mondeel@noaa.gov
+cfc11_alt_surface-flask_2_3005-9999_monthly.txt J. David Nance David.Nance@noaa.gov
+cfc11_alt_surface-flask_2_3005-9999_monthly.txt Bradley D. Hall Bradley.Hall@noaa.gov

@@ -1,0 +1,240 @@
+# header_lines : 176
+# Data_Set_Name : co_mbc_surface-flask_2_3001-9999_monthly
+# Data_Set_Version : 0002-4002-3001-01-02-3001_2020-09-10-1114
+# Data_Set_Fair_Use : For Scientific purposes, access to these data is unlimited and provided without charge. By their use you accept that an offer of co-authorship will be made through personal contact with the contributors whenever substantial use is made of their data. In all cases, an acknowledgement must be made to the contributors and to the data centre when these data are used within a publication.
+#
+# GLOBAL ATTRIBUTES
+#
+# site_gaw_id : MBC
+# site_gaw_type : GAW Regional
+# site_name : Mould Bay
+# site_country/territory : Canada
+# site_wmo_region : REGION IV (North and Central America)
+# site_address1 : 
+# site_address2 : 
+# site_address3 : 
+# site_latitude : 76.25
+# site_longitude : -119.3499984741
+# site_elevation : 58
+# site_elevation_unit : m
+# site_lst2utc : UTC-07:00
+# site_climate_zone : ET
+# site_climate_zone:comment : Tundra climate
+# dataset_creation_date : 2020-09-14
+# dataset_parameter : co
+# dataset_parameter_large_class : Reactive Gas
+# dataset_parameter_small_class : 
+# dataset_parameter_name_1 : CO
+# dataset_parameter_name_2 : carbon monoxide
+# dataset_parameter_name_3 : 
+# dataset_parameter_name_4 : 
+# dataset_parameter_name_5 : 
+# dataset_project : surface-flask
+# dataset_platform : fixed station
+# dataset_selection : All monthly data
+# dataset_selection_tag : monthly
+# dataset_time_zone : UTC
+# dataset_start_date : 1992-02-01T00:00:00Z
+# dataset_end_date : 1997-05-01T00:00:00Z
+# dataset_statistic_code : 1
+# dataset_statistic : contributor
+# dataset_description : Atmospheric CO Dry Air Mole Fractions from the NOAA GMD Carbon Cycle Cooperative Global Air Sampling Network, 1968-2019
+# dataset_description : These data are provided by NOAA. Principal investigators include Gabrielle Petron (NOAA). Key partners include Environment and Climate Change Canada (EC).
+# dataset_aim_of_observation_code : 1
+# dataset_aim_of_observation : Background observation
+# dataset_buffer_code : 3001
+# dataset_buffer : ccgg
+# dataset_buffer:comment : NOAA Carbon Cycle Greenhouse Gases
+# dataset_footnote_code : 9999
+# dataset_footnote : default
+# dataset_footnote:comment : default
+# dataset_processing : 
+# dataset_hr_mean_processing : 
+# dataset_da_mean_processing : 
+# dataset_mo_mean_processing : 
+# dataset_transition_flag : 0
+# dataset_transition_comment : Dataset was made from entire historical data provided from contributor from 2018 new WDCGG website open onward
+# dataset_reference_total_listed : 3
+# dataset_reference_1_name : G. Petron, A.M. Crotwell, M.J. Crotwell, E. Dlugokencky, M. Madronich, E. Moglia, D. Neff, S. Wolter, J.W. Mund (2020), Atmospheric Carbon Monoxide Dry Air Mole Fractions from the NOAA GML Carbon Cycle Cooperative Global Air Sampling Network, 1988-2020, Version: 2020-08, https://doi.org/10.15138/33bv-s284
+# dataset_reference_2_name : Novelli, P.C., J.E. Elkins, and L.P. Steele, The development and evaluation of a gravimetric reference scale for measurements of atmospheric carbon monoxide, J. Geophys. Res., 96, 13,109-13,121, 991.
+# dataset_reference_3_name : Novelli, P.C., K.A. Masarie, P.M. Lang, B.D. Hall, R.C. Myers, and J.W. Elkins, Re-analysis of tropospheric CO trends: Effects of the 1997-1998 wild fires, J. Geophys. Res., 108,  D15
+# contributor_organization_code : 2
+# contributor_acronym : NOAA
+# contributor_name : Earth System Research Laboratory, NOAA
+# contributor_address1 : R/GMD1
+# contributor_address2 : NOAA/ESRL
+# contributor_address3 : 325 Broadway Boulder, CO 80305-3337
+# contributor_country/territory : United States of America
+# contributor_url : https://www.esrl.noaa.gov/gmd/index.html
+# contact_total_listed : 1
+# contact_1_name : Gabrielle Petron
+# contact_1_address1 : NOAA ESRL GML
+# contact_1_address2 : 325 Broadway R/GML-1
+# contact_1_address3 : Boulder, CO 80305-3328
+# contact_1_country/territory : United States of America
+# contact_1_organization : Earth System Research Laboratory, NOAA
+# contact_1_organization_acronym : NOAA
+# contact_1_organization_url : https://www.esrl.noaa.gov/gmd/index.html
+# contact_1_email : Gabrielle.Petron@noaa.gov
+# contact_1_tel : (303) 497-4890
+# contact_1_fax : 
+# collaborator_total_listed : 1
+# collaborator_1_organization_code : 20
+# collaborator_1_acronym : ECCC
+# collaborator_1_name : Environment and Climate Change Canada
+# collaborator_1_address1 : Environment and Climate Change Canada
+# collaborator_1_address2 : Climate Research Division
+# collaborator_1_address3 : 4905 Dufferin Street, Toronto, Ontario CANADA M3H 5T4
+# collaborator_1_country/territory : Canada
+# collaborator_1_url : 
+# ORG_QCflag_description : This is the NOAA 3-character quality control flag.  Column 1 is the REJECTION flag. An alphanumeric other than a period (.) in the FIRST column indicates a sample with obvious problems during collection or analysis. This measurement should not be interpreted. Column 2 is the SELECTION flag. An alphanumeric other than a period (.) in the SECOND column indicates a sample that is likely valid but does not meet selection criteria determined by the goals of a particular investigation. For example, it might not have been obtained during 'background' conditions.  Column 3 is the INFORMATION flag. An alphanumeric other than a period (.) in the THIRD column provides additional information about the collection or analysis of the sample. A P in the 3rd column of the QC flag indicates the measurement result is preliminary and has not yet been carefully examined by the PI.  The P flag is removed once the quality of the measurement has been determined.
+# intake_height_total_listed : See data part
+# instrument_total_listed : 1
+# instrument_1 : Unknown
+# instrument_1_measurement_method_type_code : 3
+# instrument_1_measurement_method_name : Gas chromatography (RGD)
+# instrument_1_start_date : 1990-11-09T18:30:00Z
+# instrument_1_end_date : 1997-05-26T20:20:00Z
+# scale_total_listed : 1
+# scale_1_code : 8
+# scale_1_name : WMO CO X2014A
+# scale_1_start_date : 1992-02-01T00:00:00Z
+# scale_1_end_date : 1997-05-01T00:00:00Z
+# observation_status_code : 1
+# observation_status : Operational/Reporting
+# measurement_calibration : 
+# sampling_frequency_code : 2
+# sampling_frequency : weekly
+#
+# VARIABLE ATTRIBUTES
+#
+# site_gaw_id:long_name : unique_station/mobile_identifiers.
+# site_gaw_id:comment : 3-letter site identification code as defined by GAWSIS for stationary platforms
+# time_components:_FillValue : -999 or -9
+# time_components:long_name : integer_components_of_UTC_date/time
+# time_components:order : year, month, day, hour, minute, second
+# time_components:comment : Air sample collection time (UTC) represented as a 6-element array [year, month, day, hour, minute, second]. Calendar time components as integers.
+# value:_FillValue : -999.999
+# value:units : ppb
+# value:long_name : measured_mole_fraction_of_trace_gas_in_dry_air
+# value:comment : Reported mole fraction, isotope ratio or radioactivity. Units depend on trace gas species.
+# value_unc:_FillValue : -999.999
+# value_unc:units : ppb
+# value_unc:long_name : estimated_uncertainty_in_reported_value
+# value_unc:comment : Standard deviation of the reported mean value when nvalue is greater than 1. Units depend on trace gas species.
+# nvalue:_FillValue : -9
+# nvalue:long_name : number_of_measurements_contributing_to_reported_value
+# nvalue:comment : Number of individual measurements used to compute reported values.
+# latitude:_FillValue : -999.999999999
+# latitude:standard_name : latitude
+# latitude:long_name : sample_latitude_in_decimal_degrees
+# latitude:units : degrees_north
+# latitude:comment : Latitude of sampling location in decimal degrees (north: +; south: -)
+# longitude:_FillValue : -999.999999999
+# longitude:standard_name : longitude
+# longitude:long_name : sample_longitude_in_decimal_degrees
+# longitude:units : degrees_east
+# longitude:comment : Longitude of sampling location in decimal degrees (east: +; west: -)
+# altitude:_FillValue : -999.999
+# altitude:standard_name : altitude
+# altitude:long_name : sample_altitude_in_meters_above_sea_level
+# altitude:units : m
+# altitude:comment : Altitude (elevation + intake height) of air sample collection. Units are meters above sea level (masl).
+# elevation:_FillValue : -999.999
+# elevation:standard_name : elevation
+# elevation:long_name : surface_elevation_in_meters_above_sea_level
+# elevation:units : m
+# elevation:comment : Station height (m) above sea level
+# intake_height:_FillValue : -999.999
+# intake_height:long_name : sample_intake_height_in_meters_above_ground_level
+# intake_height:units : m
+# intake_height:comment : Sampling height (depth) of air (seawater) above ground (below sea level) (height: +; depth: -) (m)
+# flask_no:_FillValue : -999.999
+# flask_no:long_name : sample_flask_no
+# flask_no:comment : Identification code (or number) of flask used for observation
+# ORG_QCflag:_FillValue : -999.999
+# ORG_QCflag:long_name : original_quality_control_flag
+# ORG_QCflag:comment : Details of original data quality control flags should be specified by contributors in metadata.
+# QCflag:_FillValue : -9
+# QCflag:long_name : quality_control_flag
+# QCflag:comment : 1 Valid (background) data considered "background"
+# QCflag:comment : 2 Valid data considered valid other than "background"
+# QCflag:comment : 3 Invalid data considered unfit for use (questionable/erroneous/absent data)
+# QCflag:comment : Details of correspondence between original data quality control flags and WDCGG data flags should be specified by contributors in metadata.
+# instrument:_FillValue : -9
+# instrument:long_name : instrument_ID_to_detect_atmospheric_parameter
+# instrument:comment : A numeric field that identifies the instrument.
+# measurement_method:_FillValue : -9
+# measurement_method:long_name : measurement_method_history
+# measurement_method:comment : A numeric field that identifies the measurement method.
+# scale:_FillValue : -9
+# scale:long_name : calibration_scale_history
+# scale:comment : A numeric field that identifies the calibration scale. Measurements are relative to reported calibration scale.
+#
+# VARIABLE ORDER
+#
+# site_gaw_id year month day hour minute second year month day hour minute second value value_unc nvalue latitude longitude altitude elevation intake_height flask_no ORG_QCflag QCflag instrument measurement_method scale
+MBC 1992 02 01 00 00 00 -999 -9 -9 -9 -9 -9 189.78 -999.999 -9 76.25 -119.3499984741 -999.999 58 -999.999 -999.999 -999.999 1 -9 -9 8
+MBC 1992 03 01 00 00 00 -999 -9 -9 -9 -9 -9 194.77 -999.999 -9 76.25 -119.3499984741 -999.999 58 -999.999 -999.999 -999.999 1 -9 -9 8
+MBC 1992 04 01 00 00 00 -999 -9 -9 -9 -9 -9 189.06 -999.999 -9 76.25 -119.3499984741 -999.999 58 -999.999 -999.999 -999.999 1 -9 -9 8
+MBC 1992 05 01 00 00 00 -999 -9 -9 -9 -9 -9 162.95 -999.999 -9 76.25 -119.3499984741 -999.999 58 -999.999 -999.999 -999.999 1 -9 -9 8
+MBC 1992 06 01 00 00 00 -999 -9 -9 -9 -9 -9 124.37 -999.999 -9 76.25 -119.3499984741 -999.999 58 -999.999 -999.999 -999.999 1 -9 -9 8
+MBC 1992 07 01 00 00 00 -999 -9 -9 -9 -9 -9 95.69 -999.999 -9 76.25 -119.3499984741 -999.999 58 -999.999 -999.999 -999.999 1 -9 -9 8
+MBC 1992 08 01 00 00 00 -999 -9 -9 -9 -9 -9 89.40 -999.999 -9 76.25 -119.3499984741 -999.999 58 -999.999 -999.999 -999.999 1 -9 -9 8
+MBC 1992 09 01 00 00 00 -999 -9 -9 -9 -9 -9 102.75 -999.999 -9 76.25 -119.3499984741 -999.999 58 -999.999 -999.999 -999.999 1 -9 -9 8
+MBC 1992 10 01 00 00 00 -999 -9 -9 -9 -9 -9 118.21 -999.999 -9 76.25 -119.3499984741 -999.999 58 -999.999 -999.999 -999.999 1 -9 -9 8
+MBC 1992 11 01 00 00 00 -999 -9 -9 -9 -9 -9 136.57 -999.999 -9 76.25 -119.3499984741 -999.999 58 -999.999 -999.999 -999.999 1 -9 -9 8
+MBC 1992 12 01 00 00 00 -999 -9 -9 -9 -9 -9 156.41 -999.999 -9 76.25 -119.3499984741 -999.999 58 -999.999 -999.999 -999.999 1 -9 -9 8
+MBC 1993 01 01 00 00 00 -999 -9 -9 -9 -9 -9 170.76 -999.999 -9 76.25 -119.3499984741 -999.999 58 -999.999 -999.999 -999.999 1 -9 -9 8
+MBC 1993 02 01 00 00 00 -999 -9 -9 -9 -9 -9 178.81 -999.999 -9 76.25 -119.3499984741 -999.999 58 -999.999 -999.999 -999.999 1 -9 -9 8
+MBC 1993 03 01 00 00 00 -999 -9 -9 -9 -9 -9 186.07 -999.999 -9 76.25 -119.3499984741 -999.999 58 -999.999 -999.999 -999.999 1 -9 -9 8
+MBC 1993 04 01 00 00 00 -999 -9 -9 -9 -9 -9 182.50 -999.999 -9 76.25 -119.3499984741 -999.999 58 -999.999 -999.999 -999.999 1 -9 -9 8
+MBC 1993 05 01 00 00 00 -999 -9 -9 -9 -9 -9 152.50 -999.999 -9 76.25 -119.3499984741 -999.999 58 -999.999 -999.999 -999.999 1 -9 -9 8
+MBC 1993 06 01 00 00 00 -999 -9 -9 -9 -9 -9 110.01 -999.999 -9 76.25 -119.3499984741 -999.999 58 -999.999 -999.999 -999.999 1 -9 -9 8
+MBC 1993 07 01 00 00 00 -999 -9 -9 -9 -9 -9 86.69 -999.999 -9 76.25 -119.3499984741 -999.999 58 -999.999 -999.999 -999.999 1 -9 -9 8
+MBC 1993 08 01 00 00 00 -999 -9 -9 -9 -9 -9 93.01 -999.999 -9 76.25 -119.3499984741 -999.999 58 -999.999 -999.999 -999.999 1 -9 -9 8
+MBC 1993 09 01 00 00 00 -999 -9 -9 -9 -9 -9 107.40 -999.999 -9 76.25 -119.3499984741 -999.999 58 -999.999 -999.999 -999.999 1 -9 -9 8
+MBC 1993 10 01 00 00 00 -999 -9 -9 -9 -9 -9 117.84 -999.999 -9 76.25 -119.3499984741 -999.999 58 -999.999 -999.999 -999.999 1 -9 -9 8
+MBC 1993 11 01 00 00 00 -999 -9 -9 -9 -9 -9 131.30 -999.999 -9 76.25 -119.3499984741 -999.999 58 -999.999 -999.999 -999.999 1 -9 -9 8
+MBC 1993 12 01 00 00 00 -999 -9 -9 -9 -9 -9 147.82 -999.999 -9 76.25 -119.3499984741 -999.999 58 -999.999 -999.999 -999.999 1 -9 -9 8
+MBC 1994 01 01 00 00 00 -999 -9 -9 -9 -9 -9 166.25 -999.999 -9 76.25 -119.3499984741 -999.999 58 -999.999 -999.999 -999.999 1 -9 -9 8
+MBC 1994 02 01 00 00 00 -999 -9 -9 -9 -9 -9 186.59 -999.999 -9 76.25 -119.3499984741 -999.999 58 -999.999 -999.999 -999.999 1 -9 -9 8
+MBC 1994 03 01 00 00 00 -999 -9 -9 -9 -9 -9 198.10 -999.999 -9 76.25 -119.3499984741 -999.999 58 -999.999 -999.999 -999.999 1 -9 -9 8
+MBC 1994 04 01 00 00 00 -999 -9 -9 -9 -9 -9 187.20 -999.999 -9 76.25 -119.3499984741 -999.999 58 -999.999 -999.999 -999.999 1 -9 -9 8
+MBC 1994 05 01 00 00 00 -999 -9 -9 -9 -9 -9 155.01 -999.999 -9 76.25 -119.3499984741 -999.999 58 -999.999 -999.999 -999.999 1 -9 -9 8
+MBC 1994 06 01 00 00 00 -999 -9 -9 -9 -9 -9 120.09 -999.999 -9 76.25 -119.3499984741 -999.999 58 -999.999 -999.999 -999.999 1 -9 -9 8
+MBC 1994 07 01 00 00 00 -999 -9 -9 -9 -9 -9 94.50 -999.999 -9 76.25 -119.3499984741 -999.999 58 -999.999 -999.999 -999.999 1 -9 -9 8
+MBC 1994 08 01 00 00 00 -999 -9 -9 -9 -9 -9 97.97 -999.999 -9 76.25 -119.3499984741 -999.999 58 -999.999 -999.999 -999.999 1 -9 -9 8
+MBC 1994 09 01 00 00 00 -999 -9 -9 -9 -9 -9 116.29 -999.999 -9 76.25 -119.3499984741 -999.999 58 -999.999 -999.999 -999.999 1 -9 -9 8
+MBC 1994 10 01 00 00 00 -999 -9 -9 -9 -9 -9 130.22 -999.999 -9 76.25 -119.3499984741 -999.999 58 -999.999 -999.999 -999.999 1 -9 -9 8
+MBC 1994 11 01 00 00 00 -999 -9 -9 -9 -9 -9 138.96 -999.999 -9 76.25 -119.3499984741 -999.999 58 -999.999 -999.999 -999.999 1 -9 -9 8
+MBC 1994 12 01 00 00 00 -999 -9 -9 -9 -9 -9 151.47 -999.999 -9 76.25 -119.3499984741 -999.999 58 -999.999 -999.999 -999.999 1 -9 -9 8
+MBC 1995 01 01 00 00 00 -999 -9 -9 -9 -9 -9 166.68 -999.999 -9 76.25 -119.3499984741 -999.999 58 -999.999 -999.999 -999.999 1 -9 -9 8
+MBC 1995 02 01 00 00 00 -999 -9 -9 -9 -9 -9 181.65 -999.999 -9 76.25 -119.3499984741 -999.999 58 -999.999 -999.999 -999.999 1 -9 -9 8
+MBC 1995 03 01 00 00 00 -999 -9 -9 -9 -9 -9 190.51 -999.999 -9 76.25 -119.3499984741 -999.999 58 -999.999 -999.999 -999.999 1 -9 -9 8
+MBC 1995 04 01 00 00 00 -999 -9 -9 -9 -9 -9 178.11 -999.999 -9 76.25 -119.3499984741 -999.999 58 -999.999 -999.999 -999.999 1 -9 -9 8
+MBC 1995 05 01 00 00 00 -999 -9 -9 -9 -9 -9 144.45 -999.999 -9 76.25 -119.3499984741 -999.999 58 -999.999 -999.999 -999.999 1 -9 -9 8
+MBC 1995 06 01 00 00 00 -999 -9 -9 -9 -9 -9 111.95 -999.999 -9 76.25 -119.3499984741 -999.999 58 -999.999 -999.999 -999.999 1 -9 -9 8
+MBC 1995 07 01 00 00 00 -999 -9 -9 -9 -9 -9 92.33 -999.999 -9 76.25 -119.3499984741 -999.999 58 -999.999 -999.999 -999.999 1 -9 -9 8
+MBC 1995 08 01 00 00 00 -999 -9 -9 -9 -9 -9 93.13 -999.999 -9 76.25 -119.3499984741 -999.999 58 -999.999 -999.999 -999.999 1 -9 -9 8
+MBC 1995 09 01 00 00 00 -999 -9 -9 -9 -9 -9 102.38 -999.999 -9 76.25 -119.3499984741 -999.999 58 -999.999 -999.999 -999.999 1 -9 -9 8
+MBC 1995 10 01 00 00 00 -999 -9 -9 -9 -9 -9 111.43 -999.999 -9 76.25 -119.3499984741 -999.999 58 -999.999 -999.999 -999.999 1 -9 -9 8
+MBC 1995 11 01 00 00 00 -999 -9 -9 -9 -9 -9 123.95 -999.999 -9 76.25 -119.3499984741 -999.999 58 -999.999 -999.999 -999.999 1 -9 -9 8
+MBC 1995 12 01 00 00 00 -999 -9 -9 -9 -9 -9 142.62 -999.999 -9 76.25 -119.3499984741 -999.999 58 -999.999 -999.999 -999.999 1 -9 -9 8
+MBC 1996 01 01 00 00 00 -999 -9 -9 -9 -9 -9 158.26 -999.999 -9 76.25 -119.3499984741 -999.999 58 -999.999 -999.999 -999.999 1 -9 -9 8
+MBC 1996 02 01 00 00 00 -999 -9 -9 -9 -9 -9 168.97 -999.999 -9 76.25 -119.3499984741 -999.999 58 -999.999 -999.999 -999.999 1 -9 -9 8
+MBC 1996 03 01 00 00 00 -999 -9 -9 -9 -9 -9 176.77 -999.999 -9 76.25 -119.3499984741 -999.999 58 -999.999 -999.999 -999.999 1 -9 -9 8
+MBC 1996 04 01 00 00 00 -999 -9 -9 -9 -9 -9 172.68 -999.999 -9 76.25 -119.3499984741 -999.999 58 -999.999 -999.999 -999.999 1 -9 -9 8
+MBC 1996 05 01 00 00 00 -999 -9 -9 -9 -9 -9 153.10 -999.999 -9 76.25 -119.3499984741 -999.999 58 -999.999 -999.999 -999.999 1 -9 -9 8
+MBC 1996 06 01 00 00 00 -999 -9 -9 -9 -9 -9 118.37 -999.999 -9 76.25 -119.3499984741 -999.999 58 -999.999 -999.999 -999.999 1 -9 -9 8
+MBC 1996 07 01 00 00 00 -999 -9 -9 -9 -9 -9 93.54 -999.999 -9 76.25 -119.3499984741 -999.999 58 -999.999 -999.999 -999.999 1 -9 -9 8
+MBC 1996 08 01 00 00 00 -999 -9 -9 -9 -9 -9 98.00 -999.999 -9 76.25 -119.3499984741 -999.999 58 -999.999 -999.999 -999.999 1 -9 -9 8
+MBC 1996 09 01 00 00 00 -999 -9 -9 -9 -9 -9 112.14 -999.999 -9 76.25 -119.3499984741 -999.999 58 -999.999 -999.999 -999.999 1 -9 -9 8
+MBC 1996 10 01 00 00 00 -999 -9 -9 -9 -9 -9 117.72 -999.999 -9 76.25 -119.3499984741 -999.999 58 -999.999 -999.999 -999.999 1 -9 -9 8
+MBC 1996 11 01 00 00 00 -999 -9 -9 -9 -9 -9 126.52 -999.999 -9 76.25 -119.3499984741 -999.999 58 -999.999 -999.999 -999.999 1 -9 -9 8
+MBC 1996 12 01 00 00 00 -999 -9 -9 -9 -9 -9 143.12 -999.999 -9 76.25 -119.3499984741 -999.999 58 -999.999 -999.999 -999.999 1 -9 -9 8
+MBC 1997 01 01 00 00 00 -999 -9 -9 -9 -9 -9 157.46 -999.999 -9 76.25 -119.3499984741 -999.999 58 -999.999 -999.999 -999.999 1 -9 -9 8
+MBC 1997 02 01 00 00 00 -999 -9 -9 -9 -9 -9 169.82 -999.999 -9 76.25 -119.3499984741 -999.999 58 -999.999 -999.999 -999.999 1 -9 -9 8
+MBC 1997 03 01 00 00 00 -999 -9 -9 -9 -9 -9 178.59 -999.999 -9 76.25 -119.3499984741 -999.999 58 -999.999 -999.999 -999.999 1 -9 -9 8
+MBC 1997 04 01 00 00 00 -999 -9 -9 -9 -9 -9 171.11 -999.999 -9 76.25 -119.3499984741 -999.999 58 -999.999 -999.999 -999.999 1 -9 -9 8
+MBC 1997 05 01 00 00 00 -999 -9 -9 -9 -9 -9 150.13 -999.999 -9 76.25 -119.3499984741 -999.999 58 -999.999 -999.999 -999.999 1 -9 -9 8

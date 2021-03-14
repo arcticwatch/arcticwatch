@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% include 'head.html' %}
+    <title>Atmospheric Pollution</title>
+</head>
+<body>
+    {% include 'nav.html' %}
+    <div class="row" style="margin: 8vh 10vw 5vh 16.5vw;">
+        <div class="col-md-6">
+                <div class="card" style="width: 18rem;">
+                  <img class="card-img-top" src="{{ url_for('static', filename='images/learn/atmospheric_pollution/greenhouse.jpg') }}" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Greenhouse gases</h5>
+                    <p class="card-text">Observe the growth in greenhouse gas concentrations in the Arctic over the past few decades.</p>
+                    <a href="greenhouse_gases" class="btn btn-primary">Go</a>
+                  </div>
+                </div>
+        </div>
+        <div class="col-md-6">
+                <div class="card" style="width: 18rem;">
+                  <img class="card-img-top" src="{{ url_for('static', filename='images/learn/atmospheric_pollution/ozone.jpg') }}" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Ozone-depleting gases</h5>
+                    <p class="card-text">Explore the trends in the concentrations of ozone-depleting gases (ODGs) and their impact.</p>
+                    <a href="ozone_depleting_gases" class="btn btn-primary">Go</a>
+                  </div>
+                </div>
+        </div>
+    </div>
+</body>
+</html>

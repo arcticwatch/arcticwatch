@@ -1,0 +1,50 @@
+
+body {
+    background-color: #42459e;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.card {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.main-layer {
+    margin: 0 !important;
+    position: absolute;
+    width: 100%;
+    height: 100% !important;
+    z-index: 1000;
+}
+
+.text-box {
+    background-color: white;
+    height: 300px !important;
+}
+
+.transparent {
+    opacity: 0.4;
+}
+
+#main-title {
+    position: absolute;
+    top: 40vh;
+    color: white;
+}
+
+#main-btn {
+    position: absolute;
+    top: 60vh;
+    background-color: #413e5e;
+    border: 3px solid #4d4975;
+    opacity: 0.95;
+}
+
+.img-main {
+    opacity: 0.5;
+    width: 100%;
+    height: 100%;
+}

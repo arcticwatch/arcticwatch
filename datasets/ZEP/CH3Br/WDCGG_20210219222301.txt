@@ -1,0 +1,7 @@
+Filename Contact Email
+ch3br_zep_surface-insitu_4_2022-9999_event.txt Chris Lunder chris.lunder@nilu.no
+ch3br_zep_surface-insitu_4_2022-9999_event.txt Ray Wang raywang@eas.gatech.edu
+ch3br_zep_surface-insitu_4_2022-2022_monthly.txt Chris Lunder chris.lunder@nilu.no
+ch3br_zep_surface-insitu_4_2022-2022_monthly.txt Ray Wang raywang@eas.gatech.edu
+ch3br_zep_surface-insitu_4_2022-2021_monthly.txt Chris Lunder chris.lunder@nilu.no
+ch3br_zep_surface-insitu_4_2022-2021_monthly.txt Ray Wang raywang@eas.gatech.edu

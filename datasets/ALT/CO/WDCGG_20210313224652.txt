@@ -1,0 +1,6 @@
+Filename Contact Email
+co_alt_surface-flask_2_3001-9999_monthly.txt Gabrielle Petron Gabrielle.Petron@noaa.gov
+co_alt_surface-flask_16_9999-9999_monthly.txt Ray Langenfelds ray.langenfelds@csiro.au
+co_alt_surface-flask_16_9999-9999_monthly.txt Zoë Loh zoe.loh@csiro.au
+co_alt_surface-flask_16_9999-9999_monthly.txt Paul Krummel paul.krummel@csiro.au
+co_alt_surface-insitu_20_9999-9999_monthly.txt Doug Worthy doug.worthy@canada.ca

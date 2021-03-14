@@ -1,0 +1,266 @@
+# header_lines : 181
+# Data_Set_Name : ch4_tik_surface-flask_46_9999-9999_monthly
+# Data_Set_Version : 0046-2002-1002-01-02-9999_2019-07-02-1719
+# Data_Set_Fair_Use : For Scientific purposes, access to these data is unlimited and provided without charge. By their use you accept that an offer of co-authorship will be made through personal contact with the contributors whenever substantial use is made of their data. In all cases, an acknowledgement must be made to the contributors and to the data centre when these data are used within a publication.
+#
+# GLOBAL ATTRIBUTES
+#
+# site_gaw_id : TIK
+# site_gaw_type : GAW Regional
+# site_name : Tiksi
+# site_country/territory : Russian Federation
+# site_wmo_region : REGION II (Asia)
+# site_address1 : 
+# site_address2 : 
+# site_address3 : 
+# site_latitude : 71.5861663818
+# site_longitude : 128.9188232422
+# site_elevation : 8
+# site_elevation_unit : m
+# site_lst2utc : UTC+09:00
+# site_climate_zone : Dfd
+# site_climate_zone:comment : Snow climate, fully humid, extremely continental
+# dataset_creation_date : 2019-07-12
+# dataset_parameter : ch4
+# dataset_parameter_large_class : Greenhouse Gas
+# dataset_parameter_small_class : 
+# dataset_parameter_name_1 : CH4
+# dataset_parameter_name_2 : methane
+# dataset_parameter_name_3 : 
+# dataset_parameter_name_4 : 
+# dataset_parameter_name_5 : 
+# dataset_project : surface-flask
+# dataset_platform : fixed station
+# dataset_selection : All monthly data
+# dataset_selection_tag : monthly
+# dataset_time_zone : UTC+09:00
+# dataset_start_date : 2011-01-01T00:00:00+09:00
+# dataset_end_date : 2018-12-01T00:00:00+09:00
+# dataset_statistic_code : 1
+# dataset_statistic : contributor
+# dataset_description : Methane (CH4) in ambient and standard air samples is detected using gas chromatography (GC). Air samples are injected into a gas chromatograph (GC) with a sampling valve (volume is 2ml ). Methane (CH4) is separated from other sample constituents using CARBORUS carbon molecular sieve analytical column (50cm length, 3mm inner diameter) and detected using flame ionization (FID).  FID temperature is about 150oC.  The measurement of CH4  in air is made relative to working  standard whose CH4 mole fraction is determined with high precision and accuracy. Calibration of working standard is made against standards from IUP of Heidelberg University and from2010 directly WMO CCL standards. Repeatability of MGO measurements, based on repeated analysis of air from a high-pressure cylinder, has ranged from 1 to 4 nmol/mol over the period of our measurements. The absolute accuracy of MGO scale is estimated at  about 3 nmol/mol., that  is confirmed by the results of WMO Round Robin 6 (2014-2015) Comparison Experiment (https://www.esrl.noaa.gov/gmd/ccgg/wmorr/wmorr_results.php).The samples are collected into two evacuated flasks simultaneously. Stainless steel flasks with electropolished inner walls of 1.5l volume were used in 2011-2013. From 2014 the NOAA ESRL glass flasks of 2l volume are used.
+# dataset_aim_of_observation_code : 1
+# dataset_aim_of_observation : Background observation
+# dataset_buffer_code : 9999
+# dataset_buffer : data1
+# dataset_buffer:comment : default
+# dataset_footnote_code : 9999
+# dataset_footnote : default
+# dataset_footnote:comment : default
+# dataset_processing : The reported data are the mean of the CH4 concentrations measured in two simultaneously sampled flask, if the difference between them is less or equal to 6 ppb. Otherwise, the lower of the two measured values is taken as a daily value if it does not differ from the smoothed concentration curve for more than 2 standard deviations. Technically invalid data are excluded.
+# dataset_hr_mean_processing : 
+# dataset_da_mean_processing : 
+# dataset_mo_mean_processing : Monthly data are the arithmetic mean of selected according to flag description event data.
+# dataset_transition_flag : 0
+# dataset_transition_comment : Dataset was made from entire historical data provided from contributor from 2018 new WDCGG website open onward
+# dataset_reference_total_listed : 0
+# contributor_organization_code : 46
+# contributor_acronym : MGO
+# contributor_name : Voeikov Main Geophysical Observatory
+# contributor_address1 : 
+# contributor_address2 : Voeikov Main Geophysical Observatory
+# contributor_address3 : St. Petersburg, Karbyshev Street 7, Russian Federation, 194021
+# contributor_country/territory : Russian Federation
+# contributor_url : http://voeikovmgo.ru/index.php?lang=en
+# contact_total_listed : 1
+# contact_1_name : Nina Paramonova
+# contact_1_address1 : 
+# contact_1_address2 : Voeikov Main Geophysical Observatory
+# contact_1_address3 : St. Petersburg, Karbyshev Street 7, Russian Federation, 194021
+# contact_1_country/territory : Russian Federation
+# contact_1_organization : Voeikov Main Geophysical Observatory
+# contact_1_organization_acronym : MGO
+# contact_1_organization_url : http://voeikovmgo.ru/index.php?lang=en
+# contact_1_email : reshal@peterlink.ru
+# contact_1_tel : +7-813-70-75-293
+# contact_1_fax : +7-813-70-75-135
+# collaborator_total_listed : 0
+# ORG_QCflag_description : Flag description:
+# ORG_QCflag_description : Retained:
+# ORG_QCflag_description : + . : Concentration difference in two simultaneously sampled flasks is less than established criteria (1 ppmv for CO2 and 6 ppb for CH4). The reported data are the mean of the two measured concentrations.
+# ORG_QCflag_description : S . : Concentration difference in two simultaneously sampled flasks is more than established criteria. The reported data are the lower of the two measured concentrations.
+# ORG_QCflag_description : M. : Only one concentration is available, second flask is off scale or broken.
+# ORG_QCflag_description : 
+# ORG_QCflag_description : Rejected:
+# ORG_QCflag_description : .X : rejected as not representative of background conditions (>2 sigma from the smoothed concentration curve)
+# ORG_QCflag_description : .Z : rejected manually as not representative of background condition.
+# ORG_QCflag_description : .N : rejected due to error in sampling or analysis.
+# intake_height_total_listed : 2
+# intake_height_1 : 2
+# intake_height_1_units : m
+# intake_height_1_start_date : 2011-01-01T00:00:00+09:00
+# intake_height_1_end_date : 2013-12-31T23:59:59+09:00
+# intake_height_2 : 10
+# intake_height_2_units : m
+# intake_height_2_start_date : 2014-01-01T00:00:00+09:00
+# intake_height_2_end_date : 2018-12-01T00:00:00+09:00
+# instrument_total_listed : 1
+# instrument_1 : TZVET-500M, Dzerjinsk, Russia No48
+# instrument_1_measurement_method_type_code : 2
+# instrument_1_measurement_method_name : Gas chromatography (FID)
+# instrument_1_start_date : 2011-01-01T00:00:00+09:00
+# instrument_1_end_date : 2018-12-01T00:00:00+09:00
+# scale_total_listed : 1
+# scale_1_code : 3
+# scale_1_name : WMO CH4 X2004A
+# scale_1_start_date : 2011-01-01T00:00:00+09:00
+# scale_1_end_date : 2018-12-01T00:00:00+09:00
+# observation_status_code : 1
+# observation_status : Operational/Reporting
+# measurement_calibration : GC measurement cycle consists of a working standard gas injection followed by sampled air injection. Measurement procedure for each flask sample consists of five cycles. Working standard gas is calibrated against laboratory standard ones a day during flask measurements.
+# sampling_frequency_code : 2
+# sampling_frequency : weekly
+#
+# VARIABLE ATTRIBUTES
+#
+# site_gaw_id:long_name : unique_station/mobile_identifiers.
+# site_gaw_id:comment : 3-letter site identification code as defined by GAWSIS for stationary platforms
+# time_components:_FillValue : -999 or -9
+# time_components:long_name : integer_components_of_LST_date/time
+# time_components:order : year, month, day, hour, minute, second
+# time_components:comment : Air sample collection time (LST) represented as a 6-element array [year, month, day, hour, minute, second]. Calendar time components as integers.
+# value:_FillValue : -999.999
+# value:units : ppb
+# value:long_name : measured_mole_fraction_of_trace_gas_in_dry_air
+# value:comment : Reported mole fraction, isotope ratio or radioactivity. Units depend on trace gas species.
+# value_unc:_FillValue : -999.999
+# value_unc:units : ppb
+# value_unc:long_name : estimated_uncertainty_in_reported_value
+# value_unc:comment : Standard deviation of the reported mean value when nvalue is greater than 1. Units depend on trace gas species.
+# nvalue:_FillValue : -9
+# nvalue:long_name : number_of_measurements_contributing_to_reported_value
+# nvalue:comment : Number of individual measurements used to compute reported values.
+# latitude:_FillValue : -999.999999999
+# latitude:standard_name : latitude
+# latitude:long_name : sample_latitude_in_decimal_degrees
+# latitude:units : degrees_north
+# latitude:comment : Latitude of sampling location in decimal degrees (north: +; south: -)
+# longitude:_FillValue : -999.999999999
+# longitude:standard_name : longitude
+# longitude:long_name : sample_longitude_in_decimal_degrees
+# longitude:units : degrees_east
+# longitude:comment : Longitude of sampling location in decimal degrees (east: +; west: -)
+# altitude:_FillValue : -999.999
+# altitude:standard_name : altitude
+# altitude:long_name : sample_altitude_in_meters_above_sea_level
+# altitude:units : m
+# altitude:comment : Altitude (elevation + intake height) of air sample collection. Units are meters above sea level (masl).
+# elevation:_FillValue : -999.999
+# elevation:standard_name : elevation
+# elevation:long_name : surface_elevation_in_meters_above_sea_level
+# elevation:units : m
+# elevation:comment : Station height (m) above sea level
+# intake_height:_FillValue : -999.999
+# intake_height:long_name : sample_intake_height_in_meters_above_ground_level
+# intake_height:units : m
+# intake_height:comment : Sampling height (depth) of air (seawater) above ground (below sea level) (height: +; depth: -) (m)
+# flask_no:_FillValue : -999.999
+# flask_no:long_name : sample_flask_no
+# flask_no:comment : Identification code (or number) of flask used for observation
+# ORG_QCflag:_FillValue : -999.999
+# ORG_QCflag:long_name : original_quality_control_flag
+# ORG_QCflag:comment : Details of original data quality control flags should be specified by contributors in metadata.
+# QCflag:_FillValue : -9
+# QCflag:long_name : quality_control_flag
+# QCflag:comment : 1 Valid (background) data considered "background"
+# QCflag:comment : 2 Valid data considered valid other than "background"
+# QCflag:comment : 3 Invalid data considered unfit for use (questionable/erroneous/absent data)
+# QCflag:comment : Details of correspondence between original data quality control flags and WDCGG data flags should be specified by contributors in metadata.
+# instrument:_FillValue : -9
+# instrument:long_name : instrument_ID_to_detect_atmospheric_parameter
+# instrument:comment : A numeric field that identifies the instrument.
+# measurement_method:_FillValue : -9
+# measurement_method:long_name : measurement_method_history
+# measurement_method:comment : A numeric field that identifies the measurement method.
+# scale:_FillValue : -9
+# scale:long_name : calibration_scale_history
+# scale:comment : A numeric field that identifies the calibration scale. Measurements are relative to reported calibration scale.
+#
+# VARIABLE ORDER
+#
+# site_gaw_id year month day hour minute second year month day hour minute second value value_unc nvalue latitude longitude altitude elevation intake_height flask_no ORG_QCflag QCflag instrument measurement_method scale
+TIK 2011 01 01 00 00 00 -999 -9 -9 -9 -9 -9 -999.999 -999.999 0 71.586166 128.91883 10 8 2 -999.999 -999.999 3 1 2 3
+TIK 2011 02 01 00 00 00 -999 -9 -9 -9 -9 -9 1931.12 14.74 3 71.586166 128.91883 10 8 2 -999.999 -999.999 1 1 2 3
+TIK 2011 03 01 00 00 00 -999 -9 -9 -9 -9 -9 1915.68 13.19 4 71.586166 128.91883 10 8 2 -999.999 -999.999 1 1 2 3
+TIK 2011 04 01 00 00 00 -999 -9 -9 -9 -9 -9 1909.65 24.45 4 71.586166 128.91883 10 8 2 -999.999 -999.999 1 1 2 3
+TIK 2011 05 01 00 00 00 -999 -9 -9 -9 -9 -9 1887.74 9.44 5 71.586166 128.91883 10 8 2 -999.999 -999.999 1 1 2 3
+TIK 2011 06 01 00 00 00 -999 -9 -9 -9 -9 -9 1886.56 24.54 4 71.586166 128.91883 10 8 2 -999.999 -999.999 1 1 2 3
+TIK 2011 07 01 00 00 00 -999 -9 -9 -9 -9 -9 1894.24 18.69 4 71.586166 128.91883 10 8 2 -999.999 -999.999 1 1 2 3
+TIK 2011 08 01 00 00 00 -999 -9 -9 -9 -9 -9 1903.48 48.32 3 71.586166 128.91883 10 8 2 -999.999 -999.999 1 1 2 3
+TIK 2011 09 01 00 00 00 -999 -9 -9 -9 -9 -9 1911.96 14.24 4 71.586166 128.91883 10 8 2 -999.999 -999.999 1 1 2 3
+TIK 2011 10 01 00 00 00 -999 -9 -9 -9 -9 -9 1930.96 22.20 5 71.586166 128.91883 10 8 2 -999.999 -999.999 1 1 2 3
+TIK 2011 11 01 00 00 00 -999 -9 -9 -9 -9 -9 1924.45 3.17 4 71.586166 128.91883 10 8 2 -999.999 -999.999 1 1 2 3
+TIK 2011 12 01 00 00 00 -999 -9 -9 -9 -9 -9 1943.11 18.71 3 71.586166 128.91883 10 8 2 -999.999 -999.999 1 1 2 3
+TIK 2012 01 01 00 00 00 -999 -9 -9 -9 -9 -9 1939.15 18.13 4 71.586166 128.91883 10 8 2 -999.999 -999.999 1 1 2 3
+TIK 2012 02 01 00 00 00 -999 -9 -9 -9 -9 -9 1921.94 22.44 4 71.586166 128.91883 10 8 2 -999.999 -999.999 1 1 2 3
+TIK 2012 03 01 00 00 00 -999 -9 -9 -9 -9 -9 -999.999 -999.999 0 71.586166 128.91883 10 8 2 -999.999 -999.999 3 1 2 3
+TIK 2012 04 01 00 00 00 -999 -9 -9 -9 -9 -9 1922.18 12.88 5 71.586166 128.91883 10 8 2 -999.999 -999.999 1 1 2 3
+TIK 2012 05 01 00 00 00 -999 -9 -9 -9 -9 -9 1896.69 7.45 4 71.586166 128.91883 10 8 2 -999.999 -999.999 1 1 2 3
+TIK 2012 06 01 00 00 00 -999 -9 -9 -9 -9 -9 1888.46 17.95 3 71.586166 128.91883 10 8 2 -999.999 -999.999 1 1 2 3
+TIK 2012 07 01 00 00 00 -999 -9 -9 -9 -9 -9 1883.68 8.86 3 71.586166 128.91883 10 8 2 -999.999 -999.999 1 1 2 3
+TIK 2012 08 01 00 00 00 -999 -9 -9 -9 -9 -9 1888.31 -999.999 1 71.586166 128.91883 10 8 2 -999.999 -999.999 1 1 2 3
+TIK 2012 09 01 00 00 00 -999 -9 -9 -9 -9 -9 1909.85 17.15 4 71.586166 128.91883 10 8 2 -999.999 -999.999 1 1 2 3
+TIK 2012 10 01 00 00 00 -999 -9 -9 -9 -9 -9 1915.92 19.73 4 71.586166 128.91883 10 8 2 -999.999 -999.999 1 1 2 3
+TIK 2012 11 01 00 00 00 -999 -9 -9 -9 -9 -9 1910.66 10.39 2 71.586166 128.91883 10 8 2 -999.999 -999.999 1 1 2 3
+TIK 2012 12 01 00 00 00 -999 -9 -9 -9 -9 -9 1928.37 9.67 3 71.586166 128.91883 10 8 2 -999.999 -999.999 1 1 2 3
+TIK 2013 01 01 00 00 00 -999 -9 -9 -9 -9 -9 1939.83 12.24 3 71.586166 128.91883 10 8 2 -999.999 -999.999 1 1 2 3
+TIK 2013 02 01 00 00 00 -999 -9 -9 -9 -9 -9 1958.97 10.86 4 71.586166 128.91883 10 8 2 -999.999 -999.999 1 1 2 3
+TIK 2013 03 01 00 00 00 -999 -9 -9 -9 -9 -9 1933.79 17.86 4 71.586166 128.91883 10 8 2 -999.999 -999.999 1 1 2 3
+TIK 2013 04 01 00 00 00 -999 -9 -9 -9 -9 -9 1906.60 4.14 4 71.586166 128.91883 10 8 2 -999.999 -999.999 1 1 2 3
+TIK 2013 05 01 00 00 00 -999 -9 -9 -9 -9 -9 1904.03 14.43 4 71.586166 128.91883 10 8 2 -999.999 -999.999 1 1 2 3
+TIK 2013 06 01 00 00 00 -999 -9 -9 -9 -9 -9 1887.03 5.71 4 71.586166 128.91883 10 8 2 -999.999 -999.999 1 1 2 3
+TIK 2013 07 01 00 00 00 -999 -9 -9 -9 -9 -9 1882.83 8.03 4 71.586166 128.91883 10 8 2 -999.999 -999.999 1 1 2 3
+TIK 2013 08 01 00 00 00 -999 -9 -9 -9 -9 -9 1902.98 8.38 2 71.586166 128.91883 10 8 2 -999.999 -999.999 1 1 2 3
+TIK 2013 09 01 00 00 00 -999 -9 -9 -9 -9 -9 1902.46 9.69 2 71.586166 128.91883 10 8 2 -999.999 -999.999 1 1 2 3
+TIK 2013 10 01 00 00 00 -999 -9 -9 -9 -9 -9 1914.18 12.41 4 71.586166 128.91883 10 8 2 -999.999 -999.999 1 1 2 3
+TIK 2013 11 01 00 00 00 -999 -9 -9 -9 -9 -9 1920.05 5.83 4 71.586166 128.91883 10 8 2 -999.999 -999.999 1 1 2 3
+TIK 2013 12 01 00 00 00 -999 -9 -9 -9 -9 -9 1928.99 7.73 5 71.586166 128.91883 10 8 2 -999.999 -999.999 1 1 2 3
+TIK 2014 01 01 00 00 00 -999 -9 -9 -9 -9 -9 1945.18 18.38 4 71.586166 128.91883 18 8 10 -999.999 -999.999 1 1 2 3
+TIK 2014 02 01 00 00 00 -999 -9 -9 -9 -9 -9 1942.74 9.96 4 71.586166 128.91883 18 8 10 -999.999 -999.999 1 1 2 3
+TIK 2014 03 01 00 00 00 -999 -9 -9 -9 -9 -9 1942.29 5.78 4 71.586166 128.91883 18 8 10 -999.999 -999.999 1 1 2 3
+TIK 2014 04 01 00 00 00 -999 -9 -9 -9 -9 -9 1914.71 5.50 4 71.586166 128.91883 18 8 10 -999.999 -999.999 1 1 2 3
+TIK 2014 05 01 00 00 00 -999 -9 -9 -9 -9 -9 1902.98 12.60 4 71.586166 128.91883 18 8 10 -999.999 -999.999 1 1 2 3
+TIK 2014 06 01 00 00 00 -999 -9 -9 -9 -9 -9 1921.61 19.45 5 71.586166 128.91883 18 8 10 -999.999 -999.999 1 1 2 3
+TIK 2014 07 01 00 00 00 -999 -9 -9 -9 -9 -9 1935.80 21.11 4 71.586166 128.91883 18 8 10 -999.999 -999.999 1 1 2 3
+TIK 2014 08 01 00 00 00 -999 -9 -9 -9 -9 -9 1931.98 23.04 3 71.586166 128.91883 18 8 10 -999.999 -999.999 1 1 2 3
+TIK 2014 09 01 00 00 00 -999 -9 -9 -9 -9 -9 1929.28 20.37 4 71.586166 128.91883 18 8 10 -999.999 -999.999 1 1 2 3
+TIK 2014 10 01 00 00 00 -999 -9 -9 -9 -9 -9 1934.73 14.04 4 71.586166 128.91883 18 8 10 -999.999 -999.999 1 1 2 3
+TIK 2014 11 01 00 00 00 -999 -9 -9 -9 -9 -9 1932.60 4.73 4 71.586166 128.91883 18 8 10 -999.999 -999.999 1 1 2 3
+TIK 2014 12 01 00 00 00 -999 -9 -9 -9 -9 -9 1935.21 19.66 5 71.586166 128.91883 18 8 10 -999.999 -999.999 1 1 2 3
+TIK 2015 01 01 00 00 00 -999 -9 -9 -9 -9 -9 1942.17 24.64 4 71.586166 128.91883 18 8 10 -999.999 -999.999 1 1 2 3
+TIK 2015 02 01 00 00 00 -999 -9 -9 -9 -9 -9 1943.68 29.05 3 71.586166 128.91883 18 8 10 -999.999 -999.999 1 1 2 3
+TIK 2015 03 01 00 00 00 -999 -9 -9 -9 -9 -9 1938.59 8.51 5 71.586166 128.91883 18 8 10 -999.999 -999.999 1 1 2 3
+TIK 2015 04 01 00 00 00 -999 -9 -9 -9 -9 -9 1928.58 6.76 4 71.586166 128.91883 18 8 10 -999.999 -999.999 1 1 2 3
+TIK 2015 05 01 00 00 00 -999 -9 -9 -9 -9 -9 1917.80 8.94 5 71.586166 128.91883 18 8 10 -999.999 -999.999 1 1 2 3
+TIK 2015 06 01 00 00 00 -999 -9 -9 -9 -9 -9 1918.88 20.03 4 71.586166 128.91883 18 8 10 -999.999 -999.999 1 1 2 3
+TIK 2015 07 01 00 00 00 -999 -9 -9 -9 -9 -9 1926.39 29.97 4 71.586166 128.91883 18 8 10 -999.999 -999.999 1 1 2 3
+TIK 2015 08 01 00 00 00 -999 -9 -9 -9 -9 -9 1936.99 28.94 4 71.586166 128.91883 18 8 10 -999.999 -999.999 1 1 2 3
+TIK 2015 09 01 00 00 00 -999 -9 -9 -9 -9 -9 1952.88 26.24 3 71.586166 128.91883 18 8 10 -999.999 -999.999 1 1 2 3
+TIK 2015 10 01 00 00 00 -999 -9 -9 -9 -9 -9 1970.59 14.24 3 71.586166 128.91883 18 8 10 -999.999 -999.999 1 1 2 3
+TIK 2015 11 01 00 00 00 -999 -9 -9 -9 -9 -9 1950.50 20.24 4 71.586166 128.91883 18 8 10 -999.999 -999.999 1 1 2 3
+TIK 2015 12 01 00 00 00 -999 -9 -9 -9 -9 -9 1953.86 18.43 4 71.586166 128.91883 18 8 10 -999.999 -999.999 1 1 2 3
+TIK 2016 01 01 00 00 00 -999 -9 -9 -9 -9 -9 1954.92 29.59 2 71.586166 128.91883 18 8 10 -999.999 -999.999 1 1 2 3
+TIK 2016 02 01 00 00 00 -999 -9 -9 -9 -9 -9 1940.21 15.47 5 71.586166 128.91883 18 8 10 -999.999 -999.999 1 1 2 3
+TIK 2016 03 01 00 00 00 -999 -9 -9 -9 -9 -9 1963.84 13.65 2 71.586166 128.91883 18 8 10 -999.999 -999.999 1 1 2 3
+TIK 2017 03 01 00 00 00 -999 -9 -9 -9 -9 -9 1938.65 -999.999 1 71.586166 128.91883 18 8 10 -999.999 -999.999 1 1 2 3
+TIK 2017 04 01 00 00 00 -999 -9 -9 -9 -9 -9 1953.41 8.29 4 71.586166 128.91883 18 8 10 -999.999 -999.999 1 1 2 3
+TIK 2017 05 01 00 00 00 -999 -9 -9 -9 -9 -9 1930.49 6.07 5 71.586166 128.91883 18 8 10 -999.999 -999.999 1 1 2 3
+TIK 2017 06 01 00 00 00 -999 -9 -9 -9 -9 -9 1928.09 15.43 3 71.586166 128.91883 18 8 10 -999.999 -999.999 1 1 2 3
+TIK 2017 07 01 00 00 00 -999 -9 -9 -9 -9 -9 1924.70 18.23 5 71.586166 128.91883 18 8 10 -999.999 -999.999 1 1 2 3
+TIK 2017 08 01 00 00 00 -999 -9 -9 -9 -9 -9 1944.88 17.66 3 71.586166 128.91883 18 8 10 -999.999 -999.999 1 1 2 3
+TIK 2017 09 01 00 00 00 -999 -9 -9 -9 -9 -9 1954.03 14.65 4 71.586166 128.91883 18 8 10 -999.999 -999.999 1 1 2 3
+TIK 2017 10 01 00 00 00 -999 -9 -9 -9 -9 -9 1951.04 13.62 4 71.586166 128.91883 18 8 10 -999.999 -999.999 1 1 2 3
+TIK 2017 11 01 00 00 00 -999 -9 -9 -9 -9 -9 1962.95 14.38 4 71.586166 128.91883 18 8 10 -999.999 -999.999 1 1 2 3
+TIK 2017 12 01 00 00 00 -999 -9 -9 -9 -9 -9 1963.94 -999.999 1 71.586166 128.91883 18 8 10 -999.999 -999.999 1 1 2 3
+TIK 2018 01 01 00 00 00 -999 -9 -9 -9 -9 -9 1977.76 20.75 2 71.586166 128.91883 18 8 10 -999.999 -999.999 1 1 2 3
+TIK 2018 02 01 00 00 00 -999 -9 -9 -9 -9 -9 1966.06 14.05 3 71.586166 128.91883 18 8 10 -999.999 -999.999 1 1 2 3
+TIK 2018 03 01 00 00 00 -999 -9 -9 -9 -9 -9 1969.41 9.02 4 71.586166 128.91883 18 8 10 -999.999 -999.999 1 1 2 3
+TIK 2018 04 01 00 00 00 -999 -9 -9 -9 -9 -9 1975.84 10.00 4 71.586166 128.91883 18 8 10 -999.999 -999.999 1 1 2 3
+TIK 2018 05 01 00 00 00 -999 -9 -9 -9 -9 -9 1949.46 12.76 5 71.586166 128.91883 18 8 10 -999.999 -999.999 1 1 2 3
+TIK 2018 06 01 00 00 00 -999 -9 -9 -9 -9 -9 1939.32 17.04 4 71.586166 128.91883 18 8 10 -999.999 -999.999 1 1 2 3
+TIK 2018 07 01 00 00 00 -999 -9 -9 -9 -9 -9 1918.17 5.90 3 71.586166 128.91883 18 8 10 -999.999 -999.999 1 1 2 3
+TIK 2018 08 01 00 00 00 -999 -9 -9 -9 -9 -9 1969.00 -999.999 1 71.586166 128.91883 18 8 10 -999.999 -999.999 1 1 2 3
+TIK 2018 09 01 00 00 00 -999 -9 -9 -9 -9 -9 1942.93 7.31 3 71.586166 128.91883 18 8 10 -999.999 -999.999 1 1 2 3
+TIK 2018 10 01 00 00 00 -999 -9 -9 -9 -9 -9 1964.94 5.14 5 71.586166 128.91883 18 8 10 -999.999 -999.999 1 1 2 3
+TIK 2018 11 01 00 00 00 -999 -9 -9 -9 -9 -9 1970.49 9.54 2 71.586166 128.91883 18 8 10 -999.999 -999.999 1 1 2 3
+TIK 2018 12 01 00 00 00 -999 -9 -9 -9 -9 -9 1980.95 6.52 4 71.586166 128.91883 18 8 10 -999.999 -999.999 1 1 2 3

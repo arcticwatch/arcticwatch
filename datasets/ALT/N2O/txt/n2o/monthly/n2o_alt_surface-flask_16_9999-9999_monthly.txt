@@ -1,0 +1,570 @@
+# header_lines : 240
+# Data_Set_Name : n2o_alt_surface-flask_16_9999-9999_monthly
+# Data_Set_Version : 0016-4001-1003-01-02-9999_2020-08-17-1359
+# Data_Set_Fair_Use : For Scientific purposes, access to these data is unlimited and provided without charge. By their use you accept that an offer of co-authorship will be made through personal contact with the contributors whenever substantial use is made of their data. In all cases, an acknowledgement must be made to the contributors and to the data centre when these data are used within a publication.
+#
+# GLOBAL ATTRIBUTES
+#
+# site_gaw_id : ALT
+# site_gaw_type : GAW Global
+# site_name : Alert
+# site_country/territory : Canada
+# site_wmo_region : REGION IV (North and Central America)
+# site_address1 : 
+# site_address2 : 
+# site_address3 : 
+# site_latitude : 82.4991455078
+# site_longitude : -62.3415260315
+# site_elevation : 185
+# site_elevation_unit : m
+# site_lst2utc : UTC-05:00
+# site_climate_zone : ET
+# site_climate_zone:comment : Tundra climate
+# dataset_creation_date : 2020-08-24
+# dataset_parameter : n2o
+# dataset_parameter_large_class : Greenhouse Gas
+# dataset_parameter_small_class : 
+# dataset_parameter_name_1 : N2O
+# dataset_parameter_name_2 : dinitrogen monoxide
+# dataset_parameter_name_3 : nitrous oxide
+# dataset_parameter_name_4 : 
+# dataset_parameter_name_5 : 
+# dataset_project : surface-flask
+# dataset_platform : fixed station
+# dataset_selection : All monthly data
+# dataset_selection_tag : monthly
+# dataset_time_zone : UTC
+# dataset_start_date : 1992-07-01T00:00:00Z
+# dataset_end_date : 2019-12-01T00:00:00Z
+# dataset_statistic_code : 1
+# dataset_statistic : contributor
+# dataset_description : CSIRO GASLAB flask N2O data measured by Gas Chromatography (ECD)
+# dataset_aim_of_observation_code : 1
+# dataset_aim_of_observation : Background observation
+# dataset_buffer_code : 9999
+# dataset_buffer : data1
+# dataset_buffer:comment : default
+# dataset_footnote_code : 9999
+# dataset_footnote : default
+# dataset_footnote:comment : default
+# dataset_processing : Flask data are assigned flags to indicate whether they are classified as retained or rejected. Cause of rejection falls into three broad categories: (i) the sample is considered to be not representative of the atmosphere at the time and place of sampling due to identified or inferred sampling or analytical problems (eg. sample contamination, poor analysis), (ii) the sample is considered to be “non-baseline” as indicated by the meteorological conditions at the time of sampling and (iii) any remaining outliers are flagged on the basis of a 3-sigma filter (geographically fixed sites only). For completeness, all data are included here, regardless of whether they are retained or rejected. Please note that for routine “baseline” applications, any rejected data must be actively excluded from the provided data sets, while for “non-baseline” applications data flagged under categories (ii) and (iii) above may carry biogeochemical information (see DATA FORMAT section below). Also, further data selection may be desirable for those data sets that cannot be screened by the 3-sigma filter (e.g. AIA; aircraft).
+# dataset_hr_mean_processing : 
+# dataset_da_mean_processing : 
+# dataset_mo_mean_processing : Monthly means are calculated as the mean of daily values from a smooth curve fit to the baseline data (with flags "...") using the curve-fitting routines described by Thoning et al., JGR, 1989.
+# dataset_mo_mean_processing : The std devs for the monthly means are calculated from the std dev of the monthly mean from the daily smooth curve values and the std dev of the residuals of each data point about the smooth curve for that month.
+# dataset_transition_flag : 0
+# dataset_transition_comment : Dataset was made from entire historical data provided from contributor from 2018 new WDCGG website open onward
+# dataset_reference_total_listed : 29
+# dataset_reference_1_name : Hall, B. D., G. S. Dutton, and J. W. Elkins, The NOAA nitrous oxide standard scale for atmospheric observations, J. Geophys. Res., 112, D09305, doi:10.1029/2006JD007954, 2007.
+# dataset_reference_2_name : Thoning, K.W., P.P. Tans and W.D. Komhyr, Atmospheric carbon dioxide at Mauna Loa Observatory, 2, Analysis of the NOAA/GMCC data, 1974 - 1985, J. Geophys. Res., 94, 8549-8565, 1989.
+# dataset_reference_3_name : Bhattacharya, S.K., D.V. Borole, R.J. Francey, C.E. Allison, L.P. Steele, P. Krummel, R. Langenfelds, K.A. Masarie, Y.K. Tiwari and P.K. Patra, Trace gases and CO2 isotope records from Cabo de Rama, India, Current Science, 97, 9, 2009.
+# dataset_reference_4_name : Pak, B.C., Vertical structure of atmospheric trace gases over Southeast Australia, PhD Thesis, University of Melbourne, Australia, 273 pp. (available at the University of Melbourne ePrints Repository via http://www.lib.unimelb.edu.au/eprints/), 2000.
+# dataset_reference_5_name : Cooper, L.N., L.P. Steele, R.L. Langenfelds, D.A. Spencer and M.P. Lucarelli. Atmospheric methane, carbon dioxide, hydrogen, carbon monoxide and nitrous oxide from Cape Grim flask air samples analysed by gas chromatography. Baseline Atmospheric Program (Australia) 1996, edited by J.L. Gras, N. Derek, N.W. Tindale and A.L. Dick, pp 98 - 102, Bureau of Meteorology and CSIRO Atmospheric Research, Melbourne, Australia, 1999.
+# dataset_reference_6_name : Francey, R.J., L.P. Steele, R.L. Langenfelds, M.P. Lucarelli, C.E. Allison, D.J. Beardsmore, S.A. Coram, N. Derek, F.R. de Silva, D.M. Etheridge, P.J. Fraser, R.J. Henry, B. Turner, E.D. Welch, D.A. Spencer and L.N. Cooper. Global Atmospheric Sampling Laboratory (GASLAB): supporting and extending the Cape Grim trace gas programs. Baseline Atmospheric Program (Australia) 1993, edited by R.J. Francey, A.L. Dick and N. Derek, pp 8 - 29, Bureau of Meteorology and CSIRO Division of Atmospheric Research, Melbourne, Australia, 1996.
+# dataset_reference_7_name : Francey, R.J., L.P. Steele, R.L. Langenfelds, C.E. Allison, L.N. Cooper. B.L. Dunse, B.G. Bell, T.D. Murray, H.S. Tait, L. Thompson and K.A. Masarie. Atmospheric carbon dioxide and its isotopes, methane, carbon monoxide, nitrous oxide and hydrogen from Shetland. Atmos. Environ., 32, 3331-3338, 1998.
+# dataset_reference_8_name : Francey, R.J., L.P. Steele, R.L. Langenfelds and B.C. Pak, High precision long-term monitoring of radiatively-active trace gases at surface sites and from ships and aircraft in the Southern Hemisphere atmosphere. J. Atmos. Science, 56, 279-285, 1999.
+# dataset_reference_9_name : Francey, R.J., L.P. Steele, D.A. Spencer, R.L. Langenfelds, R.M. Law, P.B. Krummel, P.J. Fraser, D.M. Etheridge, N. Derek, S.A. Coram, L.N. Cooper, C.E. Allison, L. Porter and S. Baly, The CSIRO (Australia) measurement of greenhouse gases in the global atmosphere, report of the 11th WMO/IAEA Meeting of Experts on Carbon Dioxide Concentration and Related Tracer Measurement Techniques, Tokyo, Japan, September 2001, S.Toru and S. Kazuto (editors), World Meteorological Organization Global Atmosphere Watch, 97-111, 2003.
+# dataset_reference_10_name : Hall, B. D., A. Engel, J. Muhle, J. W. Elkins, F. Artuso, E. Atlas, M. Aydin, D. Blake, E. Brunke, S. Chiavarini, P. J. Fraser, J. Happell, P. B. Krummel, I. Levin, M. Loewenstein, M. Maione, S. A. Montzka, S. O'Doherty, S. Reimann, J. Rhoderick, E. Saltzman, H. E. Scheel, L. P. Steele, M. Vollmer, R. Weiss, D. Worthy and Y. Yokouchi, Results from the International Halocarbons in Air Comparison Experiment (IHALACE), Atmos. Meas. Tech., 7, 469-490, doi:10.5194/amt-7-469-2014, 2014.
+# dataset_reference_11_name : Huang, J., A. Golombek, R. Prinn, R. Weiss, P. Fraser, P. Simmonds, E.J. Dlugokencky, B. Hall, J. Elkins, P. Steele, R. Langenfelds, P. Krummel, G. Dutton and L. Porter, Estimation of regional emissions of nitrous oxide from 1997 to 2005 using multinetwork measurements, a chemical transport model, and an inverse method, J. Geophys. Res., 113, D17313, doi:10.1029/2007JD009381, 2008.
+# dataset_reference_12_name : Ishijima, K., P.K. Patra, M. Takigawa, T. Machida, H. Matsueda, Y. Sawa, L.P. Steele, P.B. Krummel, R.L. Langenfelds, S. Aoki and T. Nakazawa, Stratospheric influence on the seasonal cycle of nitrous oxide in the troposphere as deduced from aircraft observations and model simulations , J. Geophys. Res., 115, D20308, doi:10.1029/2009JD013322, 2010.
+# dataset_reference_13_name : Langenfelds, R.L., R.J. Francey, L.P. Steele, P.J. Fraser, S.A. Coram, M.R. Hayes, D.J. Beardsmore, M.P. Lucarelli, and F.R. de Silva, Improved vertical sampling of the trace gas composition of the troposphere above Cape Grim since 1991, in Baseline Atmospheric Program (Australia) 1993, edited by R.J. Francey, A.L. Dick and N. Derek, pp 45-56, Bureau of Meteorology and CSIRO Division of Atmospheric Research, Melbourne, Australia, 1996.
+# dataset_reference_14_name : Langenfelds, R.L., L.N. Cooper, L.P. Steele, D.A. Spencer, P.B. Krummel and P.J. Fraser. Atmospheric methane, carbon dioxide, hydrogen, carbon monoxide and nitrous oxide from Cape Grim flask air samples analysed by gas chromatography. Baseline Atmospheric Program (Australia) 1997-98, edited by N.W. Tindale, N. Derek, and R.J. Francey, pp 69 - 74, Bureau of Meteorology and CSIRO Atmospheric Research, Melbourne, Australia, 2001a.
+# dataset_reference_15_name : Langenfelds, R.L., R.J. Francey, L.P. Steele, D.A. Spencer and B.L. Dunse, Flask sampling from Cape Grim overflights, in Baseline Atmospheric Program (Australia) 1997-98, edited by N.W. Tindale, N. Derek and R.J. Francey, pp 74 - 84, Bureau of Meteorology and CSIRO Atmospheric Research, Melbourne, Australia, 2001b.
+# dataset_reference_16_name : Langenfelds, R.L., Studies of the global carbon cycle using atmospheric oxygen and associated tracers, PhD thesis, University of Tasmania, Hobart, Australia, 320 pp., 2002.
+# dataset_reference_17_name : Langenfelds, R.L., P.B. Krummel, C.E. Allison, R.J. Francey, L.P. Steele, L.N. Cooper, D.E.J. Worthy, L. Huang, M. Ernst and A. Chivulescu, Intercomparison of MSC and CSIRO trace gas data from Alert and Estevan Point, Canadian Baseline Program Summary of Progress to 2002, Meteorological Service of Canada, 67-76, 2003a.
+# dataset_reference_18_name : Langenfelds, R.L., R.J. Francey, L.P. Steele, B.L. Dunse, T.M. Butler, D.A. Spencer, L.M. Kivlighon and C.P. Meyer, Flask sampling from Cape Grim overflights, in Baseline Atmospheric Program (Australia) 1999-2000, edited by N.W. Tindale, N. Derek and P.J. Fraser, pp 73 - 75, Bureau of Meteorology and CSIRO Atmospheric Research, Melbourne, Australia, 2003b.
+# dataset_reference_19_name : Langenfelds, R.L., M.V. van der Schoot, L.P. Steele, L.N. Cooper, D.A.Spencer and P.B. Krummel, Atmospheric methane, carbon dioxide, hydrogen, carbon monoxide and nitrous oxide from Cape Grim flask air samples analysed by gas chromatography. Baseline Atmospheric Program (Australia) 2001-2002, edited by J. Cainey, N. Derek, and P.B. Krummel, pp 46 - 47, Bureau of Meteorology and CSIRO Atmospheric Research, Melbourne, Australia, 2004.
+# dataset_reference_20_name : Nevison, C.D., E. Dlugokencky, G. Dutton, J.W. Elkins, P. Fraser, B. Hall, P.B. Krummel, R.L. Langenfelds, S. O'Doherty, R.G. Prinn, L.P. Steele & R.F. Weiss, Exploring causes of interannual variability in the seasonal cycles of tropospheric nitrous oxide, Atmos. Chem. Phys., 11, doi:10.5194/acp-11-1-2011, 1-18, 2011.
+# dataset_reference_21_name : Pak, B.C., R.L. Langenfelds, R.J. Francey, L.P. Steele and I. Simmonds, A climatology of trace gases from the Cape Grim overflights, 1992 - 1995, in Baseline Atmospheric Program (Australia) 1994-5, edited by R.J. Francey, A.L. Dick and N. Derek, pp 41 - 52, Bureau of Meteorology and CSIRO Division of Atmospheric Research, Melbourne, Australia, 1996.
+# dataset_reference_22_name : Pak, B. C., R.L. Langenfelds, S.A. Young, R.J. Francey, C.P. Meyer, L.M. Kivlighon, L.N. Cooper, B.L. Dunse, C.E. Allison, L.P. Steele, I.E. Galbally and I.A. Weeks, Measurements of biomass burning influences in the troposphere over southeast Australia during the SAFARI 2000 dry season campaign, J. Geophys. Res., 108(D13), 8480, doi:10.1029/2002JD002343, 2003.
+# dataset_reference_23_name : Saikawa, E., R. G. Prinn, E. Dlugokencky, K. Ishijima, G. S. Dutton, B. D. Hall, R. L. Langenfelds, Y. Tohjima, T. Machida, M. Manizza, M. Rigby, S. O'Doherty, P. K. Patra, C. M. Harth, R. F. Weiss, P. B. Krummel, M. van der Schoot, P. J. Fraser, L. P. Steele, S. Aoki, T. Nakazawa, and J. W. Elkins, Global and regional emissions estimates for N2O, Atmos. Chem. Phys., 14, 4617-4641, doi:10.5194/acp-14-4617-2014, 2014.
+# dataset_reference_24_name : Steele, L.P., R.L. Langenfelds, M.P. Lucarelli, P.J. Fraser, L.N. Cooper, D.A. Spencer, S. Chea and K. Broadhurst. Atmospheric methane, carbon dioxide, carbon monoxide, hydrogen and nitrous oxide from Cape Grim flask air samples analysed by gas chromatography. Baseline Atmospheric Program (Australia) 1994-95, edited by R.J. Francey, A.L. Dick and N. Derek, pp 107 - 110, Bureau of Meteorology and CSIRO Division of Atmospheric Research, Melbourne, Australia, 1996.
+# dataset_reference_25_name : Sturm, P., M. Leuenberger, C. Sirignano, R. E. M. Neubert, H. A. J. Meijer, R. Langenfelds, W. A. Brand and Y. Tohjima, Permeation of atmospheric gases through polymer O-rings used in flasks for air sampling, J. Geophys. Res., 109, D04309, doi:10.1029.2003JD004073, 2004.
+# dataset_reference_26_name : Thompson, R. L., E. Dlugokencky, F. Chevallier, P. Ciais, G. Dutton, J. W. Elkins, R. L. Langenfelds, R. G. Prinn, R. F. Weiss, Y. Tohjima, P. B. Krummel, L. P. Steele, and P. J. Fraser, Inter-annual variability in tropospheric nitrous oxide, Geophys. Res. Lett., 40, 4426-4431, doi:10.1002/grl.50721, 2013.
+# dataset_reference_27_name : Thompson, R. L., F. Chevallier, A. M. Crotwell, G. Dutton, R. L. Langenfelds, R. G. Prinn, R. F. Weiss, Y. Tohjima, T. Nakazawa, P. B. Krummel, L. P. Steele, P. J. Fraser, S. O'Doherty, K. Ishijima, and S. Aoki, Nitrous oxide emissions 1999 - 2009 from a global atmospheric inversion, Atmos. Chem. Phys., 14, 1801-1817, doi:10.5194/acp-14-1801-2014, 2014.
+# dataset_reference_28_name : Thompson, R. L., P. K. Patra, K. Ishijima, E. Saikawa, M. Corazza, U. Karstens, C. Wilson, P. Bergamaschi, E. Dlugokencky, C. Sweeney, R. G. Prinn, R. F. Weiss, S. O'Doherty, P. J. Fraser, L. P. Steele, P. B. Krummel, M. Saunois, M. Chipperfield, and P. Bousquet, TransCom N2O model inter-comparison - Part 1: Assessing the influence of transport and surface fluxes on tropospheric N2O variability, Atmos. Chem. Phys., 14, 4349-4368, doi:10.5194/acp-14-4349-2014, 2014.
+# dataset_reference_29_name : Thompson, R. L., K. Ishijima, E. Saikawa, M. Corazza, U. Karstens, P. K. Patra, P. Bergamaschi, F. Chevallier, E. Dlugokencky, R. G. Prinn, R. F. Weiss, S. O'Doherty, P. J. Fraser, L. P. Steele, P. B. Krummel, A. Vermeulen, Y. Tohjima, A. Jordan, L. Haszpra, M. Steinbacher, S. Van der Laan, T. Aalto, F. Meinhardt, M. E. Popa, J. Moncrieff, and P. Bousquet, TransCom N2O model inter-comparison Part II: Atmospheric inversion estimates of N2O emissions, Atmos. Chem. Phys., 14, 6177-6194, doi:10.5194/acp-14-6177-2014, 2014.
+# contributor_organization_code : 16
+# contributor_acronym : CSIRO
+# contributor_name : Commonwealth Scientific and Industrial Research Organisation
+# contributor_address1 : CSIRO Oceans and Atmosphere - Climate Science Centre
+# contributor_address2 : Commonwealth Scientific and Industrial Research Organisation (CSIRO)
+# contributor_address3 : Private Bag 1, Aspendale, Vic, Australia 3195
+# contributor_country/territory : Australia
+# contributor_url : https://research.csiro.au/acc/
+# contact_total_listed : 3
+# contact_1_name : Paul Krummel
+# contact_1_address1 : CSIRO Oceans and Atmosphere - Climate Science Centre
+# contact_1_address2 : 107-121 Station Street Aspendale
+# contact_1_address3 : Victoria, 3195 Australia
+# contact_1_country/territory : Australia
+# contact_1_organization : Commonwealth Scientific and Industrial Research Organisation
+# contact_1_organization_acronym : CSIRO
+# contact_1_organization_url : https://research.csiro.au/acc/
+# contact_1_email : paul.krummel@csiro.au
+# contact_1_tel : (+613) 9239 4568
+# contact_1_fax : (+613) 9239 4444
+# contact_2_name : Ray Langenfelds
+# contact_2_address1 : CSIRO Oceans and Atmosphere - Climate Science Centre
+# contact_2_address2 : 107-121 Station Street Aspendale
+# contact_2_address3 : Victoria, 3195 Australia
+# contact_2_country/territory : Australia
+# contact_2_organization : Commonwealth Scientific and Industrial Research Organisation
+# contact_2_organization_acronym : CSIRO
+# contact_2_organization_url : https://research.csiro.au/acc/
+# contact_2_email : ray.langenfelds@csiro.au
+# contact_2_tel : (+613) 9239 4598
+# contact_2_fax : (+613) 9239 4444
+# contact_3_name : Zoë Loh
+# contact_3_address1 : CSIRO Oceans and Atmosphere - Climate Science Centre
+# contact_3_address2 : 107-121 Station Street Aspendale
+# contact_3_address3 : Victoria, 3195 Australia
+# contact_3_country/territory : Australia
+# contact_3_organization : Commonwealth Scientific and Industrial Research Organisation
+# contact_3_organization_acronym : CSIRO
+# contact_3_organization_url : https://research.csiro.au/acc/
+# contact_3_email : zoe.loh@csiro.au
+# contact_3_tel : (+613) 9239 4518
+# contact_3_fax : (+613) 9239 4444
+# collaborator_total_listed : 0
+# ORG_QCflag_description : flags: "..." indicates no flags, sample retained. Any entry other than "." in the first flag column indicates the sample is not representative of the time and place of sampling:
+# ORG_QCflag_description : A = no sample taken
+# ORG_QCflag_description : B = sample lost before analysis
+# ORG_QCflag_description : C = identified sampling error
+# ORG_QCflag_description : D = suspected sampling problem (eg. 2 or more species give anomalous values)
+# ORG_QCflag_description : E = mixed samples (time/place not unique)
+# ORG_QCflag_description : N = unacceptable analysis
+# ORG_QCflag_description : * = no analysis data available
+# ORG_QCflag_description : H = species-specific manually applied rejection flag
+# ORG_QCflag_description : I = species-specific sample collection problem
+# ORG_QCflag_description : J = irretrievable sample storage effect
+# ORG_QCflag_description : . = not subject to any of the above flags
+# ORG_QCflag_description : 
+# ORG_QCflag_description : Any entry other than ""."" in the second flag column indicates the sample is non-baseline, rejected only on grounds of being an outlier or is excluded from this data set because of a non-standard sampling technique.
+# ORG_QCflag_description : F = non-baseline meteorological conditions
+# ORG_QCflag_description : G = marginal-baseline meteorological conditions
+# ORG_QCflag_description : K = species-specific non-baseline meteorological conditions
+# ORG_QCflag_description : L = species-specific marginal-baseline meteorological conditions
+# ORG_QCflag_description : M = 3 sigma filter rejected
+# ORG_QCflag_description : O = non-standard sampling technique
+# ORG_QCflag_description : . = not subject to any of the above flags
+# intake_height_total_listed : 1
+# intake_height_1 : 10
+# intake_height_1_units : m
+# intake_height_1_start_date : 1992-07-01T00:00:00Z
+# intake_height_1_end_date : 2019-12-01T00:00:00Z
+# instrument_total_listed : 1
+# instrument_1 : Shimadzu gas chromatograph
+# instrument_1_measurement_method_type_code : 1
+# instrument_1_measurement_method_name : Gas chromatography (ECD)
+# instrument_1_start_date : 1992-07-01T00:00:00Z
+# instrument_1_end_date : 2019-12-01T00:00:00Z
+# scale_total_listed : 1
+# scale_1_code : 5
+# scale_1_name : WMO N2O X2006A
+# scale_1_start_date : 1992-07-01T00:00:00Z
+# scale_1_end_date : 2019-12-01T00:00:00Z
+# observation_status_code : 1
+# observation_status : Operational/Reporting
+# measurement_calibration : Data are reported in the NOAA-2006A N2O scale (Hall et al., 2007; updates at http://www.esrl.noaa.gov/gmd/ccl/n2o_scale.html). Stability of the CSIRO scale is monitored with ~30 high-pressure cylinder standards, with lifetimes of 10-20+ years. Further details of calibration and measurement uncertainty are given by Francey et al. (2003).
+# sampling_frequency_code : 1
+# sampling_frequency : event
+#
+# VARIABLE ATTRIBUTES
+#
+# site_gaw_id:long_name : unique_station/mobile_identifiers.
+# site_gaw_id:comment : 3-letter site identification code as defined by GAWSIS for stationary platforms
+# time_components:_FillValue : -999 or -9
+# time_components:long_name : integer_components_of_UTC_date/time
+# time_components:order : year, month, day, hour, minute, second
+# time_components:comment : Air sample collection time (UTC) represented as a 6-element array [year, month, day, hour, minute, second]. Calendar time components as integers.
+# value:_FillValue : -999.999
+# value:units : ppb
+# value:long_name : measured_mole_fraction_of_trace_gas_in_dry_air
+# value:comment : Reported mole fraction, isotope ratio or radioactivity. Units depend on trace gas species.
+# value_unc:_FillValue : -999.999
+# value_unc:units : ppb
+# value_unc:long_name : estimated_uncertainty_in_reported_value
+# value_unc:comment : Standard deviation of the reported mean value when nvalue is greater than 1. Units depend on trace gas species.
+# nvalue:_FillValue : -9
+# nvalue:long_name : number_of_measurements_contributing_to_reported_value
+# nvalue:comment : Number of individual measurements used to compute reported values.
+# latitude:_FillValue : -999.999999999
+# latitude:standard_name : latitude
+# latitude:long_name : sample_latitude_in_decimal_degrees
+# latitude:units : degrees_north
+# latitude:comment : Latitude of sampling location in decimal degrees (north: +; south: -)
+# longitude:_FillValue : -999.999999999
+# longitude:standard_name : longitude
+# longitude:long_name : sample_longitude_in_decimal_degrees
+# longitude:units : degrees_east
+# longitude:comment : Longitude of sampling location in decimal degrees (east: +; west: -)
+# altitude:_FillValue : -999.999
+# altitude:standard_name : altitude
+# altitude:long_name : sample_altitude_in_meters_above_sea_level
+# altitude:units : m
+# altitude:comment : Altitude (elevation + intake height) of air sample collection. Units are meters above sea level (masl).
+# elevation:_FillValue : -999.999
+# elevation:standard_name : elevation
+# elevation:long_name : surface_elevation_in_meters_above_sea_level
+# elevation:units : m
+# elevation:comment : Station height (m) above sea level
+# intake_height:_FillValue : -999.999
+# intake_height:long_name : sample_intake_height_in_meters_above_ground_level
+# intake_height:units : m
+# intake_height:comment : Sampling height (depth) of air (seawater) above ground (below sea level) (height: +; depth: -) (m)
+# flask_no:_FillValue : -999.999
+# flask_no:long_name : sample_flask_no
+# flask_no:comment : Identification code (or number) of flask used for observation
+# ORG_QCflag:_FillValue : -999.999
+# ORG_QCflag:long_name : original_quality_control_flag
+# ORG_QCflag:comment : Details of original data quality control flags should be specified by contributors in metadata.
+# QCflag:_FillValue : -9
+# QCflag:long_name : quality_control_flag
+# QCflag:comment : 1 Valid (background) data considered "background"
+# QCflag:comment : 2 Valid data considered valid other than "background"
+# QCflag:comment : 3 Invalid data considered unfit for use (questionable/erroneous/absent data)
+# QCflag:comment : Details of correspondence between original data quality control flags and WDCGG data flags should be specified by contributors in metadata.
+# instrument:_FillValue : -9
+# instrument:long_name : instrument_ID_to_detect_atmospheric_parameter
+# instrument:comment : A numeric field that identifies the instrument.
+# measurement_method:_FillValue : -9
+# measurement_method:long_name : measurement_method_history
+# measurement_method:comment : A numeric field that identifies the measurement method.
+# scale:_FillValue : -9
+# scale:long_name : calibration_scale_history
+# scale:comment : A numeric field that identifies the calibration scale. Measurements are relative to reported calibration scale.
+#
+# VARIABLE ORDER
+#
+# site_gaw_id year month day hour minute second year month day hour minute second value value_unc nvalue latitude longitude altitude elevation intake_height flask_no ORG_QCflag QCflag instrument measurement_method scale
+ALT 1992 07 01 00 00 00 -999 -9 -9 -9 -9 -9 310.240 0.064 3 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 1992 08 01 00 00 00 -999 -9 -9 -9 -9 -9 309.978 0.385 2 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 1992 09 01 00 00 00 -999 -9 -9 -9 -9 -9 309.728 0.268 5 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 1992 10 01 00 00 00 -999 -9 -9 -9 -9 -9 310.125 0.270 6 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 1992 11 01 00 00 00 -999 -9 -9 -9 -9 -9 310.437 0.084 3 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 1992 12 01 00 00 00 -999 -9 -9 -9 -9 -9 310.460 0.547 4 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 1993 01 01 00 00 00 -999 -9 -9 -9 -9 -9 310.724 0.436 2 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 1993 02 01 00 00 00 -999 -9 -9 -9 -9 -9 310.891 0.391 4 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 1993 03 01 00 00 00 -999 -9 -9 -9 -9 -9 310.877 0.202 4 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 1993 04 01 00 00 00 -999 -9 -9 -9 -9 -9 310.905 0.278 3 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 1993 05 01 00 00 00 -999 -9 -9 -9 -9 -9 310.952 0.081 2 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 1993 06 01 00 00 00 -999 -9 -9 -9 -9 -9 310.645 0.430 4 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 1993 07 01 00 00 00 -999 -9 -9 -9 -9 -9 310.153 0.168 6 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 1993 08 01 00 00 00 -999 -9 -9 -9 -9 -9 310.213 0.501 2 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 1993 09 01 00 00 00 -999 -9 -9 -9 -9 -9 310.523 0.251 10 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 1993 10 01 00 00 00 -999 -9 -9 -9 -9 -9 310.680 0.091 6 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 1993 11 01 00 00 00 -999 -9 -9 -9 -9 -9 310.858 0.100 4 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 1993 12 01 00 00 00 -999 -9 -9 -9 -9 -9 311.007 0.034 1 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 1994 01 01 00 00 00 -999 -9 -9 -9 -9 -9 311.169 0.649 2 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 1994 02 01 00 00 00 -999 -9 -9 -9 -9 -9 311.409 0.058 1 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 1994 03 01 00 00 00 -999 -9 -9 -9 -9 -9 311.465 0.032 1 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 1994 04 01 00 00 00 -999 -9 -9 -9 -9 -9 311.330 0.031 2 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 1994 05 01 00 00 00 -999 -9 -9 -9 -9 -9 311.294 0.248 2 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 1994 06 01 00 00 00 -999 -9 -9 -9 -9 -9 311.102 0.137 4 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 1994 07 01 00 00 00 -999 -9 -9 -9 -9 -9 310.954 0.356 4 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 1994 08 01 00 00 00 -999 -9 -9 -9 -9 -9 311.134 0.339 4 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 1994 09 01 00 00 00 -999 -9 -9 -9 -9 -9 311.171 0.202 8 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 1994 10 01 00 00 00 -999 -9 -9 -9 -9 -9 311.271 0.074 1 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 1994 11 01 00 00 00 -999 -9 -9 -9 -9 -9 311.573 0.179 4 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 1994 12 01 00 00 00 -999 -9 -9 -9 -9 -9 311.812 0.123 4 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 1995 01 01 00 00 00 -999 -9 -9 -9 -9 -9 311.986 0.051 0 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 1995 02 01 00 00 00 -999 -9 -9 -9 -9 -9 312.091 0.008 1 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 1995 03 01 00 00 00 -999 -9 -9 -9 -9 -9 312.069 0.089 2 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 1995 04 01 00 00 00 -999 -9 -9 -9 -9 -9 312.210 0.215 2 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 1995 05 01 00 00 00 -999 -9 -9 -9 -9 -9 312.206 0.073 1 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 1995 06 01 00 00 00 -999 -9 -9 -9 -9 -9 311.970 0.202 3 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 1995 07 01 00 00 00 -999 -9 -9 -9 -9 -9 311.929 0.578 2 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 1995 08 01 00 00 00 -999 -9 -9 -9 -9 -9 311.558 0.299 3 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 1995 09 01 00 00 00 -999 -9 -9 -9 -9 -9 311.320 0.330 5 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 1995 10 01 00 00 00 -999 -9 -9 -9 -9 -9 311.588 0.243 4 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 1995 11 01 00 00 00 -999 -9 -9 -9 -9 -9 311.901 0.099 0 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 1995 12 01 00 00 00 -999 -9 -9 -9 -9 -9 312.269 0.095 0 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 1996 01 01 00 00 00 -999 -9 -9 -9 -9 -9 312.314 0.291 2 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 1996 02 01 00 00 00 -999 -9 -9 -9 -9 -9 312.123 0.207 4 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 1996 03 01 00 00 00 -999 -9 -9 -9 -9 -9 312.414 0.206 2 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 1996 04 01 00 00 00 -999 -9 -9 -9 -9 -9 312.820 0.178 4 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 1996 05 01 00 00 00 -999 -9 -9 -9 -9 -9 312.852 0.067 2 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 1996 06 01 00 00 00 -999 -9 -9 -9 -9 -9 312.721 0.217 3 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 1996 07 01 00 00 00 -999 -9 -9 -9 -9 -9 312.598 0.493 4 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 1996 08 01 00 00 00 -999 -9 -9 -9 -9 -9 312.468 0.259 5 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 1996 09 01 00 00 00 -999 -9 -9 -9 -9 -9 312.656 0.450 2 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 1996 10 01 00 00 00 -999 -9 -9 -9 -9 -9 313.079 0.102 0 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 1996 11 01 00 00 00 -999 -9 -9 -9 -9 -9 313.170 0.282 2 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 1996 12 01 00 00 00 -999 -9 -9 -9 -9 -9 312.999 0.099 2 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 1997 01 01 00 00 00 -999 -9 -9 -9 -9 -9 313.194 0.198 4 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 1997 02 01 00 00 00 -999 -9 -9 -9 -9 -9 313.496 0.294 4 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 1997 03 01 00 00 00 -999 -9 -9 -9 -9 -9 313.594 0.150 3 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 1997 04 01 00 00 00 -999 -9 -9 -9 -9 -9 313.745 0.332 3 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 1997 05 01 00 00 00 -999 -9 -9 -9 -9 -9 313.787 0.217 4 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 1997 06 01 00 00 00 -999 -9 -9 -9 -9 -9 313.634 0.115 4 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 1997 07 01 00 00 00 -999 -9 -9 -9 -9 -9 313.317 0.160 5 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 1997 08 01 00 00 00 -999 -9 -9 -9 -9 -9 313.098 0.368 2 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 1997 09 01 00 00 00 -999 -9 -9 -9 -9 -9 313.337 0.206 4 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 1997 10 01 00 00 00 -999 -9 -9 -9 -9 -9 313.862 0.430 6 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 1997 11 01 00 00 00 -999 -9 -9 -9 -9 -9 313.991 0.108 4 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 1997 12 01 00 00 00 -999 -9 -9 -9 -9 -9 314.226 0.159 0 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 1998 01 01 00 00 00 -999 -9 -9 -9 -9 -9 314.727 0.116 2 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 1998 02 01 00 00 00 -999 -9 -9 -9 -9 -9 314.581 0.308 4 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 1998 03 01 00 00 00 -999 -9 -9 -9 -9 -9 314.103 0.342 4 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 1998 04 01 00 00 00 -999 -9 -9 -9 -9 -9 314.160 0.281 4 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 1998 05 01 00 00 00 -999 -9 -9 -9 -9 -9 314.421 0.191 3 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 1998 06 01 00 00 00 -999 -9 -9 -9 -9 -9 314.194 0.104 0 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 1998 07 01 00 00 00 -999 -9 -9 -9 -9 -9 313.946 0.040 0 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 1998 08 01 00 00 00 -999 -9 -9 -9 -9 -9 313.796 0.279 4 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 1998 09 01 00 00 00 -999 -9 -9 -9 -9 -9 313.783 0.270 8 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 1998 10 01 00 00 00 -999 -9 -9 -9 -9 -9 314.233 0.231 3 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 1998 11 01 00 00 00 -999 -9 -9 -9 -9 -9 314.501 0.338 4 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 1998 12 01 00 00 00 -999 -9 -9 -9 -9 -9 314.549 0.065 4 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 1999 01 01 00 00 00 -999 -9 -9 -9 -9 -9 314.813 0.344 4 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 1999 02 01 00 00 00 -999 -9 -9 -9 -9 -9 315.031 0.361 4 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 1999 03 01 00 00 00 -999 -9 -9 -9 -9 -9 315.106 0.181 4 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 1999 04 01 00 00 00 -999 -9 -9 -9 -9 -9 315.032 0.306 3 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 1999 05 01 00 00 00 -999 -9 -9 -9 -9 -9 314.953 0.345 4 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 1999 06 01 00 00 00 -999 -9 -9 -9 -9 -9 314.711 0.236 3 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 1999 07 01 00 00 00 -999 -9 -9 -9 -9 -9 314.261 0.278 6 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 1999 08 01 00 00 00 -999 -9 -9 -9 -9 -9 314.186 0.280 6 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 1999 09 01 00 00 00 -999 -9 -9 -9 -9 -9 314.379 0.298 10 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 1999 10 01 00 00 00 -999 -9 -9 -9 -9 -9 314.668 0.245 4 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 1999 11 01 00 00 00 -999 -9 -9 -9 -9 -9 315.144 0.312 4 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 1999 12 01 00 00 00 -999 -9 -9 -9 -9 -9 315.466 0.126 4 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2000 01 01 00 00 00 -999 -9 -9 -9 -9 -9 315.648 0.218 3 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2000 02 01 00 00 00 -999 -9 -9 -9 -9 -9 315.681 0.299 4 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2000 03 01 00 00 00 -999 -9 -9 -9 -9 -9 315.876 0.283 2 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2000 04 01 00 00 00 -999 -9 -9 -9 -9 -9 316.221 0.318 3 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2000 05 01 00 00 00 -999 -9 -9 -9 -9 -9 316.105 0.174 4 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2000 06 01 00 00 00 -999 -9 -9 -9 -9 -9 315.899 0.180 3 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2000 07 01 00 00 00 -999 -9 -9 -9 -9 -9 315.711 0.213 4 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2000 08 01 00 00 00 -999 -9 -9 -9 -9 -9 315.640 0.289 4 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2000 09 01 00 00 00 -999 -9 -9 -9 -9 -9 315.858 0.347 6 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2000 10 01 00 00 00 -999 -9 -9 -9 -9 -9 316.041 0.205 4 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2000 11 01 00 00 00 -999 -9 -9 -9 -9 -9 316.133 0.282 4 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2000 12 01 00 00 00 -999 -9 -9 -9 -9 -9 316.355 0.122 4 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2001 01 01 00 00 00 -999 -9 -9 -9 -9 -9 316.696 0.171 4 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2001 02 01 00 00 00 -999 -9 -9 -9 -9 -9 316.902 0.034 2 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2001 03 01 00 00 00 -999 -9 -9 -9 -9 -9 316.881 0.121 4 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2001 04 01 00 00 00 -999 -9 -9 -9 -9 -9 316.871 0.121 4 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2001 05 01 00 00 00 -999 -9 -9 -9 -9 -9 316.731 0.151 4 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2001 06 01 00 00 00 -999 -9 -9 -9 -9 -9 316.428 0.214 4 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2001 07 01 00 00 00 -999 -9 -9 -9 -9 -9 316.226 0.393 4 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2001 08 01 00 00 00 -999 -9 -9 -9 -9 -9 316.135 0.260 5 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2001 09 01 00 00 00 -999 -9 -9 -9 -9 -9 316.254 0.250 2 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2001 10 01 00 00 00 -999 -9 -9 -9 -9 -9 316.400 0.239 2 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2001 11 01 00 00 00 -999 -9 -9 -9 -9 -9 316.654 0.436 3 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2001 12 01 00 00 00 -999 -9 -9 -9 -9 -9 317.021 0.170 4 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2002 01 01 00 00 00 -999 -9 -9 -9 -9 -9 317.309 0.229 4 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2002 02 01 00 00 00 -999 -9 -9 -9 -9 -9 317.471 0.280 7 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2002 03 01 00 00 00 -999 -9 -9 -9 -9 -9 317.419 0.144 2 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2002 04 01 00 00 00 -999 -9 -9 -9 -9 -9 317.331 0.145 7 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2002 05 01 00 00 00 -999 -9 -9 -9 -9 -9 317.208 0.277 8 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2002 06 01 00 00 00 -999 -9 -9 -9 -9 -9 316.749 0.254 5 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2002 07 01 00 00 00 -999 -9 -9 -9 -9 -9 316.558 0.333 7 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2002 08 01 00 00 00 -999 -9 -9 -9 -9 -9 316.760 0.375 10 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2002 09 01 00 00 00 -999 -9 -9 -9 -9 -9 316.815 0.241 8 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2002 10 01 00 00 00 -999 -9 -9 -9 -9 -9 316.853 0.200 4 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2002 11 01 00 00 00 -999 -9 -9 -9 -9 -9 317.142 0.209 7 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2002 12 01 00 00 00 -999 -9 -9 -9 -9 -9 317.535 0.244 7 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2003 01 01 00 00 00 -999 -9 -9 -9 -9 -9 317.678 0.255 12 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2003 02 01 00 00 00 -999 -9 -9 -9 -9 -9 317.799 0.207 8 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2003 03 01 00 00 00 -999 -9 -9 -9 -9 -9 317.860 0.195 7 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2003 04 01 00 00 00 -999 -9 -9 -9 -9 -9 317.889 0.363 7 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2003 05 01 00 00 00 -999 -9 -9 -9 -9 -9 318.030 0.145 6 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2003 06 01 00 00 00 -999 -9 -9 -9 -9 -9 317.996 0.318 6 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2003 07 01 00 00 00 -999 -9 -9 -9 -9 -9 317.866 0.296 4 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2003 08 01 00 00 00 -999 -9 -9 -9 -9 -9 317.532 0.320 4 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2003 09 01 00 00 00 -999 -9 -9 -9 -9 -9 317.403 0.282 4 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2003 10 01 00 00 00 -999 -9 -9 -9 -9 -9 317.635 0.540 2 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2003 11 01 00 00 00 -999 -9 -9 -9 -9 -9 317.818 0.061 2 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2003 12 01 00 00 00 -999 -9 -9 -9 -9 -9 318.088 0.259 2 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2004 01 01 00 00 00 -999 -9 -9 -9 -9 -9 318.285 0.036 1 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2004 02 01 00 00 00 -999 -9 -9 -9 -9 -9 318.397 0.264 3 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2004 03 01 00 00 00 -999 -9 -9 -9 -9 -9 318.506 0.119 3 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2004 04 01 00 00 00 -999 -9 -9 -9 -9 -9 318.668 0.108 2 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2004 05 01 00 00 00 -999 -9 -9 -9 -9 -9 318.729 0.124 2 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2004 06 01 00 00 00 -999 -9 -9 -9 -9 -9 318.421 0.406 5 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2004 07 01 00 00 00 -999 -9 -9 -9 -9 -9 317.959 0.113 1 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2004 08 01 00 00 00 -999 -9 -9 -9 -9 -9 317.778 0.038 4 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2004 09 01 00 00 00 -999 -9 -9 -9 -9 -9 317.913 0.297 4 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2004 10 01 00 00 00 -999 -9 -9 -9 -9 -9 318.268 0.317 4 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2004 11 01 00 00 00 -999 -9 -9 -9 -9 -9 318.585 0.152 2 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2004 12 01 00 00 00 -999 -9 -9 -9 -9 -9 318.784 0.102 2 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2005 01 01 00 00 00 -999 -9 -9 -9 -9 -9 319.049 0.160 3 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2005 02 01 00 00 00 -999 -9 -9 -9 -9 -9 319.118 0.346 4 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2005 03 01 00 00 00 -999 -9 -9 -9 -9 -9 319.265 0.282 3 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2005 04 01 00 00 00 -999 -9 -9 -9 -9 -9 319.440 0.116 2 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2005 05 01 00 00 00 -999 -9 -9 -9 -9 -9 319.479 0.513 2 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2005 06 01 00 00 00 -999 -9 -9 -9 -9 -9 319.448 0.111 4 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2005 07 01 00 00 00 -999 -9 -9 -9 -9 -9 319.203 0.388 4 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2005 08 01 00 00 00 -999 -9 -9 -9 -9 -9 319.059 0.289 5 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2005 09 01 00 00 00 -999 -9 -9 -9 -9 -9 319.077 0.311 4 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2005 10 01 00 00 00 -999 -9 -9 -9 -9 -9 319.195 0.191 4 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2005 11 01 00 00 00 -999 -9 -9 -9 -9 -9 319.532 0.299 3 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2005 12 01 00 00 00 -999 -9 -9 -9 -9 -9 319.736 0.135 2 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2006 01 01 00 00 00 -999 -9 -9 -9 -9 -9 319.722 0.109 2 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2006 02 01 00 00 00 -999 -9 -9 -9 -9 -9 319.781 0.615 2 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2006 03 01 00 00 00 -999 -9 -9 -9 -9 -9 319.963 0.052 2 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2006 04 01 00 00 00 -999 -9 -9 -9 -9 -9 320.113 0.148 2 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2006 05 01 00 00 00 -999 -9 -9 -9 -9 -9 320.245 0.024 3 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2006 06 01 00 00 00 -999 -9 -9 -9 -9 -9 320.037 0.287 3 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2006 07 01 00 00 00 -999 -9 -9 -9 -9 -9 319.532 0.215 4 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2006 08 01 00 00 00 -999 -9 -9 -9 -9 -9 319.289 0.260 5 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2006 09 01 00 00 00 -999 -9 -9 -9 -9 -9 319.470 0.171 4 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2006 10 01 00 00 00 -999 -9 -9 -9 -9 -9 319.864 0.214 4 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2006 11 01 00 00 00 -999 -9 -9 -9 -9 -9 320.190 0.135 3 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2006 12 01 00 00 00 -999 -9 -9 -9 -9 -9 320.460 0.112 2 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2007 01 01 00 00 00 -999 -9 -9 -9 -9 -9 320.770 0.194 2 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2007 02 01 00 00 00 -999 -9 -9 -9 -9 -9 320.871 0.062 2 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2007 03 01 00 00 00 -999 -9 -9 -9 -9 -9 320.807 0.225 2 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2007 04 01 00 00 00 -999 -9 -9 -9 -9 -9 320.920 0.122 2 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2007 05 01 00 00 00 -999 -9 -9 -9 -9 -9 320.807 0.112 1 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2007 06 01 00 00 00 -999 -9 -9 -9 -9 -9 320.443 0.137 2 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2007 07 01 00 00 00 -999 -9 -9 -9 -9 -9 320.483 0.212 2 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2007 08 01 00 00 00 -999 -9 -9 -9 -9 -9 320.596 0.337 2 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2007 09 01 00 00 00 -999 -9 -9 -9 -9 -9 320.771 0.245 2 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2007 10 01 00 00 00 -999 -9 -9 -9 -9 -9 321.004 0.265 2 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2007 11 01 00 00 00 -999 -9 -9 -9 -9 -9 320.860 0.271 3 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2007 12 01 00 00 00 -999 -9 -9 -9 -9 -9 321.047 0.423 2 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2008 01 01 00 00 00 -999 -9 -9 -9 -9 -9 321.727 0.519 4 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2008 02 01 00 00 00 -999 -9 -9 -9 -9 -9 322.055 0.458 4 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2008 03 01 00 00 00 -999 -9 -9 -9 -9 -9 322.024 0.199 4 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2008 04 01 00 00 00 -999 -9 -9 -9 -9 -9 322.071 0.271 4 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2008 05 01 00 00 00 -999 -9 -9 -9 -9 -9 321.974 0.197 6 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2008 06 01 00 00 00 -999 -9 -9 -9 -9 -9 321.705 0.195 4 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2008 07 01 00 00 00 -999 -9 -9 -9 -9 -9 321.620 0.241 4 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2008 08 01 00 00 00 -999 -9 -9 -9 -9 -9 321.578 0.235 4 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2008 09 01 00 00 00 -999 -9 -9 -9 -9 -9 321.538 0.012 0 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2008 10 01 00 00 00 -999 -9 -9 -9 -9 -9 321.690 0.247 8 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2008 11 01 00 00 00 -999 -9 -9 -9 -9 -9 322.093 0.201 4 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2008 12 01 00 00 00 -999 -9 -9 -9 -9 -9 322.558 0.280 4 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2009 01 01 00 00 00 -999 -9 -9 -9 -9 -9 322.659 0.317 2 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2009 02 01 00 00 00 -999 -9 -9 -9 -9 -9 322.597 0.194 4 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2009 03 01 00 00 00 -999 -9 -9 -9 -9 -9 322.811 0.297 4 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2009 04 01 00 00 00 -999 -9 -9 -9 -9 -9 322.828 0.092 4 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2009 05 01 00 00 00 -999 -9 -9 -9 -9 -9 322.544 0.321 9 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2009 06 01 00 00 00 -999 -9 -9 -9 -9 -9 322.385 0.155 8 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2009 07 01 00 00 00 -999 -9 -9 -9 -9 -9 322.403 0.350 9 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2009 08 01 00 00 00 -999 -9 -9 -9 -9 -9 322.476 0.330 6 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2009 09 01 00 00 00 -999 -9 -9 -9 -9 -9 322.469 0.184 7 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2009 10 01 00 00 00 -999 -9 -9 -9 -9 -9 322.477 0.356 8 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2009 11 01 00 00 00 -999 -9 -9 -9 -9 -9 322.566 0.351 3 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2009 12 01 00 00 00 -999 -9 -9 -9 -9 -9 323.003 0.310 3 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2010 01 01 00 00 00 -999 -9 -9 -9 -9 -9 323.334 0.276 4 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2010 02 01 00 00 00 -999 -9 -9 -9 -9 -9 323.253 0.163 4 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2010 03 01 00 00 00 -999 -9 -9 -9 -9 -9 323.355 0.382 5 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2010 04 01 00 00 00 -999 -9 -9 -9 -9 -9 323.526 0.493 4 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2010 05 01 00 00 00 -999 -9 -9 -9 -9 -9 323.617 0.436 4 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2010 06 01 00 00 00 -999 -9 -9 -9 -9 -9 323.279 0.389 10 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2010 07 01 00 00 00 -999 -9 -9 -9 -9 -9 322.805 0.291 7 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2010 08 01 00 00 00 -999 -9 -9 -9 -9 -9 322.827 0.260 7 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2010 09 01 00 00 00 -999 -9 -9 -9 -9 -9 323.139 0.393 7 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2010 10 01 00 00 00 -999 -9 -9 -9 -9 -9 323.505 0.343 8 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2010 11 01 00 00 00 -999 -9 -9 -9 -9 -9 323.778 0.244 6 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2010 12 01 00 00 00 -999 -9 -9 -9 -9 -9 323.857 0.385 4 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2011 01 01 00 00 00 -999 -9 -9 -9 -9 -9 324.183 0.411 4 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2011 02 01 00 00 00 -999 -9 -9 -9 -9 -9 324.288 0.320 4 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2011 03 01 00 00 00 -999 -9 -9 -9 -9 -9 324.131 0.228 6 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2011 04 01 00 00 00 -999 -9 -9 -9 -9 -9 324.423 0.273 4 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2011 05 01 00 00 00 -999 -9 -9 -9 -9 -9 324.550 0.383 3 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2011 06 01 00 00 00 -999 -9 -9 -9 -9 -9 324.141 0.396 10 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2011 07 01 00 00 00 -999 -9 -9 -9 -9 -9 323.876 0.223 8 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2011 08 01 00 00 00 -999 -9 -9 -9 -9 -9 324.138 0.099 0 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2011 09 01 00 00 00 -999 -9 -9 -9 -9 -9 324.327 0.391 10 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2011 10 01 00 00 00 -999 -9 -9 -9 -9 -9 324.507 0.249 8 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2011 11 01 00 00 00 -999 -9 -9 -9 -9 -9 324.909 0.253 4 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2011 12 01 00 00 00 -999 -9 -9 -9 -9 -9 325.191 0.285 3 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2012 01 01 00 00 00 -999 -9 -9 -9 -9 -9 325.308 0.134 4 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2012 02 01 00 00 00 -999 -9 -9 -9 -9 -9 325.318 0.270 4 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2012 03 01 00 00 00 -999 -9 -9 -9 -9 -9 325.296 0.376 6 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2012 04 01 00 00 00 -999 -9 -9 -9 -9 -9 325.402 0.225 3 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2012 05 01 00 00 00 -999 -9 -9 -9 -9 -9 325.330 0.104 4 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2012 06 01 00 00 00 -999 -9 -9 -9 -9 -9 325.003 0.222 8 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2012 07 01 00 00 00 -999 -9 -9 -9 -9 -9 324.764 0.132 6 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2012 08 01 00 00 00 -999 -9 -9 -9 -9 -9 324.858 0.171 9 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2012 09 01 00 00 00 -999 -9 -9 -9 -9 -9 324.966 0.234 2 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2012 10 01 00 00 00 -999 -9 -9 -9 -9 -9 324.980 0.363 7 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2012 11 01 00 00 00 -999 -9 -9 -9 -9 -9 325.158 0.330 8 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2012 12 01 00 00 00 -999 -9 -9 -9 -9 -9 325.393 0.161 4 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2013 01 01 00 00 00 -999 -9 -9 -9 -9 -9 325.795 0.479 3 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2013 02 01 00 00 00 -999 -9 -9 -9 -9 -9 326.024 0.173 4 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2013 03 01 00 00 00 -999 -9 -9 -9 -9 -9 325.918 0.211 4 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2013 04 01 00 00 00 -999 -9 -9 -9 -9 -9 325.958 0.328 4 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2013 05 01 00 00 00 -999 -9 -9 -9 -9 -9 326.030 0.213 6 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2013 06 01 00 00 00 -999 -9 -9 -9 -9 -9 325.937 0.206 8 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2013 07 01 00 00 00 -999 -9 -9 -9 -9 -9 325.719 0.277 9 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2013 08 01 00 00 00 -999 -9 -9 -9 -9 -9 325.511 0.211 8 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2013 09 01 00 00 00 -999 -9 -9 -9 -9 -9 325.579 0.247 4 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2013 10 01 00 00 00 -999 -9 -9 -9 -9 -9 325.862 0.274 8 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2013 11 01 00 00 00 -999 -9 -9 -9 -9 -9 326.237 0.254 6 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2013 12 01 00 00 00 -999 -9 -9 -9 -9 -9 326.483 0.227 8 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2014 01 01 00 00 00 -999 -9 -9 -9 -9 -9 326.603 0.330 8 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2014 02 01 00 00 00 -999 -9 -9 -9 -9 -9 326.875 0.140 6 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2014 03 01 00 00 00 -999 -9 -9 -9 -9 -9 327.091 0.266 8 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2014 04 01 00 00 00 -999 -9 -9 -9 -9 -9 327.221 0.207 8 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2014 05 01 00 00 00 -999 -9 -9 -9 -9 -9 327.359 0.180 7 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2014 06 01 00 00 00 -999 -9 -9 -9 -9 -9 327.300 0.162 7 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2014 07 01 00 00 00 -999 -9 -9 -9 -9 -9 327.209 0.166 10 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2014 08 01 00 00 00 -999 -9 -9 -9 -9 -9 327.270 0.235 8 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2014 09 01 00 00 00 -999 -9 -9 -9 -9 -9 327.266 0.217 7 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2014 10 01 00 00 00 -999 -9 -9 -9 -9 -9 327.220 0.235 10 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2014 11 01 00 00 00 -999 -9 -9 -9 -9 -9 327.538 0.218 8 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2014 12 01 00 00 00 -999 -9 -9 -9 -9 -9 328.029 0.267 3 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2015 01 01 00 00 00 -999 -9 -9 -9 -9 -9 328.438 0.089 0 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2015 02 01 00 00 00 -999 -9 -9 -9 -9 -9 328.540 0.434 4 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2015 03 01 00 00 00 -999 -9 -9 -9 -9 -9 328.425 0.249 4 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2015 04 01 00 00 00 -999 -9 -9 -9 -9 -9 328.410 0.336 4 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2015 05 01 00 00 00 -999 -9 -9 -9 -9 -9 328.347 0.236 5 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2015 06 01 00 00 00 -999 -9 -9 -9 -9 -9 328.004 0.275 5 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2015 07 01 00 00 00 -999 -9 -9 -9 -9 -9 327.701 0.222 5 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2015 08 01 00 00 00 -999 -9 -9 -9 -9 -9 327.818 0.146 5 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2015 09 01 00 00 00 -999 -9 -9 -9 -9 -9 327.968 0.324 4 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2015 10 01 00 00 00 -999 -9 -9 -9 -9 -9 328.181 0.156 4 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2015 11 01 00 00 00 -999 -9 -9 -9 -9 -9 328.462 0.192 4 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2015 12 01 00 00 00 -999 -9 -9 -9 -9 -9 328.572 0.167 4 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2016 01 01 00 00 00 -999 -9 -9 -9 -9 -9 329.013 0.405 4 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2016 02 01 00 00 00 -999 -9 -9 -9 -9 -9 329.230 0.260 3 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2016 03 01 00 00 00 -999 -9 -9 -9 -9 -9 328.973 0.141 4 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2016 04 01 00 00 00 -999 -9 -9 -9 -9 -9 329.051 0.251 4 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2016 05 01 00 00 00 -999 -9 -9 -9 -9 -9 329.087 0.335 4 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2016 06 01 00 00 00 -999 -9 -9 -9 -9 -9 328.820 0.243 6 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2016 07 01 00 00 00 -999 -9 -9 -9 -9 -9 328.876 0.205 4 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2016 08 01 00 00 00 -999 -9 -9 -9 -9 -9 328.871 0.190 6 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2016 09 01 00 00 00 -999 -9 -9 -9 -9 -9 328.740 0.327 4 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2016 10 01 00 00 00 -999 -9 -9 -9 -9 -9 329.183 0.417 4 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2016 11 01 00 00 00 -999 -9 -9 -9 -9 -9 329.580 0.345 5 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2016 12 01 00 00 00 -999 -9 -9 -9 -9 -9 329.718 0.329 3 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2017 01 01 00 00 00 -999 -9 -9 -9 -9 -9 329.942 0.221 4 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2017 02 01 00 00 00 -999 -9 -9 -9 -9 -9 330.105 0.292 5 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2017 03 01 00 00 00 -999 -9 -9 -9 -9 -9 330.215 0.240 5 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2017 04 01 00 00 00 -999 -9 -9 -9 -9 -9 330.282 0.335 5 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2017 05 01 00 00 00 -999 -9 -9 -9 -9 -9 330.160 0.243 4 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2017 06 01 00 00 00 -999 -9 -9 -9 -9 -9 329.930 0.267 6 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2017 07 01 00 00 00 -999 -9 -9 -9 -9 -9 329.776 0.208 3 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2017 08 01 00 00 00 -999 -9 -9 -9 -9 -9 329.618 0.258 4 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2017 09 01 00 00 00 -999 -9 -9 -9 -9 -9 329.786 0.300 5 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2017 10 01 00 00 00 -999 -9 -9 -9 -9 -9 330.090 0.160 4 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2017 11 01 00 00 00 -999 -9 -9 -9 -9 -9 330.398 0.379 6 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2017 12 01 00 00 00 -999 -9 -9 -9 -9 -9 330.792 0.225 4 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2018 01 01 00 00 00 -999 -9 -9 -9 -9 -9 330.966 0.232 3 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2018 02 01 00 00 00 -999 -9 -9 -9 -9 -9 331.043 0.162 6 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2018 03 01 00 00 00 -999 -9 -9 -9 -9 -9 331.146 0.126 3 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2018 04 01 00 00 00 -999 -9 -9 -9 -9 -9 331.270 0.216 4 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2018 05 01 00 00 00 -999 -9 -9 -9 -9 -9 331.410 0.307 3 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2018 06 01 00 00 00 -999 -9 -9 -9 -9 -9 331.109 0.226 5 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2018 07 01 00 00 00 -999 -9 -9 -9 -9 -9 330.529 0.286 4 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2018 08 01 00 00 00 -999 -9 -9 -9 -9 -9 330.373 0.260 5 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2018 09 01 00 00 00 -999 -9 -9 -9 -9 -9 330.838 0.401 4 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2018 10 01 00 00 00 -999 -9 -9 -9 -9 -9 331.618 0.238 2 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2018 11 01 00 00 00 -999 -9 -9 -9 -9 -9 331.761 0.272 4 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2018 12 01 00 00 00 -999 -9 -9 -9 -9 -9 331.686 0.138 4 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2019 01 01 00 00 00 -999 -9 -9 -9 -9 -9 332.000 0.253 6 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2019 02 01 00 00 00 -999 -9 -9 -9 -9 -9 332.396 0.127 4 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2019 03 01 00 00 00 -999 -9 -9 -9 -9 -9 332.478 0.094 4 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2019 04 01 00 00 00 -999 -9 -9 -9 -9 -9 332.172 0.320 4 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2019 05 01 00 00 00 -999 -9 -9 -9 -9 -9 332.062 0.326 5 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2019 06 01 00 00 00 -999 -9 -9 -9 -9 -9 331.904 0.222 5 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2019 07 01 00 00 00 -999 -9 -9 -9 -9 -9 331.501 0.344 4 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2019 08 01 00 00 00 -999 -9 -9 -9 -9 -9 331.566 0.615 2 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2019 09 01 00 00 00 -999 -9 -9 -9 -9 -9 331.972 0.230 5 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2019 10 01 00 00 00 -999 -9 -9 -9 -9 -9 332.255 0.264 4 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2019 11 01 00 00 00 -999 -9 -9 -9 -9 -9 332.345 0.362 3 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5
+ALT 2019 12 01 00 00 00 -999 -9 -9 -9 -9 -9 332.611 0.419 3 82.4991 -62.3415 210.000 200.000 10.000 -999.999 ... 1 1 1 5

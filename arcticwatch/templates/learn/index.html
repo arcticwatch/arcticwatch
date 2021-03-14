@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% include 'head.html' %}
+    <title>Learn</title>
+</head>
+<body>
+    {% include 'nav.html' %}
+    <div class="row" style="margin: 0vh 10vw 5vh 18vw;">
+        <div class="col-md-6">
+                <div class="card" style="width: 18rem;">
+                  <img class="card-img-top" src="{{ url_for('static', filename='images/learn/arctic_pollution.jpg') }}" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Atmospheric Pollution</h5>
+                    <p class="card-text">Discover how atmospheric pollution affects the Arctic.</p>
+                    <a href="atmospheric_pollution/" class="btn btn-primary">Go</a>
+                  </div>
+                </div>
+        </div>
+        <div class="col-md-6">
+                <div class="card" style="width: 18rem;">
+                  <img class="card-img-top" src="{{ url_for('static', filename='images/learn/ocean_pollution.png') }}" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Ocean Pollution</h5>
+                    <p class="card-text">Learn about the harmful effects of pollution in Arctic waters.</p>
+                    <a href="ocean_pollution/" class="btn btn-primary">Go</a>
+                  </div>
+                </div>
+        </div>
+        <div class="col-md-6">
+                <div class="card" style="width: 18rem;">
+                  <img class="card-img-top" src="{{ url_for('static', filename='images/learn/ice.jpg') }}" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Arctic Ice & Temperatures</h5>
+                    <p class="card-text">Visualize the Arctic Ice's decline and its undesired consequences.</p>
+                    <a href="ice_temperatures/" class="btn btn-primary">Go</a>
+                  </div>
+               </div>
+        </div>
+
+        <div class="col-md-6">
+                <div class="card" style="width: 18rem;">
+                  <img class="card-img-top" src="{{ url_for('static', filename='images/learn/wildlife.jpg') }}" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Wildlife</h5>
+                    <p class="card-text">A summary of how all the previous sections affect Arctic wildlife.</p>
+                    <a href="wildlife/" class="btn btn-primary">Go</a>
+                  </div>
+               </div>
+        </div>
+    </div>
+</body>
+</html>

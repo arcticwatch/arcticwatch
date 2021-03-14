@@ -1,0 +1,295 @@
+# header_lines : 175
+# Data_Set_Name : hcfc22_zep_surface-insitu_4_2022-2021_monthly
+# Data_Set_Version : 0004-6001-1403-01-01-2022_2020-07-28-2001
+# Data_Set_Fair_Use : For Scientific purposes, access to these data is unlimited and provided without charge. By their use you accept that an offer of co-authorship will be made through personal contact with the contributors whenever substantial use is made of their data. In all cases, an acknowledgement must be made to the contributors and to the data centre when these data are used within a publication.
+#
+# GLOBAL ATTRIBUTES
+#
+# site_gaw_id : ZEP
+# site_gaw_type : GAW Global
+# site_name : Zeppelin Mountain (Ny Ålesund)
+# site_country/territory : Norway
+# site_wmo_region : REGION VI (Europe)
+# site_address1 : 
+# site_address2 : 
+# site_address3 : 
+# site_latitude : 78.906688
+# site_longitude : 11.889342
+# site_elevation : 475
+# site_elevation_unit : m
+# site_lst2utc : UTC+01:00
+# site_climate_zone : ET
+# site_climate_zone:comment : Tundra climate
+# dataset_creation_date : 2020-07-31
+# dataset_parameter : hcfc22
+# dataset_parameter_large_class : Greenhouse Gas
+# dataset_parameter_small_class : HCFCs
+# dataset_parameter_name_1 : CHClF2
+# dataset_parameter_name_2 : chlorodifluoromethane
+# dataset_parameter_name_3 : HCFC-22
+# dataset_parameter_name_4 : 
+# dataset_parameter_name_5 : 
+# dataset_project : surface-insitu
+# dataset_platform : fixed station
+# dataset_selection : All monthly data
+# dataset_selection_tag : monthly
+# dataset_time_zone : UTC
+# dataset_start_date : 2001-01-01T00:00:00Z
+# dataset_end_date : 2010-12-01T00:00:00Z
+# dataset_statistic_code : 1
+# dataset_statistic : contributor
+# dataset_description : 
+# dataset_aim_of_observation_code : 5
+# dataset_aim_of_observation : Monitoring background conditions, and the influence of air pollution
+# dataset_buffer_code : 2022
+# dataset_buffer : gc-ms
+# dataset_buffer:comment : AGAGE
+# dataset_footnote_code : 2021
+# dataset_footnote : mon
+# dataset_footnote:comment : AGAGE monthly mean of baseline data
+# dataset_processing : 
+# dataset_hr_mean_processing : 
+# dataset_da_mean_processing : 
+# dataset_mo_mean_processing : 
+# dataset_transition_flag : 0
+# dataset_transition_comment : Dataset was made from entire historical data provided from contributor from 2018 new WDCGG website open onward
+# dataset_reference_total_listed : 0
+# contributor_organization_code : 4
+# contributor_acronym : AGAGE
+# contributor_name : Advanced Global Atmospheric Gases Experiment Science Team(AGAGE)
+# contributor_address1 : Advanced Global Atmospheric Gases Experiment
+# contributor_address2 : Massachusetts Institute of Technology, Center for Global Change Science
+# contributor_address3 : Building 54-1312 Cambridge, MA 02139-2307
+# contributor_country/territory : Multinational
+# contributor_url : https://agage.mit.edu/
+# contact_total_listed : 2
+# contact_1_name : Chris Lunder
+# contact_1_address1 : 
+# contact_1_address2 : 
+# contact_1_address3 : 
+# contact_1_country/territory : Norway
+# contact_1_organization : Norwegian Institute for Air Research
+# contact_1_organization_acronym : NILU
+# contact_1_organization_url : http://www.nilu.no
+# contact_1_email : chris.lunder@nilu.no
+# contact_1_tel : 
+# contact_1_fax : 
+# contact_2_name : Ray Wang
+# contact_2_address1 : 
+# contact_2_address2 : 311 Ferst Drive School of Earth and Atmospheric Sciences Georgia Institute of Technology Atlanta 
+# contact_2_address3 : GA 30332-0340, U.S.A 
+# contact_2_country/territory : United States of America
+# contact_2_organization : School of Earth and Atmospheric Sciences, Georgia Institute of Technology
+# contact_2_organization_acronym : EAS
+# contact_2_organization_url : 
+# contact_2_email : raywang@eas.gatech.edu
+# contact_2_tel : (404)894-3815 
+# contact_2_fax : 
+# collaborator_total_listed : 0
+# ORG_QCflag_description : AGAGE measurements which are suspected to be influenced by local or regional pollution events are marked with a 'P'.
+# intake_height_total_listed : See data part
+# instrument_total_listed : 1
+# instrument_1 : GC-MS ADS
+# instrument_1_measurement_method_type_code : 4
+# instrument_1_measurement_method_name : Gas chromatography (MS)
+# instrument_1_start_date : 2001-01-01T00:00:00Z
+# instrument_1_end_date : 2010-12-01T00:00:00Z
+# scale_total_listed : 1
+# scale_1_code : 40
+# scale_1_name : SIO-05
+# scale_1_start_date : 2001-01-01T00:00:00Z
+# scale_1_end_date : 2010-12-01T00:00:00Z
+# observation_status_code : 1
+# observation_status : Operational/Reporting
+# measurement_calibration : 
+# sampling_frequency_code : 1
+# sampling_frequency : event
+#
+# VARIABLE ATTRIBUTES
+#
+# site_gaw_id:long_name : unique_station/mobile_identifiers.
+# site_gaw_id:comment : 3-letter site identification code as defined by GAWSIS for stationary platforms
+# time_components:_FillValue : -999 or -9
+# time_components:long_name : integer_components_of_UTC_date/time
+# time_components:order : year, month, day, hour, minute, second
+# time_components:comment : Air sample collection time (UTC) represented as a 6-element array [year, month, day, hour, minute, second]. Calendar time components as integers.
+# value:_FillValue : -999.999
+# value:units : ppt
+# value:long_name : measured_mole_fraction_of_trace_gas_in_dry_air
+# value:comment : Reported mole fraction, isotope ratio or radioactivity. Units depend on trace gas species.
+# value_unc:_FillValue : -999.999
+# value_unc:units : ppt
+# value_unc:long_name : estimated_uncertainty_in_reported_value
+# value_unc:comment : Standard deviation of the reported mean value when nvalue is greater than 1. Units depend on trace gas species.
+# nvalue:_FillValue : -9
+# nvalue:long_name : number_of_measurements_contributing_to_reported_value
+# nvalue:comment : Number of individual measurements used to compute reported values.
+# latitude:_FillValue : -999.999999999
+# latitude:standard_name : latitude
+# latitude:long_name : sample_latitude_in_decimal_degrees
+# latitude:units : degrees_north
+# latitude:comment : Latitude of sampling location in decimal degrees (north: +; south: -)
+# longitude:_FillValue : -999.999999999
+# longitude:standard_name : longitude
+# longitude:long_name : sample_longitude_in_decimal_degrees
+# longitude:units : degrees_east
+# longitude:comment : Longitude of sampling location in decimal degrees (east: +; west: -)
+# altitude:_FillValue : -999.999
+# altitude:standard_name : altitude
+# altitude:long_name : sample_altitude_in_meters_above_sea_level
+# altitude:units : m
+# altitude:comment : Altitude (elevation + intake height) of air sample collection. Units are meters above sea level (masl).
+# elevation:_FillValue : -999.999
+# elevation:standard_name : elevation
+# elevation:long_name : surface_elevation_in_meters_above_sea_level
+# elevation:units : m
+# elevation:comment : Station height (m) above sea level
+# intake_height:_FillValue : -999.999
+# intake_height:long_name : sample_intake_height_in_meters_above_ground_level
+# intake_height:units : m
+# intake_height:comment : Sampling height (depth) of air (seawater) above ground (below sea level) (height: +; depth: -) (m)
+# flask_no:_FillValue : -999.999
+# flask_no:long_name : sample_flask_no
+# flask_no:comment : Identification code (or number) of flask used for observation
+# ORG_QCflag:_FillValue : -999.999
+# ORG_QCflag:long_name : original_quality_control_flag
+# ORG_QCflag:comment : Details of original data quality control flags should be specified by contributors in metadata.
+# QCflag:_FillValue : -9
+# QCflag:long_name : quality_control_flag
+# QCflag:comment : 1 Valid (background) data considered "background"
+# QCflag:comment : 2 Valid data considered valid other than "background"
+# QCflag:comment : 3 Invalid data considered unfit for use (questionable/erroneous/absent data)
+# QCflag:comment : Details of correspondence between original data quality control flags and WDCGG data flags should be specified by contributors in metadata.
+# instrument:_FillValue : -9
+# instrument:long_name : instrument_ID_to_detect_atmospheric_parameter
+# instrument:comment : A numeric field that identifies the instrument.
+# measurement_method:_FillValue : -9
+# measurement_method:long_name : measurement_method_history
+# measurement_method:comment : A numeric field that identifies the measurement method.
+# scale:_FillValue : -9
+# scale:long_name : calibration_scale_history
+# scale:comment : A numeric field that identifies the calibration scale. Measurements are relative to reported calibration scale.
+#
+# VARIABLE ORDER
+#
+# site_gaw_id year month day hour minute second year month day hour minute second value value_unc nvalue latitude longitude altitude elevation intake_height flask_no ORG_QCflag QCflag instrument measurement_method scale
+ZEP 2001 01 01 00 00 00 -999 -9 -9 -9 -9 -9 156.051 0.786 30 78.91 11.88 -999.999 474 -999.999 -999.999 -999.999 1 1 4 40
+ZEP 2001 02 01 00 00 00 -999 -9 -9 -9 -9 -9 156.276 0.809 52 78.91 11.88 -999.999 474 -999.999 -999.999 -999.999 1 1 4 40
+ZEP 2001 03 01 00 00 00 -999 -9 -9 -9 -9 -9 156.624 0.631 108 78.91 11.88 -999.999 474 -999.999 -999.999 -999.999 1 1 4 40
+ZEP 2001 04 01 00 00 00 -999 -9 -9 -9 -9 -9 156.957 0.568 33 78.91 11.88 -999.999 474 -999.999 -999.999 -999.999 1 1 4 40
+ZEP 2001 05 01 00 00 00 -999 -9 -9 -9 -9 -9 -999.999 -999.999 0 78.91 11.88 -999.999 474 -999.999 -999.999 -999.999 3 1 4 40
+ZEP 2001 06 01 00 00 00 -999 -9 -9 -9 -9 -9 158.144 0.914 17 78.91 11.88 -999.999 474 -999.999 -999.999 -999.999 1 1 4 40
+ZEP 2001 07 01 00 00 00 -999 -9 -9 -9 -9 -9 158.626 0.726 80 78.91 11.88 -999.999 474 -999.999 -999.999 -999.999 1 1 4 40
+ZEP 2001 08 01 00 00 00 -999 -9 -9 -9 -9 -9 159.077 0.889 116 78.91 11.88 -999.999 474 -999.999 -999.999 -999.999 1 1 4 40
+ZEP 2001 09 01 00 00 00 -999 -9 -9 -9 -9 -9 159.961 0.493 110 78.91 11.88 -999.999 474 -999.999 -999.999 -999.999 1 1 4 40
+ZEP 2001 10 01 00 00 00 -999 -9 -9 -9 -9 -9 161.207 0.535 147 78.91 11.88 -999.999 474 -999.999 -999.999 -999.999 1 1 4 40
+ZEP 2001 11 01 00 00 00 -999 -9 -9 -9 -9 -9 162.739 0.666 107 78.91 11.88 -999.999 474 -999.999 -999.999 -999.999 1 1 4 40
+ZEP 2001 12 01 00 00 00 -999 -9 -9 -9 -9 -9 163.205 0.710 129 78.91 11.88 -999.999 474 -999.999 -999.999 -999.999 1 1 4 40
+ZEP 2002 01 01 00 00 00 -999 -9 -9 -9 -9 -9 162.113 0.872 176 78.91 11.88 -999.999 474 -999.999 -999.999 -999.999 1 1 4 40
+ZEP 2002 02 01 00 00 00 -999 -9 -9 -9 -9 -9 162.089 0.862 101 78.91 11.88 -999.999 474 -999.999 -999.999 -999.999 1 1 4 40
+ZEP 2002 03 01 00 00 00 -999 -9 -9 -9 -9 -9 -999.999 -999.999 0 78.91 11.88 -999.999 474 -999.999 -999.999 -999.999 3 1 4 40
+ZEP 2002 04 01 00 00 00 -999 -9 -9 -9 -9 -9 -999.999 -999.999 0 78.91 11.88 -999.999 474 -999.999 -999.999 -999.999 3 1 4 40
+ZEP 2002 05 01 00 00 00 -999 -9 -9 -9 -9 -9 -999.999 -999.999 0 78.91 11.88 -999.999 474 -999.999 -999.999 -999.999 3 1 4 40
+ZEP 2002 06 01 00 00 00 -999 -9 -9 -9 -9 -9 -999.999 -999.999 0 78.91 11.88 -999.999 474 -999.999 -999.999 -999.999 3 1 4 40
+ZEP 2002 07 01 00 00 00 -999 -9 -9 -9 -9 -9 163.675 0.689 30 78.91 11.88 -999.999 474 -999.999 -999.999 -999.999 1 1 4 40
+ZEP 2002 08 01 00 00 00 -999 -9 -9 -9 -9 -9 164.598 0.631 102 78.91 11.88 -999.999 474 -999.999 -999.999 -999.999 1 1 4 40
+ZEP 2002 09 01 00 00 00 -999 -9 -9 -9 -9 -9 165.312 0.674 144 78.91 11.88 -999.999 474 -999.999 -999.999 -999.999 1 1 4 40
+ZEP 2002 10 01 00 00 00 -999 -9 -9 -9 -9 -9 167.381 1.086 116 78.91 11.88 -999.999 474 -999.999 -999.999 -999.999 1 1 4 40
+ZEP 2002 11 01 00 00 00 -999 -9 -9 -9 -9 -9 169.033 0.901 153 78.91 11.88 -999.999 474 -999.999 -999.999 -999.999 1 1 4 40
+ZEP 2002 12 01 00 00 00 -999 -9 -9 -9 -9 -9 169.745 0.710 103 78.91 11.88 -999.999 474 -999.999 -999.999 -999.999 1 1 4 40
+ZEP 2003 01 01 00 00 00 -999 -9 -9 -9 -9 -9 169.687 0.622 142 78.91 11.88 -999.999 474 -999.999 -999.999 -999.999 1 1 4 40
+ZEP 2003 02 01 00 00 00 -999 -9 -9 -9 -9 -9 -999.999 -999.999 0 78.91 11.88 -999.999 474 -999.999 -999.999 -999.999 3 1 4 40
+ZEP 2003 03 01 00 00 00 -999 -9 -9 -9 -9 -9 169.236 0.821 93 78.91 11.88 -999.999 474 -999.999 -999.999 -999.999 1 1 4 40
+ZEP 2003 04 01 00 00 00 -999 -9 -9 -9 -9 -9 170.223 0.848 62 78.91 11.88 -999.999 474 -999.999 -999.999 -999.999 1 1 4 40
+ZEP 2003 05 01 00 00 00 -999 -9 -9 -9 -9 -9 170.088 1.171 157 78.91 11.88 -999.999 474 -999.999 -999.999 -999.999 1 1 4 40
+ZEP 2003 06 01 00 00 00 -999 -9 -9 -9 -9 -9 170.431 1.114 155 78.91 11.88 -999.999 474 -999.999 -999.999 -999.999 1 1 4 40
+ZEP 2003 07 01 00 00 00 -999 -9 -9 -9 -9 -9 170.718 1.780 23 78.91 11.88 -999.999 474 -999.999 -999.999 -999.999 1 1 4 40
+ZEP 2003 08 01 00 00 00 -999 -9 -9 -9 -9 -9 -999.999 -999.999 0 78.91 11.88 -999.999 474 -999.999 -999.999 -999.999 3 1 4 40
+ZEP 2003 09 01 00 00 00 -999 -9 -9 -9 -9 -9 -999.999 -999.999 0 78.91 11.88 -999.999 474 -999.999 -999.999 -999.999 3 1 4 40
+ZEP 2003 10 01 00 00 00 -999 -9 -9 -9 -9 -9 172.513 1.622 104 78.91 11.88 -999.999 474 -999.999 -999.999 -999.999 1 1 4 40
+ZEP 2003 11 01 00 00 00 -999 -9 -9 -9 -9 -9 175.756 1.330 34 78.91 11.88 -999.999 474 -999.999 -999.999 -999.999 1 1 4 40
+ZEP 2003 12 01 00 00 00 -999 -9 -9 -9 -9 -9 174.936 0.534 3 78.91 11.88 -999.999 474 -999.999 -999.999 -999.999 1 1 4 40
+ZEP 2004 01 01 00 00 00 -999 -9 -9 -9 -9 -9 173.408 1.821 77 78.91 11.88 -999.999 474 -999.999 -999.999 -999.999 1 1 4 40
+ZEP 2004 02 01 00 00 00 -999 -9 -9 -9 -9 -9 172.792 1.164 131 78.91 11.88 -999.999 474 -999.999 -999.999 -999.999 1 1 4 40
+ZEP 2004 03 01 00 00 00 -999 -9 -9 -9 -9 -9 173.231 1.432 128 78.91 11.88 -999.999 474 -999.999 -999.999 -999.999 1 1 4 40
+ZEP 2004 04 01 00 00 00 -999 -9 -9 -9 -9 -9 174.409 1.340 142 78.91 11.88 -999.999 474 -999.999 -999.999 -999.999 1 1 4 40
+ZEP 2004 05 01 00 00 00 -999 -9 -9 -9 -9 -9 175.623 0.519 38 78.91 11.88 -999.999 474 -999.999 -999.999 -999.999 1 1 4 40
+ZEP 2004 06 01 00 00 00 -999 -9 -9 -9 -9 -9 175.092 0.731 89 78.91 11.88 -999.999 474 -999.999 -999.999 -999.999 1 1 4 40
+ZEP 2004 07 01 00 00 00 -999 -9 -9 -9 -9 -9 -999.999 -999.999 0 78.91 11.88 -999.999 474 -999.999 -999.999 -999.999 3 1 4 40
+ZEP 2004 08 01 00 00 00 -999 -9 -9 -9 -9 -9 175.850 0.902 39 78.91 11.88 -999.999 474 -999.999 -999.999 -999.999 1 1 4 40
+ZEP 2004 09 01 00 00 00 -999 -9 -9 -9 -9 -9 175.640 0.679 125 78.91 11.88 -999.999 474 -999.999 -999.999 -999.999 1 1 4 40
+ZEP 2004 10 01 00 00 00 -999 -9 -9 -9 -9 -9 177.215 0.721 129 78.91 11.88 -999.999 474 -999.999 -999.999 -999.999 1 1 4 40
+ZEP 2004 11 01 00 00 00 -999 -9 -9 -9 -9 -9 178.690 1.063 130 78.91 11.88 -999.999 474 -999.999 -999.999 -999.999 1 1 4 40
+ZEP 2004 12 01 00 00 00 -999 -9 -9 -9 -9 -9 -999.999 -999.999 0 78.91 11.88 -999.999 474 -999.999 -999.999 -999.999 3 1 4 40
+ZEP 2005 01 01 00 00 00 -999 -9 -9 -9 -9 -9 179.948 0.994 41 78.91 11.88 -999.999 474 -999.999 -999.999 -999.999 1 1 4 40
+ZEP 2005 02 01 00 00 00 -999 -9 -9 -9 -9 -9 177.855 1.169 91 78.91 11.88 -999.999 474 -999.999 -999.999 -999.999 1 1 4 40
+ZEP 2005 03 01 00 00 00 -999 -9 -9 -9 -9 -9 178.219 0.987 121 78.91 11.88 -999.999 474 -999.999 -999.999 -999.999 1 1 4 40
+ZEP 2005 04 01 00 00 00 -999 -9 -9 -9 -9 -9 179.211 0.813 127 78.91 11.88 -999.999 474 -999.999 -999.999 -999.999 1 1 4 40
+ZEP 2005 05 01 00 00 00 -999 -9 -9 -9 -9 -9 180.155 0.770 92 78.91 11.88 -999.999 474 -999.999 -999.999 -999.999 1 1 4 40
+ZEP 2005 06 01 00 00 00 -999 -9 -9 -9 -9 -9 179.347 0.698 86 78.91 11.88 -999.999 474 -999.999 -999.999 -999.999 1 1 4 40
+ZEP 2005 07 01 00 00 00 -999 -9 -9 -9 -9 -9 180.018 0.868 95 78.91 11.88 -999.999 474 -999.999 -999.999 -999.999 1 1 4 40
+ZEP 2005 08 01 00 00 00 -999 -9 -9 -9 -9 -9 180.746 0.771 145 78.91 11.88 -999.999 474 -999.999 -999.999 -999.999 1 1 4 40
+ZEP 2005 09 01 00 00 00 -999 -9 -9 -9 -9 -9 181.236 0.587 115 78.91 11.88 -999.999 474 -999.999 -999.999 -999.999 1 1 4 40
+ZEP 2005 10 01 00 00 00 -999 -9 -9 -9 -9 -9 182.495 0.686 115 78.91 11.88 -999.999 474 -999.999 -999.999 -999.999 1 1 4 40
+ZEP 2005 11 01 00 00 00 -999 -9 -9 -9 -9 -9 184.576 0.930 112 78.91 11.88 -999.999 474 -999.999 -999.999 -999.999 1 1 4 40
+ZEP 2005 12 01 00 00 00 -999 -9 -9 -9 -9 -9 -999.999 -999.999 0 78.91 11.88 -999.999 474 -999.999 -999.999 -999.999 3 1 4 40
+ZEP 2006 01 01 00 00 00 -999 -9 -9 -9 -9 -9 186.568 1.509 81 78.91 11.88 -999.999 474 -999.999 -999.999 -999.999 1 1 4 40
+ZEP 2006 02 01 00 00 00 -999 -9 -9 -9 -9 -9 -999.999 -999.999 0 78.91 11.88 -999.999 474 -999.999 -999.999 -999.999 3 1 4 40
+ZEP 2006 03 01 00 00 00 -999 -9 -9 -9 -9 -9 188.560 0.750 106 78.91 11.88 -999.999 474 -999.999 -999.999 -999.999 1 1 4 40
+ZEP 2006 04 01 00 00 00 -999 -9 -9 -9 -9 -9 187.978 1.034 70 78.91 11.88 -999.999 474 -999.999 -999.999 -999.999 1 1 4 40
+ZEP 2006 05 01 00 00 00 -999 -9 -9 -9 -9 -9 187.254 0.686 122 78.91 11.88 -999.999 474 -999.999 -999.999 -999.999 1 1 4 40
+ZEP 2006 06 01 00 00 00 -999 -9 -9 -9 -9 -9 186.465 0.455 122 78.91 11.88 -999.999 474 -999.999 -999.999 -999.999 1 1 4 40
+ZEP 2006 07 01 00 00 00 -999 -9 -9 -9 -9 -9 187.713 0.713 103 78.91 11.88 -999.999 474 -999.999 -999.999 -999.999 1 1 4 40
+ZEP 2006 08 01 00 00 00 -999 -9 -9 -9 -9 -9 188.362 0.752 134 78.91 11.88 -999.999 474 -999.999 -999.999 -999.999 1 1 4 40
+ZEP 2006 09 01 00 00 00 -999 -9 -9 -9 -9 -9 188.287 0.585 108 78.91 11.88 -999.999 474 -999.999 -999.999 -999.999 1 1 4 40
+ZEP 2006 10 01 00 00 00 -999 -9 -9 -9 -9 -9 190.306 1.298 135 78.91 11.88 -999.999 474 -999.999 -999.999 -999.999 1 1 4 40
+ZEP 2006 11 01 00 00 00 -999 -9 -9 -9 -9 -9 192.185 0.998 73 78.91 11.88 -999.999 474 -999.999 -999.999 -999.999 1 1 4 40
+ZEP 2006 12 01 00 00 00 -999 -9 -9 -9 -9 -9 193.764 1.156 105 78.91 11.88 -999.999 474 -999.999 -999.999 -999.999 1 1 4 40
+ZEP 2007 01 01 00 00 00 -999 -9 -9 -9 -9 -9 195.000 0.660 8 78.91 11.88 -999.999 474 -999.999 -999.999 -999.999 1 1 4 40
+ZEP 2007 02 01 00 00 00 -999 -9 -9 -9 -9 -9 194.663 0.566 118 78.91 11.88 -999.999 474 -999.999 -999.999 -999.999 1 1 4 40
+ZEP 2007 03 01 00 00 00 -999 -9 -9 -9 -9 -9 195.617 0.738 116 78.91 11.88 -999.999 474 -999.999 -999.999 -999.999 1 1 4 40
+ZEP 2007 04 01 00 00 00 -999 -9 -9 -9 -9 -9 195.475 0.672 77 78.91 11.88 -999.999 474 -999.999 -999.999 -999.999 1 1 4 40
+ZEP 2007 05 01 00 00 00 -999 -9 -9 -9 -9 -9 193.679 0.776 148 78.91 11.88 -999.999 474 -999.999 -999.999 -999.999 1 1 4 40
+ZEP 2007 06 01 00 00 00 -999 -9 -9 -9 -9 -9 194.062 0.979 114 78.91 11.88 -999.999 474 -999.999 -999.999 -999.999 1 1 4 40
+ZEP 2007 07 01 00 00 00 -999 -9 -9 -9 -9 -9 194.845 0.852 144 78.91 11.88 -999.999 474 -999.999 -999.999 -999.999 1 1 4 40
+ZEP 2007 08 01 00 00 00 -999 -9 -9 -9 -9 -9 195.584 0.992 10 78.91 11.88 -999.999 474 -999.999 -999.999 -999.999 1 1 4 40
+ZEP 2007 09 01 00 00 00 -999 -9 -9 -9 -9 -9 194.105 0.806 18 78.91 11.88 -999.999 474 -999.999 -999.999 -999.999 1 1 4 40
+ZEP 2007 10 01 00 00 00 -999 -9 -9 -9 -9 -9 196.485 0.911 46 78.91 11.88 -999.999 474 -999.999 -999.999 -999.999 1 1 4 40
+ZEP 2007 11 01 00 00 00 -999 -9 -9 -9 -9 -9 197.897 1.095 131 78.91 11.88 -999.999 474 -999.999 -999.999 -999.999 1 1 4 40
+ZEP 2007 12 01 00 00 00 -999 -9 -9 -9 -9 -9 199.279 1.201 110 78.91 11.88 -999.999 474 -999.999 -999.999 -999.999 1 1 4 40
+ZEP 2008 01 01 00 00 00 -999 -9 -9 -9 -9 -9 200.355 0.658 64 78.91 11.88 -999.999 474 -999.999 -999.999 -999.999 1 1 4 40
+ZEP 2008 02 01 00 00 00 -999 -9 -9 -9 -9 -9 202.419 0.750 51 78.91 11.88 -999.999 474 -999.999 -999.999 -999.999 1 1 4 40
+ZEP 2008 03 01 00 00 00 -999 -9 -9 -9 -9 -9 202.369 0.797 146 78.91 11.88 -999.999 474 -999.999 -999.999 -999.999 1 1 4 40
+ZEP 2008 04 01 00 00 00 -999 -9 -9 -9 -9 -9 202.864 0.581 130 78.91 11.88 -999.999 474 -999.999 -999.999 -999.999 1 1 4 40
+ZEP 2008 05 01 00 00 00 -999 -9 -9 -9 -9 -9 202.911 0.682 115 78.91 11.88 -999.999 474 -999.999 -999.999 -999.999 1 1 4 40
+ZEP 2008 06 01 00 00 00 -999 -9 -9 -9 -9 -9 202.857 0.847 77 78.91 11.88 -999.999 474 -999.999 -999.999 -999.999 1 1 4 40
+ZEP 2008 07 01 00 00 00 -999 -9 -9 -9 -9 -9 -999.999 -999.999 0 78.91 11.88 -999.999 474 -999.999 -999.999 -999.999 3 1 4 40
+ZEP 2008 08 01 00 00 00 -999 -9 -9 -9 -9 -9 -999.999 -999.999 0 78.91 11.88 -999.999 474 -999.999 -999.999 -999.999 3 1 4 40
+ZEP 2008 09 01 00 00 00 -999 -9 -9 -9 -9 -9 206.387 0.729 17 78.91 11.88 -999.999 474 -999.999 -999.999 -999.999 1 1 4 40
+ZEP 2008 10 01 00 00 00 -999 -9 -9 -9 -9 -9 206.874 1.187 95 78.91 11.88 -999.999 474 -999.999 -999.999 -999.999 1 1 4 40
+ZEP 2008 11 01 00 00 00 -999 -9 -9 -9 -9 -9 209.100 1.046 88 78.91 11.88 -999.999 474 -999.999 -999.999 -999.999 1 1 4 40
+ZEP 2008 12 01 00 00 00 -999 -9 -9 -9 -9 -9 211.002 0.817 56 78.91 11.88 -999.999 474 -999.999 -999.999 -999.999 1 1 4 40
+ZEP 2009 01 01 00 00 00 -999 -9 -9 -9 -9 -9 209.902 1.271 167 78.91 11.88 -999.999 474 -999.999 -999.999 -999.999 1 1 4 40
+ZEP 2009 02 01 00 00 00 -999 -9 -9 -9 -9 -9 209.775 1.147 117 78.91 11.88 -999.999 474 -999.999 -999.999 -999.999 1 1 4 40
+ZEP 2009 03 01 00 00 00 -999 -9 -9 -9 -9 -9 209.729 0.931 59 78.91 11.88 -999.999 474 -999.999 -999.999 -999.999 1 1 4 40
+ZEP 2009 04 01 00 00 00 -999 -9 -9 -9 -9 -9 210.926 0.872 79 78.91 11.88 -999.999 474 -999.999 -999.999 -999.999 1 1 4 40
+ZEP 2009 05 01 00 00 00 -999 -9 -9 -9 -9 -9 210.165 0.593 115 78.91 11.88 -999.999 474 -999.999 -999.999 -999.999 1 1 4 40
+ZEP 2009 06 01 00 00 00 -999 -9 -9 -9 -9 -9 210.215 0.637 108 78.91 11.88 -999.999 474 -999.999 -999.999 -999.999 1 1 4 40
+ZEP 2009 07 01 00 00 00 -999 -9 -9 -9 -9 -9 211.218 1.328 107 78.91 11.88 -999.999 474 -999.999 -999.999 -999.999 1 1 4 40
+ZEP 2009 08 01 00 00 00 -999 -9 -9 -9 -9 -9 213.865 0.993 116 78.91 11.88 -999.999 474 -999.999 -999.999 -999.999 1 1 4 40
+ZEP 2009 09 01 00 00 00 -999 -9 -9 -9 -9 -9 214.202 0.631 119 78.91 11.88 -999.999 474 -999.999 -999.999 -999.999 1 1 4 40
+ZEP 2009 10 01 00 00 00 -999 -9 -9 -9 -9 -9 214.919 1.025 73 78.91 11.88 -999.999 474 -999.999 -999.999 -999.999 1 1 4 40
+ZEP 2009 11 01 00 00 00 -999 -9 -9 -9 -9 -9 218.038 1.550 123 78.91 11.88 -999.999 474 -999.999 -999.999 -999.999 1 1 4 40
+ZEP 2009 12 01 00 00 00 -999 -9 -9 -9 -9 -9 218.639 1.501 131 78.91 11.88 -999.999 474 -999.999 -999.999 -999.999 1 1 4 40
+ZEP 2010 01 01 00 00 00 -999 -9 -9 -9 -9 -9 217.717 1.119 48 78.91 11.88 -999.999 474 -999.999 -999.999 -999.999 1 1 4 40
+ZEP 2010 02 01 00 00 00 -999 -9 -9 -9 -9 -9 220.197 1.668 120 78.91 11.88 -999.999 474 -999.999 -999.999 -999.999 1 1 4 40
+ZEP 2010 03 01 00 00 00 -999 -9 -9 -9 -9 -9 219.539 1.225 83 78.91 11.88 -999.999 474 -999.999 -999.999 -999.999 1 1 4 40
+ZEP 2010 04 01 00 00 00 -999 -9 -9 -9 -9 -9 217.686 1.384 62 78.91 11.88 -999.999 474 -999.999 -999.999 -999.999 1 1 4 40
+ZEP 2010 05 01 00 00 00 -999 -9 -9 -9 -9 -9 217.283 0.865 72 78.91 11.88 -999.999 474 -999.999 -999.999 -999.999 1 1 4 40
+ZEP 2010 06 01 00 00 00 -999 -9 -9 -9 -9 -9 218.018 0.831 89 78.91 11.88 -999.999 474 -999.999 -999.999 -999.999 1 1 4 40
+ZEP 2010 07 01 00 00 00 -999 -9 -9 -9 -9 -9 217.982 0.787 127 78.91 11.88 -999.999 474 -999.999 -999.999 -999.999 1 1 4 40
+ZEP 2010 08 01 00 00 00 -999 -9 -9 -9 -9 -9 219.033 1.634 94 78.91 11.88 -999.999 474 -999.999 -999.999 -999.999 1 1 4 40
+ZEP 2010 09 01 00 00 00 -999 -9 -9 -9 -9 -9 222.083 1.202 107 78.91 11.88 -999.999 474 -999.999 -999.999 -999.999 1 1 4 40
+ZEP 2010 10 01 00 00 00 -999 -9 -9 -9 -9 -9 223.788 0.928 11 78.91 11.88 -999.999 474 -999.999 -999.999 -999.999 1 1 4 40
+ZEP 2010 11 01 00 00 00 -999 -9 -9 -9 -9 -9 224.565 1.384 108 78.91 11.88 -999.999 474 -999.999 -999.999 -999.999 1 1 4 40
+ZEP 2010 12 01 00 00 00 -999 -9 -9 -9 -9 -9 226.606 1.552 72 78.91 11.88 -999.999 474 -999.999 -999.999 -999.999 1 1 4 40

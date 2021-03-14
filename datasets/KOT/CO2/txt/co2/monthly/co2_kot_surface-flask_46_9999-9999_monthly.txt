@@ -1,0 +1,253 @@
+# header_lines : 171
+# Data_Set_Name : co2_kot_surface-flask_46_9999-9999_monthly
+# Data_Set_Version : 0046-2001-1001-01-02-9999_2018-02-23-0729
+# Data_Set_Fair_Use : For Scientific purposes, access to these data is unlimited and provided without charge. By their use you accept that an offer of co-authorship will be made through personal contact with the contributors whenever substantial use is made of their data. In all cases, an acknowledgement must be made to the contributors and to the data centre when these data are used within a publication.
+#
+# GLOBAL ATTRIBUTES
+#
+# site_gaw_id : KOT
+# site_gaw_type : GAW Regional
+# site_name : Kotelnyj Island
+# site_country/territory : Russian Federation
+# site_wmo_region : REGION II (Asia)
+# site_address1 : 
+# site_address2 : 
+# site_address3 : 
+# site_latitude : 76
+# site_longitude : 137.8699951172
+# site_elevation : 5
+# site_elevation_unit : m
+# site_lst2utc : UTC+10:00
+# site_climate_zone : Dfd
+# site_climate_zone:comment : Snow climate, fully humid, extremely continental
+# dataset_creation_date : 2018-06-29
+# dataset_parameter : co2
+# dataset_parameter_large_class : Greenhouse Gas
+# dataset_parameter_small_class : 
+# dataset_parameter_name_1 : CO2
+# dataset_parameter_name_2 : carbon dioxide
+# dataset_parameter_name_3 : 
+# dataset_parameter_name_4 : 
+# dataset_parameter_name_5 : 
+# dataset_project : surface-flask
+# dataset_platform : fixed station
+# dataset_selection : All monthly data
+# dataset_selection_tag : monthly
+# dataset_time_zone : UTC+09:00
+# dataset_start_date : 1986-06-01T00:00:00+09:00
+# dataset_end_date : 1993-10-01T00:00:00+09:00
+# dataset_statistic_code : 1
+# dataset_statistic : contributor
+# dataset_description : 
+# dataset_aim_of_observation_code : 1
+# dataset_aim_of_observation : Background observation
+# dataset_buffer_code : 9999
+# dataset_buffer : data1
+# dataset_buffer:comment : default
+# dataset_footnote_code : 9999
+# dataset_footnote : default
+# dataset_footnote:comment : default
+# dataset_processing : The reported data are the mean of the CO2 concentrations measured in two simultaneously sampled flask, if the difference between them is less or equal to 1 ppm. Otherwise, the lower of the two measured values is taken as a daily value if it does not differ from the smoothed concentration curve for more than 2 standard deviations. Technically invalid data are excluded. 
+# dataset_hr_mean_processing : 
+# dataset_da_mean_processing : 
+# dataset_mo_mean_processing : Monthly data are the arithmetic mean of selected event data.
+# dataset_transition_flag : 1
+# dataset_transition_comment : Dataset was made using the former WDCGG data file
+# dataset_reference_total_listed : 0
+# contributor_organization_code : 46
+# contributor_acronym : MGO
+# contributor_name : Voeikov Main Geophysical Observatory
+# contributor_address1 : 
+# contributor_address2 : Voeikov Main Geophysical Observatory
+# contributor_address3 : St. Petersburg, Karbyshev Street 7, Russian Federation, 194021
+# contributor_country/territory : Russian Federation
+# contributor_url : http://voeikovmgo.ru/index.php?lang=en
+# contact_total_listed : 1
+# contact_1_name : Nina Paramonova
+# contact_1_address1 : 
+# contact_1_address2 : Voeikov Main Geophysical Observatory
+# contact_1_address3 : St. Petersburg, Karbyshev Street 7, Russian Federation, 194021
+# contact_1_country/territory : Russian Federation
+# contact_1_organization : Voeikov Main Geophysical Observatory
+# contact_1_organization_acronym : MGO
+# contact_1_organization_url : http://voeikovmgo.ru/index.php?lang=en
+# contact_1_email : reshal@peterlink.ru
+# contact_1_tel : +7-813-70-75-293
+# contact_1_fax : +7-813-70-75-135
+# collaborator_total_listed : 0
+# ORG_QCflag_description : 
+# intake_height_total_listed : 1
+# intake_height_1 : 2
+# intake_height_1_units : m
+# intake_height_1_start_date : 1986-06-01T00:00:00+09:00
+# intake_height_1_end_date : 1993-10-01T00:00:00+09:00
+# instrument_total_listed : 1
+# instrument_1 : Hartmann & Braun
+# instrument_1 : URAS-2T ref. No. 7609 8396
+# instrument_1 : The instrument is used from 1981
+# instrument_1_measurement_method_type_code : 9
+# instrument_1_measurement_method_name : NDIR
+# instrument_1_start_date : 1986-06-01T00:00:00+09:00
+# instrument_1_end_date : 1993-10-01T00:00:00+09:00
+# scale_total_listed : 1
+# scale_1_code : 61
+# scale_1_name : WMO CO2 X1987
+# scale_1_start_date : 1986-06-01T00:00:00+09:00
+# scale_1_end_date : 1993-10-01T00:00:00+09:00
+# observation_status_code : 2
+# observation_status : Temporarily suspended
+# measurement_calibration : Working standard gases are calibrated yearly against the secondary standard. The working gases and four standard gases (CO2 in-synthetic air) were initially calibrated at SIO in 1981. Five WMO 1987X scale standard gases ( CO2 -in-air) provide by AES are used as the secondary standard from 1991. Latest calibration of these standard gases against primary WMO standard was carried out in 1991.
+# measurement_calibration : During flask measurement procedure, the analyzer is calibrated hourly with 3 working gases. 
+# sampling_frequency_code : 2
+# sampling_frequency : weekly
+#
+# VARIABLE ATTRIBUTES
+#
+# site_gaw_id:long_name : unique_station/mobile_identifiers.
+# site_gaw_id:comment : 3-letter site identification code as defined by GAWSIS for stationary platforms
+# time_components:_FillValue : -999 or -9
+# time_components:long_name : integer_components_of_LST_date/time
+# time_components:order : year, month, day, hour, minute, second
+# time_components:comment : Air sample collection time (LST) represented as a 6-element array [year, month, day, hour, minute, second]. Calendar time components as integers.
+# value:_FillValue : -999.999
+# value:units : ppm
+# value:long_name : measured_mole_fraction_of_trace_gas_in_dry_air
+# value:comment : Reported mole fraction, isotope ratio or radioactivity. Units depend on trace gas species.
+# value_unc:_FillValue : -999.999
+# value_unc:units : ppm
+# value_unc:long_name : estimated_uncertainty_in_reported_value
+# value_unc:comment : Standard deviation of the reported mean value when nvalue is greater than 1. Units depend on trace gas species.
+# nvalue:_FillValue : -9
+# nvalue:long_name : number_of_measurements_contributing_to_reported_value
+# nvalue:comment : Number of individual measurements used to compute reported values.
+# latitude:_FillValue : -999.999999999
+# latitude:standard_name : latitude
+# latitude:long_name : sample_latitude_in_decimal_degrees
+# latitude:units : degrees_north
+# latitude:comment : Latitude of sampling location in decimal degrees (north: +; south: -)
+# longitude:_FillValue : -999.999999999
+# longitude:standard_name : longitude
+# longitude:long_name : sample_longitude_in_decimal_degrees
+# longitude:units : degrees_east
+# longitude:comment : Longitude of sampling location in decimal degrees (east: +; west: -)
+# altitude:_FillValue : -999.999
+# altitude:standard_name : altitude
+# altitude:long_name : sample_altitude_in_meters_above_sea_level
+# altitude:units : m
+# altitude:comment : Altitude (elevation + intake height) of air sample collection. Units are meters above sea level (masl).
+# elevation:_FillValue : -999.999
+# elevation:standard_name : elevation
+# elevation:long_name : surface_elevation_in_meters_above_sea_level
+# elevation:units : m
+# elevation:comment : Station height (m) above sea level
+# intake_height:_FillValue : -999.999
+# intake_height:long_name : sample_intake_height_in_meters_above_ground_level
+# intake_height:units : m
+# intake_height:comment : Sampling height (depth) of air (seawater) above ground (below sea level) (height: +; depth: -) (m)
+# flask_no:_FillValue : -999.999
+# flask_no:long_name : sample_flask_no
+# flask_no:comment : Identification code (or number) of flask used for observation
+# ORG_QCflag:_FillValue : -999.999
+# ORG_QCflag:long_name : original_quality_control_flag
+# ORG_QCflag:comment : Details of original data quality control flags should be specified by contributors in metadata.
+# QCflag:_FillValue : -9
+# QCflag:long_name : quality_control_flag
+# QCflag:comment : 1 Valid (background) data considered "background"
+# QCflag:comment : 2 Valid data considered valid other than "background"
+# QCflag:comment : 3 Invalid data considered unfit for use (questionable/erroneous/absent data)
+# QCflag:comment : Details of correspondence between original data quality control flags and WDCGG data flags should be specified by contributors in metadata.
+# instrument:_FillValue : -9
+# instrument:long_name : instrument_ID_to_detect_atmospheric_parameter
+# instrument:comment : A numeric field that identifies the instrument.
+# measurement_method:_FillValue : -9
+# measurement_method:long_name : measurement_method_history
+# measurement_method:comment : A numeric field that identifies the measurement method.
+# scale:_FillValue : -9
+# scale:long_name : calibration_scale_history
+# scale:comment : A numeric field that identifies the calibration scale. Measurements are relative to reported calibration scale.
+#
+# VARIABLE ORDER
+#
+# site_gaw_id year month day hour minute second year month day hour minute second value value_unc nvalue latitude longitude altitude elevation intake_height flask_no ORG_QCflag QCflag instrument measurement_method scale
+KOT 1986 06 01 00 00 00 -999 -9 -9 -9 -9 -9 352.6 -999.999 1 76 137.8699951172 7 5 2 -999.999 -999.999 2 1 9 61
+KOT 1986 08 01 00 00 00 -999 -9 -9 -9 -9 -9 340.7 -999.999 1 76 137.8699951172 7 5 2 -999.999 -999.999 2 1 9 61
+KOT 1986 09 01 00 00 00 -999 -9 -9 -9 -9 -9 340.8 -999.999 1 76 137.8699951172 7 5 2 -999.999 -999.999 2 1 9 61
+KOT 1986 10 01 00 00 00 -999 -9 -9 -9 -9 -9 349.0 -999.999 1 76 137.8699951172 7 5 2 -999.999 -999.999 2 1 9 61
+KOT 1986 11 01 00 00 00 -999 -9 -9 -9 -9 -9 354.1 -999.999 1 76 137.8699951172 7 5 2 -999.999 -999.999 2 1 9 61
+KOT 1986 12 01 00 00 00 -999 -9 -9 -9 -9 -9 354.1 -999.999 1 76 137.8699951172 7 5 2 -999.999 -999.999 2 1 9 61
+KOT 1987 01 01 00 00 00 -999 -9 -9 -9 -9 -9 356.3 1.7 2 76 137.8699951172 7 5 2 -999.999 -999.999 2 1 9 61
+KOT 1987 02 01 00 00 00 -999 -9 -9 -9 -9 -9 356.9 -999.999 1 76 137.8699951172 7 5 2 -999.999 -999.999 2 1 9 61
+KOT 1987 04 01 00 00 00 -999 -9 -9 -9 -9 -9 357.4 0.1 2 76 137.8699951172 7 5 2 -999.999 -999.999 2 1 9 61
+KOT 1987 05 01 00 00 00 -999 -9 -9 -9 -9 -9 358.7 0.3 2 76 137.8699951172 7 5 2 -999.999 -999.999 2 1 9 61
+KOT 1987 06 01 00 00 00 -999 -9 -9 -9 -9 -9 358.0 -999.999 1 76 137.8699951172 7 5 2 -999.999 -999.999 2 1 9 61
+KOT 1987 07 01 00 00 00 -999 -9 -9 -9 -9 -9 348.6 6.6 2 76 137.8699951172 7 5 2 -999.999 -999.999 2 1 9 61
+KOT 1987 09 01 00 00 00 -999 -9 -9 -9 -9 -9 343.1 1.1 2 76 137.8699951172 7 5 2 -999.999 -999.999 2 1 9 61
+KOT 1987 10 01 00 00 00 -999 -9 -9 -9 -9 -9 345.7 3.5 2 76 137.8699951172 7 5 2 -999.999 -999.999 2 1 9 61
+KOT 1987 11 01 00 00 00 -999 -9 -9 -9 -9 -9 350.3 -999.999 1 76 137.8699951172 7 5 2 -999.999 -999.999 2 1 9 61
+KOT 1987 12 01 00 00 00 -999 -9 -9 -9 -9 -9 354.3 0.6 2 76 137.8699951172 7 5 2 -999.999 -999.999 2 1 9 61
+KOT 1988 01 01 00 00 00 -999 -9 -9 -9 -9 -9 357.7 -999.999 1 76 137.8699951172 7 5 2 -999.999 -999.999 2 1 9 61
+KOT 1988 02 01 00 00 00 -999 -9 -9 -9 -9 -9 358.3 0.6 2 76 137.8699951172 7 5 2 -999.999 -999.999 2 1 9 61
+KOT 1988 03 01 00 00 00 -999 -9 -9 -9 -9 -9 359.6 0.1 2 76 137.8699951172 7 5 2 -999.999 -999.999 2 1 9 61
+KOT 1988 04 01 00 00 00 -999 -9 -9 -9 -9 -9 359.8 0.4 2 76 137.8699951172 7 5 2 -999.999 -999.999 2 1 9 61
+KOT 1988 05 01 00 00 00 -999 -9 -9 -9 -9 -9 359.6 -999.999 1 76 137.8699951172 7 5 2 -999.999 -999.999 2 1 9 61
+KOT 1988 06 01 00 00 00 -999 -9 -9 -9 -9 -9 357.7 1.5 2 76 137.8699951172 7 5 2 -999.999 -999.999 2 1 9 61
+KOT 1988 07 01 00 00 00 -999 -9 -9 -9 -9 -9 349.4 2.2 3 76 137.8699951172 7 5 2 -999.999 -999.999 2 1 9 61
+KOT 1988 08 01 00 00 00 -999 -9 -9 -9 -9 -9 348.5 1.4 3 76 137.8699951172 7 5 2 -999.999 -999.999 2 1 9 61
+KOT 1988 09 01 00 00 00 -999 -9 -9 -9 -9 -9 348.8 1.3 4 76 137.8699951172 7 5 2 -999.999 -999.999 2 1 9 61
+KOT 1988 10 01 00 00 00 -999 -9 -9 -9 -9 -9 354.2 2.8 2 76 137.8699951172 7 5 2 -999.999 -999.999 2 1 9 61
+KOT 1988 11 01 00 00 00 -999 -9 -9 -9 -9 -9 357.2 -999.999 1 76 137.8699951172 7 5 2 -999.999 -999.999 2 1 9 61
+KOT 1988 12 01 00 00 00 -999 -9 -9 -9 -9 -9 361.4 -999.999 1 76 137.8699951172 7 5 2 -999.999 -999.999 2 1 9 61
+KOT 1989 01 01 00 00 00 -999 -9 -9 -9 -9 -9 360.1 2.1 2 76 137.8699951172 7 5 2 -999.999 -999.999 2 1 9 61
+KOT 1989 02 01 00 00 00 -999 -9 -9 -9 -9 -9 361.0 1.0 2 76 137.8699951172 7 5 2 -999.999 -999.999 2 1 9 61
+KOT 1989 03 01 00 00 00 -999 -9 -9 -9 -9 -9 362.1 0.7 3 76 137.8699951172 7 5 2 -999.999 -999.999 2 1 9 61
+KOT 1989 04 01 00 00 00 -999 -9 -9 -9 -9 -9 362.0 0.3 3 76 137.8699951172 7 5 2 -999.999 -999.999 2 1 9 61
+KOT 1989 05 01 00 00 00 -999 -9 -9 -9 -9 -9 359.4 -999.999 1 76 137.8699951172 7 5 2 -999.999 -999.999 2 1 9 61
+KOT 1989 06 01 00 00 00 -999 -9 -9 -9 -9 -9 360.7 1.1 4 76 137.8699951172 7 5 2 -999.999 -999.999 2 1 9 61
+KOT 1989 07 01 00 00 00 -999 -9 -9 -9 -9 -9 356.1 2.7 3 76 137.8699951172 7 5 2 -999.999 -999.999 2 1 9 61
+KOT 1989 08 01 00 00 00 -999 -9 -9 -9 -9 -9 350.5 4.3 2 76 137.8699951172 7 5 2 -999.999 -999.999 2 1 9 61
+KOT 1989 09 01 00 00 00 -999 -9 -9 -9 -9 -9 348.2 3.2 3 76 137.8699951172 7 5 2 -999.999 -999.999 2 1 9 61
+KOT 1989 10 01 00 00 00 -999 -9 -9 -9 -9 -9 350.8 1.3 2 76 137.8699951172 7 5 2 -999.999 -999.999 2 1 9 61
+KOT 1989 11 01 00 00 00 -999 -9 -9 -9 -9 -9 358.4 -999.999 1 76 137.8699951172 7 5 2 -999.999 -999.999 2 1 9 61
+KOT 1989 12 01 00 00 00 -999 -9 -9 -9 -9 -9 357.7 -999.999 1 76 137.8699951172 7 5 2 -999.999 -999.999 2 1 9 61
+KOT 1990 01 01 00 00 00 -999 -9 -9 -9 -9 -9 359.5 0.6 2 76 137.8699951172 7 5 2 -999.999 -999.999 2 1 9 61
+KOT 1990 02 01 00 00 00 -999 -9 -9 -9 -9 -9 361.1 -999.999 1 76 137.8699951172 7 5 2 -999.999 -999.999 2 1 9 61
+KOT 1990 03 01 00 00 00 -999 -9 -9 -9 -9 -9 363.2 0.4 3 76 137.8699951172 7 5 2 -999.999 -999.999 2 1 9 61
+KOT 1990 04 01 00 00 00 -999 -9 -9 -9 -9 -9 364.8 2.1 3 76 137.8699951172 7 5 2 -999.999 -999.999 2 1 9 61
+KOT 1990 05 01 00 00 00 -999 -9 -9 -9 -9 -9 361.6 0.8 2 76 137.8699951172 7 5 2 -999.999 -999.999 2 1 9 61
+KOT 1990 06 01 00 00 00 -999 -9 -9 -9 -9 -9 357.2 1.2 3 76 137.8699951172 7 5 2 -999.999 -999.999 2 1 9 61
+KOT 1990 07 01 00 00 00 -999 -9 -9 -9 -9 -9 352.0 3.2 4 76 137.8699951172 7 5 2 -999.999 -999.999 2 1 9 61
+KOT 1990 08 01 00 00 00 -999 -9 -9 -9 -9 -9 346.7 1.5 3 76 137.8699951172 7 5 2 -999.999 -999.999 2 1 9 61
+KOT 1990 09 01 00 00 00 -999 -9 -9 -9 -9 -9 349.4 3.1 3 76 137.8699951172 7 5 2 -999.999 -999.999 2 1 9 61
+KOT 1990 10 01 00 00 00 -999 -9 -9 -9 -9 -9 351.1 0.5 2 76 137.8699951172 7 5 2 -999.999 -999.999 2 1 9 61
+KOT 1990 11 01 00 00 00 -999 -9 -9 -9 -9 -9 357.2 0.3 3 76 137.8699951172 7 5 2 -999.999 -999.999 2 1 9 61
+KOT 1991 01 01 00 00 00 -999 -9 -9 -9 -9 -9 362.7 2.5 2 76 137.8699951172 7 5 2 -999.999 -999.999 2 1 9 61
+KOT 1991 03 01 00 00 00 -999 -9 -9 -9 -9 -9 363.5 0.8 2 76 137.8699951172 7 5 2 -999.999 -999.999 2 1 9 61
+KOT 1991 04 01 00 00 00 -999 -9 -9 -9 -9 -9 361.6 1.0 3 76 137.8699951172 7 5 2 -999.999 -999.999 2 1 9 61
+KOT 1991 05 01 00 00 00 -999 -9 -9 -9 -9 -9 362.0 0.6 2 76 137.8699951172 7 5 2 -999.999 -999.999 2 1 9 61
+KOT 1991 06 01 00 00 00 -999 -9 -9 -9 -9 -9 360.8 1.6 2 76 137.8699951172 7 5 2 -999.999 -999.999 2 1 9 61
+KOT 1991 07 01 00 00 00 -999 -9 -9 -9 -9 -9 353.5 7.7 3 76 137.8699951172 7 5 2 -999.999 -999.999 2 1 9 61
+KOT 1991 08 01 00 00 00 -999 -9 -9 -9 -9 -9 348.8 0.9 3 76 137.8699951172 7 5 2 -999.999 -999.999 2 1 9 61
+KOT 1991 09 01 00 00 00 -999 -9 -9 -9 -9 -9 353.9 0.8 2 76 137.8699951172 7 5 2 -999.999 -999.999 2 1 9 61
+KOT 1991 10 01 00 00 00 -999 -9 -9 -9 -9 -9 357.2 3.9 3 76 137.8699951172 7 5 2 -999.999 -999.999 2 1 9 61
+KOT 1991 11 01 00 00 00 -999 -9 -9 -9 -9 -9 359.4 0.7 2 76 137.8699951172 7 5 2 -999.999 -999.999 2 1 9 61
+KOT 1991 12 01 00 00 00 -999 -9 -9 -9 -9 -9 362.2 0.1 2 76 137.8699951172 7 5 2 -999.999 -999.999 2 1 9 61
+KOT 1992 01 01 00 00 00 -999 -9 -9 -9 -9 -9 364.5 -999.999 1 76 137.8699951172 7 5 2 -999.999 -999.999 2 1 9 61
+KOT 1992 02 01 00 00 00 -999 -9 -9 -9 -9 -9 363.1 -999.999 1 76 137.8699951172 7 5 2 -999.999 -999.999 2 1 9 61
+KOT 1992 03 01 00 00 00 -999 -9 -9 -9 -9 -9 368.3 -999.999 1 76 137.8699951172 7 5 2 -999.999 -999.999 2 1 9 61
+KOT 1992 04 01 00 00 00 -999 -9 -9 -9 -9 -9 367.9 5.4 2 76 137.8699951172 7 5 2 -999.999 -999.999 2 1 9 61
+KOT 1992 05 01 00 00 00 -999 -9 -9 -9 -9 -9 364.7 1.6 2 76 137.8699951172 7 5 2 -999.999 -999.999 2 1 9 61
+KOT 1992 06 01 00 00 00 -999 -9 -9 -9 -9 -9 362.8 1.3 2 76 137.8699951172 7 5 2 -999.999 -999.999 2 1 9 61
+KOT 1992 07 01 00 00 00 -999 -9 -9 -9 -9 -9 355.8 0.8 2 76 137.8699951172 7 5 2 -999.999 -999.999 2 1 9 61
+KOT 1992 08 01 00 00 00 -999 -9 -9 -9 -9 -9 348.6 2.5 2 76 137.8699951172 7 5 2 -999.999 -999.999 2 1 9 61
+KOT 1992 09 01 00 00 00 -999 -9 -9 -9 -9 -9 347.8 0.8 2 76 137.8699951172 7 5 2 -999.999 -999.999 2 1 9 61
+KOT 1992 11 01 00 00 00 -999 -9 -9 -9 -9 -9 362.5 -999.999 1 76 137.8699951172 7 5 2 -999.999 -999.999 2 1 9 61
+KOT 1993 01 01 00 00 00 -999 -9 -9 -9 -9 -9 364.8 -999.999 1 76 137.8699951172 7 5 2 -999.999 -999.999 2 1 9 61
+KOT 1993 02 01 00 00 00 -999 -9 -9 -9 -9 -9 362.6 -999.999 1 76 137.8699951172 7 5 2 -999.999 -999.999 2 1 9 61
+KOT 1993 03 01 00 00 00 -999 -9 -9 -9 -9 -9 364.2 0.7 3 76 137.8699951172 7 5 2 -999.999 -999.999 2 1 9 61
+KOT 1993 04 01 00 00 00 -999 -9 -9 -9 -9 -9 364.4 -999.999 1 76 137.8699951172 7 5 2 -999.999 -999.999 2 1 9 61
+KOT 1993 05 01 00 00 00 -999 -9 -9 -9 -9 -9 365.1 0.5 3 76 137.8699951172 7 5 2 -999.999 -999.999 2 1 9 61
+KOT 1993 06 01 00 00 00 -999 -9 -9 -9 -9 -9 361.1 3.6 3 76 137.8699951172 7 5 2 -999.999 -999.999 2 1 9 61
+KOT 1993 07 01 00 00 00 -999 -9 -9 -9 -9 -9 351.0 -999.999 1 76 137.8699951172 7 5 2 -999.999 -999.999 2 1 9 61
+KOT 1993 08 01 00 00 00 -999 -9 -9 -9 -9 -9 351.2 0.6 2 76 137.8699951172 7 5 2 -999.999 -999.999 2 1 9 61
+KOT 1993 09 01 00 00 00 -999 -9 -9 -9 -9 -9 350.4 1.4 2 76 137.8699951172 7 5 2 -999.999 -999.999 2 1 9 61
+KOT 1993 10 01 00 00 00 -999 -9 -9 -9 -9 -9 353.8 0.1 2 76 137.8699951172 7 5 2 -999.999 -999.999 2 1 9 61

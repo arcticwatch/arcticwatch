@@ -1,0 +1,4 @@
+Filename Contact Email
+ch3cl_brw_surface-insitu_2_3002-9999_monthly.txt Bradley D. Hall Bradley.Hall@noaa.gov
+ch3cl_brw_surface-insitu_2_3002-9999_monthly.txt James W. Elkins James.W.Elkins@noaa.gov
+ch3cl_brw_surface-insitu_2_3002-9999_monthly.txt Geoffrey S. Dutton Geoff.Dutton@noaa.gov

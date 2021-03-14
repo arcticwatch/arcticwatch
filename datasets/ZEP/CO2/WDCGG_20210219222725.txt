@@ -1,0 +1,7 @@
+Filename Contact Email
+co2_zep_surface-insitu_38_9999-9999_monthly.txt Hans-Christen hc@itm.su.se
+co2_zep_surface-insitu_38_9999-9999_monthly.txt Birgitta Noone birgitta.noone@itm.su.se
+co2_zep_surface-insitu_38_9999-9999_hourly.txt Hans-Christen hc@itm.su.se
+co2_zep_surface-insitu_38_9999-9999_hourly.txt Birgitta Noone birgitta.noone@itm.su.se
+co2_zep_surface-insitu_38_9999-9999_daily.txt Hans-Christen hc@itm.su.se
+co2_zep_surface-insitu_38_9999-9999_daily.txt Birgitta Noone birgitta.noone@itm.su.se

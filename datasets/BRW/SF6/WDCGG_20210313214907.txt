@@ -1,0 +1,9 @@
+Filename Contact Email
+sf6_brw_surface-insitu_2_3002-9999_monthly.txt Geoffrey S. Dutton Geoff.Dutton@noaa.gov
+sf6_brw_surface-insitu_2_3002-9999_monthly.txt James W. Elkins James.W.Elkins@noaa.gov
+sf6_brw_surface-insitu_2_3002-9999_monthly.txt Bradley D. Hall Bradley.Hall@noaa.gov
+sf6_brw_surface-flask_2_3001-9999_monthly.txt Ed Dlugokencky ed.dlugokencky@noaa.gov
+sf6_brw_surface-flask_2_3005-9999_monthly.txt Debra J. Mondeel Debra.J.Mondeel@noaa.gov
+sf6_brw_surface-flask_2_3005-9999_monthly.txt J. David Nance David.Nance@noaa.gov
+sf6_brw_surface-flask_2_3005-9999_monthly.txt Bradley D. Hall Bradley.Hall@noaa.gov
+sf6_brw_surface-flask_2_3005-9999_monthly.txt James W. Elkins James.W.Elkins@noaa.gov

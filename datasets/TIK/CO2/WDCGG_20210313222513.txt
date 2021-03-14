@@ -1,0 +1,4 @@
+Filename Contact Email
+co2_tik_surface-flask_2_3001-9999_monthly.txt Ed Dlugokencky ed.dlugokencky@noaa.gov
+co2_tik_surface-insitu_25_9999-9999_monthly.txt Tuomas Laurila tuomas.laurila@fmi.fi
+co2_tik_surface-flask_46_9999-9999_monthly.txt Nina Paramonova reshal@peterlink.ru

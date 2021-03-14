@@ -1,0 +1,4 @@
+Filename Contact Email
+13co2_brw_surface-flask_2_3101-9999_monthly.txt Bruce H Vaughn Bruce.Vaughn@colorado.edu
+13co2_brw_surface-flask_2_3101-9999_monthly.txt James White James.White@colorado.edu
+13co2_brw_surface-flask_2_3101-9999_monthly.txt Sylvia Michel sylvia.michel@colorado.edu

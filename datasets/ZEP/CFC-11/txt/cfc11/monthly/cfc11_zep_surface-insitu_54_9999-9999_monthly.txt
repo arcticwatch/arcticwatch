@@ -1,0 +1,216 @@
+# header_lines : 162
+# Data_Set_Name : cfc11_zep_surface-insitu_54_9999-9999_monthly
+# Data_Set_Version : 0054-6001-1303-01-01-9999_2020-07-03-1701
+# Data_Set_Fair_Use : For Scientific purposes, access to these data is unlimited and provided without charge. By their use you accept that an offer of co-authorship will be made through personal contact with the contributors whenever substantial use is made of their data. In all cases, an acknowledgement must be made to the contributors and to the data centre when these data are used within a publication.
+#
+# GLOBAL ATTRIBUTES
+#
+# site_gaw_id : ZEP
+# site_gaw_type : GAW Global
+# site_name : Zeppelin Mountain (Ny Ålesund)
+# site_country/territory : Norway
+# site_wmo_region : REGION VI (Europe)
+# site_address1 : 
+# site_address2 : 
+# site_address3 : 
+# site_latitude : 78.906688
+# site_longitude : 11.889342
+# site_elevation : 475
+# site_elevation_unit : m
+# site_lst2utc : UTC+01:00
+# site_climate_zone : ET
+# site_climate_zone:comment : Tundra climate
+# dataset_creation_date : 2020-07-03
+# dataset_parameter : cfc11
+# dataset_parameter_large_class : Greenhouse Gas
+# dataset_parameter_small_class : CFCs
+# dataset_parameter_name_1 : CCl3F
+# dataset_parameter_name_2 : trichlorofluoromethane
+# dataset_parameter_name_3 : CFC-11
+# dataset_parameter_name_4 : 
+# dataset_parameter_name_5 : 
+# dataset_project : surface-insitu
+# dataset_platform : fixed station
+# dataset_selection : All monthly data
+# dataset_selection_tag : monthly
+# dataset_time_zone : Unknown
+# dataset_start_date : 1990-08-01T00:00:00*
+# dataset_end_date : 1995-04-01T00:00:00*
+# dataset_statistic_code : 2
+# dataset_statistic : wdcgg
+# dataset_description : Samples are collected in electropolished stainless steel canisters and sent to the laboratory for analysis. Samples are analyzed on a gas chromatograph with electron capture detector and cryotrap using liquid nitrogen. 
+# dataset_aim_of_observation_code : 1
+# dataset_aim_of_observation : Background observation
+# dataset_buffer_code : 9999
+# dataset_buffer : data1
+# dataset_buffer:comment : default
+# dataset_footnote_code : 9999
+# dataset_footnote : default
+# dataset_footnote:comment : default
+# dataset_processing : 
+# dataset_hr_mean_processing : 
+# dataset_da_mean_processing : 
+# dataset_mo_mean_processing : 
+# dataset_transition_flag : 1
+# dataset_transition_comment : Dataset was made using the former WDCGG data file
+# dataset_reference_total_listed : 0
+# contributor_organization_code : 54
+# contributor_acronym : NILU
+# contributor_name : Norwegian Institute for Air Research
+# contributor_address1 : 
+# contributor_address2 : Norwegian Institute for Air Research
+# contributor_address3 : PO Box 100, 2027 Kjeller, NORWAY
+# contributor_country/territory : Norway
+# contributor_url : http://www.nilu.no
+# contact_total_listed : 1
+# contact_1_name : Ove Hermansen
+# contact_1_address1 : 
+# contact_1_address2 : 
+# contact_1_address3 : P. O. Box 100 Instituttveien 18, N-2027 Kjeller, Norway
+# contact_1_country/territory : Norway
+# contact_1_organization : Norwegian Institute for Air Research
+# contact_1_organization_acronym : NILU
+# contact_1_organization_url : http://www.nilu.no
+# contact_1_email : Ove.Hermansen@nilu.no
+# contact_1_tel : +47 63 89 8000
+# contact_1_fax : +47 63 89 8050
+# collaborator_total_listed : 0
+# ORG_QCflag_description : 
+# intake_height_total_listed : See data part
+# instrument_total_listed : 1
+# instrument_1 : NILU
+# instrument_1_measurement_method_type_code : 1
+# instrument_1_measurement_method_name : Gas chromatography (ECD)
+# instrument_1_start_date : 1990-08-01T00:00:00*
+# instrument_1_end_date : 1995-04-01T00:00:00*
+# scale_total_listed : 0
+# observation_status_code : 2
+# observation_status : Temporarily suspended
+# measurement_calibration : Manufacture's standard.
+# measurement_calibration : Each sample are calculated against 5 analysis of standard.
+# measurement_calibration : Standard ref.: R.A.Rasmussen, Biospheric Corp., Oregon USA. 
+# sampling_frequency_code : 1
+# sampling_frequency : event
+#
+# VARIABLE ATTRIBUTES
+#
+# site_gaw_id:long_name : unique_station/mobile_identifiers.
+# site_gaw_id:comment : 3-letter site identification code as defined by GAWSIS for stationary platforms
+# time_components:_FillValue : -999 or -9
+# time_components:long_name : integer_components_of_LST_date/time
+# time_components:order : year, month, day, hour, minute, second
+# time_components:comment : Air sample collection time (LST) represented as a 6-element array [year, month, day, hour, minute, second]. Calendar time components as integers.
+# value:_FillValue : -999.999
+# value:units : ppt
+# value:long_name : measured_mole_fraction_of_trace_gas_in_dry_air
+# value:comment : Reported mole fraction, isotope ratio or radioactivity. Units depend on trace gas species.
+# value_unc:_FillValue : -999.999
+# value_unc:units : ppt
+# value_unc:long_name : estimated_uncertainty_in_reported_value
+# value_unc:comment : Standard deviation of the reported mean value when nvalue is greater than 1. Units depend on trace gas species.
+# nvalue:_FillValue : -9
+# nvalue:long_name : number_of_measurements_contributing_to_reported_value
+# nvalue:comment : Number of individual measurements used to compute reported values.
+# latitude:_FillValue : -999.999999999
+# latitude:standard_name : latitude
+# latitude:long_name : sample_latitude_in_decimal_degrees
+# latitude:units : degrees_north
+# latitude:comment : Latitude of sampling location in decimal degrees (north: +; south: -)
+# longitude:_FillValue : -999.999999999
+# longitude:standard_name : longitude
+# longitude:long_name : sample_longitude_in_decimal_degrees
+# longitude:units : degrees_east
+# longitude:comment : Longitude of sampling location in decimal degrees (east: +; west: -)
+# altitude:_FillValue : -999.999
+# altitude:standard_name : altitude
+# altitude:long_name : sample_altitude_in_meters_above_sea_level
+# altitude:units : m
+# altitude:comment : Altitude (elevation + intake height) of air sample collection. Units are meters above sea level (masl).
+# elevation:_FillValue : -999.999
+# elevation:standard_name : elevation
+# elevation:long_name : surface_elevation_in_meters_above_sea_level
+# elevation:units : m
+# elevation:comment : Station height (m) above sea level
+# intake_height:_FillValue : -999.999
+# intake_height:long_name : sample_intake_height_in_meters_above_ground_level
+# intake_height:units : m
+# intake_height:comment : Sampling height (depth) of air (seawater) above ground (below sea level) (height: +; depth: -) (m)
+# flask_no:_FillValue : -999.999
+# flask_no:long_name : sample_flask_no
+# flask_no:comment : Identification code (or number) of flask used for observation
+# ORG_QCflag:_FillValue : -999.999
+# ORG_QCflag:long_name : original_quality_control_flag
+# ORG_QCflag:comment : Details of original data quality control flags should be specified by contributors in metadata.
+# QCflag:_FillValue : -9
+# QCflag:long_name : quality_control_flag
+# QCflag:comment : 1 Valid (background) data considered "background"
+# QCflag:comment : 2 Valid data considered valid other than "background"
+# QCflag:comment : 3 Invalid data considered unfit for use (questionable/erroneous/absent data)
+# QCflag:comment : Details of correspondence between original data quality control flags and WDCGG data flags should be specified by contributors in metadata.
+# instrument:_FillValue : -9
+# instrument:long_name : instrument_ID_to_detect_atmospheric_parameter
+# instrument:comment : A numeric field that identifies the instrument.
+# measurement_method:_FillValue : -9
+# measurement_method:long_name : measurement_method_history
+# measurement_method:comment : A numeric field that identifies the measurement method.
+# scale:_FillValue : -9
+# scale:long_name : calibration_scale_history
+# scale:comment : A numeric field that identifies the calibration scale. Measurements are relative to reported calibration scale.
+#
+# VARIABLE ORDER
+#
+# site_gaw_id year month day hour minute second year month day hour minute second value value_unc nvalue latitude longitude altitude elevation intake_height flask_no ORG_QCflag QCflag instrument measurement_method scale
+ZEP 1990 08 01 00 00 00 -999 -9 -9 -9 -9 -9 265.0 7.9 9 78.906688 11.889342 -999.999 475 -999.999 -999.999 -999.999 2 1 1 -9
+ZEP 1990 09 01 00 00 00 -999 -9 -9 -9 -9 -9 262.3 9.6 14 78.906688 11.889342 -999.999 475 -999.999 -999.999 -999.999 2 1 1 -9
+ZEP 1990 10 01 00 00 00 -999 -9 -9 -9 -9 -9 264.0 5.5 15 78.906688 11.889342 -999.999 475 -999.999 -999.999 -999.999 2 1 1 -9
+ZEP 1990 11 01 00 00 00 -999 -9 -9 -9 -9 -9 -999.999 -999.999 -9 78.906688 11.889342 -999.999 475 -999.999 -999.999 -999.999 3 1 1 -9
+ZEP 1990 12 01 00 00 00 -999 -9 -9 -9 -9 -9 287.1 -999.999 1 78.906688 11.889342 -999.999 475 -999.999 -999.999 -999.999 2 1 1 -9
+ZEP 1991 01 01 00 00 00 -999 -9 -9 -9 -9 -9 -999.999 -999.999 -9 78.906688 11.889342 -999.999 475 -999.999 -999.999 -999.999 3 1 1 -9
+ZEP 1991 02 01 00 00 00 -999 -9 -9 -9 -9 -9 -999.999 -999.999 -9 78.906688 11.889342 -999.999 475 -999.999 -999.999 -999.999 3 1 1 -9
+ZEP 1991 03 01 00 00 00 -999 -9 -9 -9 -9 -9 254.4 7.9 5 78.906688 11.889342 -999.999 475 -999.999 -999.999 -999.999 2 1 1 -9
+ZEP 1991 04 01 00 00 00 -999 -9 -9 -9 -9 -9 268.8 9.8 9 78.906688 11.889342 -999.999 475 -999.999 -999.999 -999.999 2 1 1 -9
+ZEP 1991 05 01 00 00 00 -999 -9 -9 -9 -9 -9 261.0 9.5 12 78.906688 11.889342 -999.999 475 -999.999 -999.999 -999.999 2 1 1 -9
+ZEP 1991 06 01 00 00 00 -999 -9 -9 -9 -9 -9 269.7 8.7 10 78.906688 11.889342 -999.999 475 -999.999 -999.999 -999.999 2 1 1 -9
+ZEP 1991 07 01 00 00 00 -999 -9 -9 -9 -9 -9 267.0 3.8 5 78.906688 11.889342 -999.999 475 -999.999 -999.999 -999.999 2 1 1 -9
+ZEP 1991 08 01 00 00 00 -999 -9 -9 -9 -9 -9 267.0 7.1 10 78.906688 11.889342 -999.999 475 -999.999 -999.999 -999.999 2 1 1 -9
+ZEP 1991 09 01 00 00 00 -999 -9 -9 -9 -9 -9 271.6 4.0 6 78.906688 11.889342 -999.999 475 -999.999 -999.999 -999.999 2 1 1 -9
+ZEP 1991 10 01 00 00 00 -999 -9 -9 -9 -9 -9 277.1 6.5 13 78.906688 11.889342 -999.999 475 -999.999 -999.999 -999.999 2 1 1 -9
+ZEP 1991 11 01 00 00 00 -999 -9 -9 -9 -9 -9 276.2 2.4 3 78.906688 11.889342 -999.999 475 -999.999 -999.999 -999.999 2 1 1 -9
+ZEP 1991 12 01 00 00 00 -999 -9 -9 -9 -9 -9 272.0 4.5 11 78.906688 11.889342 -999.999 475 -999.999 -999.999 -999.999 2 1 1 -9
+ZEP 1992 01 01 00 00 00 -999 -9 -9 -9 -9 -9 269.6 5.2 12 78.906688 11.889342 -999.999 475 -999.999 -999.999 -999.999 2 1 1 -9
+ZEP 1992 02 01 00 00 00 -999 -9 -9 -9 -9 -9 270.5 3.3 10 78.906688 11.889342 -999.999 475 -999.999 -999.999 -999.999 2 1 1 -9
+ZEP 1992 03 01 00 00 00 -999 -9 -9 -9 -9 -9 267.3 3.8 12 78.906688 11.889342 -999.999 475 -999.999 -999.999 -999.999 2 1 1 -9
+ZEP 1992 04 01 00 00 00 -999 -9 -9 -9 -9 -9 271.7 4.6 8 78.906688 11.889342 -999.999 475 -999.999 -999.999 -999.999 2 1 1 -9
+ZEP 1992 05 01 00 00 00 -999 -9 -9 -9 -9 -9 268.6 6.2 8 78.906688 11.889342 -999.999 475 -999.999 -999.999 -999.999 2 1 1 -9
+ZEP 1992 06 01 00 00 00 -999 -9 -9 -9 -9 -9 -999.999 -999.999 -9 78.906688 11.889342 -999.999 475 -999.999 -999.999 -999.999 3 1 1 -9
+ZEP 1992 07 01 00 00 00 -999 -9 -9 -9 -9 -9 271.9 9.0 6 78.906688 11.889342 -999.999 475 -999.999 -999.999 -999.999 2 1 1 -9
+ZEP 1992 08 01 00 00 00 -999 -9 -9 -9 -9 -9 278.0 8.0 9 78.906688 11.889342 -999.999 475 -999.999 -999.999 -999.999 2 1 1 -9
+ZEP 1992 09 01 00 00 00 -999 -9 -9 -9 -9 -9 272.8 10.6 8 78.906688 11.889342 -999.999 475 -999.999 -999.999 -999.999 2 1 1 -9
+ZEP 1992 10 01 00 00 00 -999 -9 -9 -9 -9 -9 264.8 4.3 8 78.906688 11.889342 -999.999 475 -999.999 -999.999 -999.999 2 1 1 -9
+ZEP 1992 11 01 00 00 00 -999 -9 -9 -9 -9 -9 275.0 -999.999 1 78.906688 11.889342 -999.999 475 -999.999 -999.999 -999.999 2 1 1 -9
+ZEP 1992 12 01 00 00 00 -999 -9 -9 -9 -9 -9 275.8 4.6 11 78.906688 11.889342 -999.999 475 -999.999 -999.999 -999.999 2 1 1 -9
+ZEP 1993 01 01 00 00 00 -999 -9 -9 -9 -9 -9 274.5 5.1 9 78.906688 11.889342 -999.999 475 -999.999 -999.999 -999.999 2 1 1 -9
+ZEP 1993 02 01 00 00 00 -999 -9 -9 -9 -9 -9 -999.999 -999.999 -9 78.906688 11.889342 -999.999 475 -999.999 -999.999 -999.999 3 1 1 -9
+ZEP 1993 03 01 00 00 00 -999 -9 -9 -9 -9 -9 275.0 8.1 25 78.906688 11.889342 -999.999 475 -999.999 -999.999 -999.999 2 1 1 -9
+ZEP 1993 04 01 00 00 00 -999 -9 -9 -9 -9 -9 265.9 6.7 24 78.906688 11.889342 -999.999 475 -999.999 -999.999 -999.999 2 1 1 -9
+ZEP 1993 05 01 00 00 00 -999 -9 -9 -9 -9 -9 269.0 10.2 15 78.906688 11.889342 -999.999 475 -999.999 -999.999 -999.999 2 1 1 -9
+ZEP 1993 09 01 00 00 00 -999 -9 -9 -9 -9 -9 278.7 6.3 6 78.906688 11.889342 -999.999 475 -999.999 -999.999 -999.999 2 1 1 -9
+ZEP 1993 10 01 00 00 00 -999 -9 -9 -9 -9 -9 276.7 8.8 13 78.906688 11.889342 -999.999 475 -999.999 -999.999 -999.999 2 1 1 -9
+ZEP 1993 11 01 00 00 00 -999 -9 -9 -9 -9 -9 284.9 6.8 7 78.906688 11.889342 -999.999 475 -999.999 -999.999 -999.999 2 1 1 -9
+ZEP 1993 12 01 00 00 00 -999 -9 -9 -9 -9 -9 257.8 8.9 13 78.906688 11.889342 -999.999 475 -999.999 -999.999 -999.999 2 1 1 -9
+ZEP 1994 01 01 00 00 00 -999 -9 -9 -9 -9 -9 274.2 12.2 11 78.906688 11.889342 -999.999 475 -999.999 -999.999 -999.999 2 1 1 -9
+ZEP 1994 02 01 00 00 00 -999 -9 -9 -9 -9 -9 272.1 7.7 11 78.906688 11.889342 -999.999 475 -999.999 -999.999 -999.999 2 1 1 -9
+ZEP 1994 03 01 00 00 00 -999 -9 -9 -9 -9 -9 273.7 6.1 22 78.906688 11.889342 -999.999 475 -999.999 -999.999 -999.999 2 1 1 -9
+ZEP 1994 04 01 00 00 00 -999 -9 -9 -9 -9 -9 270.3 7.7 23 78.906688 11.889342 -999.999 475 -999.999 -999.999 -999.999 2 1 1 -9
+ZEP 1994 05 01 00 00 00 -999 -9 -9 -9 -9 -9 268.2 8.5 24 78.906688 11.889342 -999.999 475 -999.999 -999.999 -999.999 2 1 1 -9
+ZEP 1994 06 01 00 00 00 -999 -9 -9 -9 -9 -9 262.0 8.8 12 78.906688 11.889342 -999.999 475 -999.999 -999.999 -999.999 2 1 1 -9
+ZEP 1994 07 01 00 00 00 -999 -9 -9 -9 -9 -9 269.7 9.1 9 78.906688 11.889342 -999.999 475 -999.999 -999.999 -999.999 2 1 1 -9
+ZEP 1994 08 01 00 00 00 -999 -9 -9 -9 -9 -9 269.7 10.4 13 78.906688 11.889342 -999.999 475 -999.999 -999.999 -999.999 2 1 1 -9
+ZEP 1994 09 01 00 00 00 -999 -9 -9 -9 -9 -9 266.6 7.5 12 78.906688 11.889342 -999.999 475 -999.999 -999.999 -999.999 2 1 1 -9
+ZEP 1994 10 01 00 00 00 -999 -9 -9 -9 -9 -9 270.0 10.4 5 78.906688 11.889342 -999.999 475 -999.999 -999.999 -999.999 2 1 1 -9
+ZEP 1994 11 01 00 00 00 -999 -9 -9 -9 -9 -9 266.9 5.1 12 78.906688 11.889342 -999.999 475 -999.999 -999.999 -999.999 2 1 1 -9
+ZEP 1994 12 01 00 00 00 -999 -9 -9 -9 -9 -9 268.7 7.2 13 78.906688 11.889342 -999.999 475 -999.999 -999.999 -999.999 2 1 1 -9
+ZEP 1995 01 01 00 00 00 -999 -9 -9 -9 -9 -9 265.9 6.2 13 78.906688 11.889342 -999.999 475 -999.999 -999.999 -999.999 2 1 1 -9
+ZEP 1995 02 01 00 00 00 -999 -9 -9 -9 -9 -9 269.1 6.0 9 78.906688 11.889342 -999.999 475 -999.999 -999.999 -999.999 2 1 1 -9
+ZEP 1995 03 01 00 00 00 -999 -9 -9 -9 -9 -9 269.3 6.2 13 78.906688 11.889342 -999.999 475 -999.999 -999.999 -999.999 2 1 1 -9
+ZEP 1995 04 01 00 00 00 -999 -9 -9 -9 -9 -9 281.2 5.5 12 78.906688 11.889342 -999.999 475 -999.999 -999.999 -999.999 2 1 1 -9

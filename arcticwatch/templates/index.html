@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% include 'head.html' %}
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <title>Arctic Watch</title>
+</head>
+<body style="overflow: hidden !important;">
+    {% include 'nav.html' %}
+    <section style="position: relative;">
+        <div class="d-flex justify-content-center main-layer">
+            <h1 style="font-family: 'Reggae One', cursive;" id="main-title">Arctic Watch</h1>
+            <button type="button" class="btn btn-lg btn-primary" id="main-btn">
+                <a href="/map" style="color: black;">
+                    Start Visualizing
+                </a>
+            </button>
+        </div>
+
+        <img class="img-main" src="{{ url_for('static', filename='images/main.jpg') }}" alt="">
+        <img class="img-main" src="{{ url_for('static', filename='images/main.jpg') }}" alt="">
+    </section>
+
+
+</body>
+
+</html>

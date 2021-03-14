@@ -1,0 +1,6 @@
+Filename Contact Email
+ch4_tik_surface-flask_2_3001-9999_monthly.txt Ed Dlugokencky ed.dlugokencky@noaa.gov
+ch4_tik_surface-insitu_25_9999-9999_monthly.txt Viktor Ivakhov ivakhooo@mail.ru
+ch4_tik_surface-insitu_25_9999-9999_monthly.txt Ed Dlugokencky ed.dlugokencky@noaa.gov
+ch4_tik_surface-insitu_25_9999-9999_monthly.txt Tuomas Laurila tuomas.laurila@fmi.fi
+ch4_tik_surface-flask_46_9999-9999_monthly.txt Nina Paramonova reshal@peterlink.ru
